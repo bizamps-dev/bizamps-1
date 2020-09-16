@@ -8,6 +8,7 @@
     margin-top: 0px;
     background-color: #2F80ED;
     background-blend-mode: color-burn;
+    z-index: 0;
 }
 
 
@@ -90,7 +91,7 @@ color: #0052C1;
     display:flex;
     flex-direction: row;
     align-items: stretch;
-    justify-content: space-evenly;
+    justify-content: stretch;
     padding:6rem 3rem;
     background: #FAFAFA;
     border-radius: 10px;
@@ -107,11 +108,15 @@ color: #0052C1;
     justify-content: center;
     flex-direction: column;
     margin:0rem 1rem;
+    height:530px;
+    transition: all 0.3s;
 }
 
 .scrollContainer{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -141,6 +146,114 @@ color: #0052C1;
     border-radius: 10px;
     border:none;
 }
+.processCard:hover{
+    height:800px;
+}
+
+// ---------------------------------
+// MODAL
+// --------------------------------
+.modalContainer{
+    display: flex;
+    position: absolute;
+    width:100%;
+    padding: 1rem;
+    height:800px;
+    background-color: #FAFAFA;
+    color:white;
+    z-index:100;
+}
+.modalCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:25%;
+    height: 750px;
+    background-color: #001735;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2), 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+.arrow{
+    font-size: 6rem;
+    position: absolute;
+    left: 20.73%;
+    right: 77.43%;
+    top: 8%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+// ---------------------------------
+// CAROUSEL
+// --------------------------------
+
+.carousel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:75%;
+    height:750px;
+    color:black;
+}
+.carouselArrow1{
+    font-size:6rem;
+    color:#5F5F5F;
+    font-weight: 600;
+    cursor: pointer;
+    position:absolute;
+    top: 22rem;
+    left: 35rem;
+}
+.carouselArrow2{
+    font-size:6rem;
+    color:#5F5F5F;
+    font-weight: 600;
+    cursor: pointer;
+    position:absolute;
+    top: 22rem;
+    right:10rem;
+}
+.carouselTitle{
+    font-family: Roboto;
+    font-style: normal;
+    padding: 2rem 3rem;
+    font-weight: 500;
+    font-size:  3rem;
+    line-height: 3rem;
+    text-decoration-line: underline;
+    color: #2F80ED;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+.carouselSubtitle{
+    font-family: Roboto;
+    font-style: normal;
+    padding: 4rem 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000000;
+}
+.carouselCaption{
+    width:70%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.8;
+}
+
 
 // ---------------------------------
 // PACKAGE
