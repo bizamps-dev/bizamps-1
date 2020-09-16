@@ -147,7 +147,7 @@ color: #0052C1;
     border:none;
 }
 .processCard:hover{
-    height:800px;
+    height:700px;
 }
 
 // ---------------------------------
@@ -169,7 +169,8 @@ color: #0052C1;
     flex-direction: column;
     align-items: center;
     width:25%;
-    height: 750px;
+    height: 100%;
+    padding: 1rem;
     background-color: #001735;
     box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2), 2px 2px 5px rgba(0, 0, 0, 0.5);
     border-radius: 12px;
@@ -200,7 +201,7 @@ color: #0052C1;
     justify-content: center;
     align-items: center;
     width:75%;
-    height:750px;
+    height: 100%;
     color:black;
 }
 .carouselArrow1{
@@ -210,7 +211,7 @@ color: #0052C1;
     cursor: pointer;
     position:absolute;
     top: 22rem;
-    left: 35rem;
+    left: 30rem;
 }
 .carouselArrow2{
     font-size:6rem;
