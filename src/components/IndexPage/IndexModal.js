@@ -1,5 +1,8 @@
 import React,{useEffect,useState} from 'react'
 import styles from '../../stylesheets/index.module.scss'
+import ModalArrow from '../../assets/indexPage/Modalarrow'
+import LeftCarouselArrow from '../../assets/indexPage/LeftCarouselArrow'
+import RightCarouselArrow from '../../assets/indexPage/RightCarouselArrow'
 
 const IndexModal = (props) => {
 
@@ -50,16 +53,19 @@ const IndexModal = (props) => {
       <>
         <div className={styles.modalContainer}>
           <div className={styles.modalCard}>
+            <span className={styles.modalsvg} onClick={props.handelClick}><ModalArrow/></span>
             <div className={styles.arrow} onClick={props.handelClick}> {"<"} </div>
             <div>{props.title}</div>
           </div>
           <div className={styles.carousel}>
+            <span className={styles.leftCarouselArrow} onClick={previous}><LeftCarouselArrow/></span>
             <div className={styles.carouselArrow1} onClick={previous}>{"<"}</div>
             <div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
             <div className={styles.carouselTitle}>{member[currentIndex].title} </div>
             <div className={styles.carouselSubtitle}>{member[currentIndex].subtitle} </div>
             <div className={styles.carouselCaption}>{member[currentIndex].caption}</div>
             </div>
+            <span className={styles.rightCarouselArrow} onClick={previous}><RightCarouselArrow/></span>
             <div className={styles.carouselArrow2} onClick={next}>{">"}</div>
           </div>
         </div>
