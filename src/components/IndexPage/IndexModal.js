@@ -65,7 +65,7 @@ const IndexModal = (props) => {
             <div className={styles.carouselSubtitle}>{member[currentIndex].subtitle} </div>
             <div className={styles.carouselCaption}>{member[currentIndex].caption}</div>
             </div>
-            <span className={styles.rightCarouselArrow} onClick={previous}><RightCarouselArrow/></span>
+            <span className={styles.rightCarouselArrow} onClick={next}><RightCarouselArrow/></span>
             <div className={styles.carouselArrow2} onClick={next}>{">"}</div>
           </div>
         </div>
