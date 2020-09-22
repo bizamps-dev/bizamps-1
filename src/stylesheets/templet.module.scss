@@ -6,21 +6,22 @@
 //BLOG
 //----------------------------
 .blogContainer{
-    padding:3rem 12rem;
+    padding:3rem 8rem;
+    background-color: #F7F7F7;
 }
 .blogContainer2{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 12rem;
+    padding: 0 8rem;
 }
 p{
-    margin: 1rem;
+    margin: 0.8rem;
     font-family: 'Libre Baskerville', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 2rem;
-    line-height: 2.2rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
     display: flex;
     align-items: center;
     font-feature-settings: 'sinf' on;
@@ -49,7 +50,7 @@ p{
     margin:3rem 0rem;
 }
 .personAlign{
-    padding:6rem 2rem 6rem 10rem;
+    padding:4rem 4rem;
 }
 .boxalign{
     display: flex;
@@ -60,20 +61,21 @@ p{
     font-style: normal;
     font-weight: 600;
     font-size: 2rem;
-    line-height: 3.2rem;
+    line-height: 2rem;
     display: flex;
     align-items: center;
-    padding:10rem 8rem 1rem 5rem;
+    padding:8rem 4rem 1rem 2rem;
 }
 .personSubtitle{
     font-family: Roboto;
     font-style: normal; 
     font-weight: normal;
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     display: flex;
     align-items: center;
-    padding:0rem 15rem 4rem 5rem;
+    padding:0 6rem 0 2rem;
+    
 }
 
 
@@ -92,25 +94,24 @@ p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
     display: flex;
     align-items: center;
     text-align: center;
     color: #000000;
-    opacity: 0.8;
-    padding:1rem;
+    padding:0.7rem;
 }
 .formSubtitle{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    color: #000000;
     display: flex;
     align-items: center;
     text-align: center;
-    padding:0.8rem;
 }
 .formContainer2{
     width:100%;
@@ -122,7 +123,7 @@ p{
 }
 .input{
     width: 45%;
-    height:6vh;
+    height:7vh;
     background: #F7F7F7;
     border: 1px solid rgba(128, 128, 128, 0.1);
     box-sizing: border-box;
@@ -132,8 +133,8 @@ p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
     display: flex;
     align-items: center;
     color: #000000;
@@ -152,8 +153,8 @@ p{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    line-height: 1rem;
     display: flex;
     flex-direction: column;
     color: #000000;
@@ -167,9 +168,9 @@ p{
     border-radius: 8px;
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 2rem;
-    line-height:2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height:1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,4 +184,9 @@ p{
 
 .location1{
     box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+.akshat{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
 }
