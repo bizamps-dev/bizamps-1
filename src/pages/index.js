@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Img from 'gatsby-image'
 import BackgroundImage from 'gatsby-background-image'
 
-import IndexHeaderCard from "../components/IndexPage/IndexHeaderCard"
+import IndexHeaderCard from '../components/IndexPage/IndexHeaderCard'
 import IndexProcessCard from '../components/IndexPage/IndexProcessCard'
 import IndexPackage from "../components/IndexPage/IndexPackage"
 import Testimonial from "../components/Testimonial/Testimonial"

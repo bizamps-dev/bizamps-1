@@ -9,6 +9,7 @@ import ClickedHamburger from "../../assets/Navbar/ClickedHamburger"
 
 import styles from "../../stylesheets/nav.module.scss"
 
+
 const Navbar=(props)=>{
   const [click,setClick]=useState(false)
   const [dropdown,setDropdown]=useState(false)
@@ -29,7 +30,7 @@ const Navbar=(props)=>{
         },
         {
           name : '[Blog] Value In Sales?',
-          link : ""
+          link : "/templet"
         },
         {
           name : '[Blog] When to Outsource LeadGen?',

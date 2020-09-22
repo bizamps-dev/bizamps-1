@@ -459,7 +459,28 @@ color: #000000;
     margin:auto;
 }
 
-
+@media(max-width:1306px){
+    .modalContainer{
+        height: 750px;
+    }
+    .modalCard{
+        height: 80%;
+        padding: 1rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
+    } 
+    .carouselArrow1{
+        left:20rem;
+        top:15rem;
+    }
+    .carouselArrow2{
+        top:15rem;
+        right:5rem;
+    }
+    .carouselTitle{
+        font-size: 2rem;
+    }
+}
 
 @media(max-width:1120px){
     //--------------------------------
@@ -728,7 +749,7 @@ color: #000000;
         height:25%;
         width:98%;
         background: #001735;
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 1.7rem;
         text-align: left;
     }
@@ -852,7 +873,7 @@ color: #000000;
     }
 }
 
-@media(max-width:350px){
+@media(max-width:360px){
     .consultTitle{
         font-size: 0.8rem;
         line-height: 1rem;
@@ -861,4 +882,22 @@ color: #000000;
         font-size: 0.6rem;
         line-height: 0.8rem;
     }
+    .modalContainer{
+        height:65%;
+    }
+    .modalCard{
+        font-size:0.8rem;
+    }
+    .carouselTitle{
+        font-size: 1.2rem;
+        padding:0.3rem;
+    }
+    .carouselSubtitle{
+        padding:0.2rem;
+    }
+    .carouselCaption{
+        padding:0.2rem;
+    }
+    
+    
 }

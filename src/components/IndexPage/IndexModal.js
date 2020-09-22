@@ -6,7 +6,7 @@ import RightCarouselArrow from '../../assets/indexPage/RightCarouselArrow'
 
 const IndexModal = (props) => {
 
-  const [member,setMember]=useState(props.content)
+  const [content,setContent]=useState(props.content)
   const [currentIndex,setCurrentIndex]=useState(0)
   const [counter,setCounter]=useState(0)
 
@@ -18,14 +18,14 @@ const IndexModal = (props) => {
 
   useEffect(()=>{
     if(counter%3===0&&counter!=0){
-      setCurrentIndex(prev=>prev===member.length-1?0:prev+1)
+      setCurrentIndex(prev=>prev===content.length-1?0:prev+1)
     }
   },[counter])
 
   const previous=()=>{
     if(currentIndex===0)
     {
-      setCurrentIndex(member.length-1)
+      setCurrentIndex(content.length-1)
       setCounter(0)
     }
     else{
@@ -35,7 +35,7 @@ const IndexModal = (props) => {
   }
 
   const next=()=>{
-    if(currentIndex===member.length-1)
+    if(currentIndex===content.length-1)
     {
       setCurrentIndex(0)
       setCounter(0)
@@ -46,9 +46,6 @@ const IndexModal = (props) => {
     }
   }
   
-// const content = (props.content)
-// console.log(content)
-
     return(
       <>
         <div className={styles.modalContainer}>
@@ -61,9 +58,9 @@ const IndexModal = (props) => {
             <span className={styles.leftCarouselArrow} onClick={previous}><LeftCarouselArrow/></span>
             <div className={styles.carouselArrow1} onClick={previous}>{"<"}</div>
             <div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center"}}>
-            <div className={styles.carouselTitle}>{member[currentIndex].title} </div>
-            <div className={styles.carouselSubtitle}>{member[currentIndex].subtitle} </div>
-            <div className={styles.carouselCaption}>{member[currentIndex].caption}</div>
+              <div className={styles.carouselTitle}>{content[currentIndex].title} </div>
+              <div className={styles.carouselSubtitle}>{content[currentIndex].subtitle} </div>
+              <div className={styles.carouselCaption}>{content[currentIndex].caption}</div>
             </div>
             <span className={styles.rightCarouselArrow} onClick={next}><RightCarouselArrow/></span>
             <div className={styles.carouselArrow2} onClick={next}>{">"}</div>
