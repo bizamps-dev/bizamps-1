@@ -16,26 +16,35 @@ const Templet = (props) => {
     return(
         <>
             <Layout>
-            <BackgroundImage fluid={props.data.bg3.childImageSharp.fluid} className={styles.container} >
-            <div className={styles.navbar}>
-                <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
-            </div>
-            </BackgroundImage >
+                <BackgroundImage fluid={props.data.bg1.childImageSharp.fluid} className={styles.container1}>
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                </BackgroundImage >
+
+                <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                </BackgroundImage >
+
+        
             <div className={styles.blogContainer}>
                 <BlogContent 
                 illus1={props.data.pic1.childImageSharp.fluid}
                 illus2={props.data.pic2.childImageSharp.fluid}/>
-            </div>
+            </div> 
+
             <div className={styles.personContainer}>
-                <BlogPerson />
+                <BlogPerson person={props.data.person.childImageSharp.fluid}/>
             </div>
+
             <div className={styles.formcontainer}>
                 <Form/>
             </div>
+
             <div className={styles.location1}>
               <Location  first="Home" second="Expertise" third="[Blog] Value In Sales? "/>
             </div>
+
             <Footer />
+
             </Layout>
         </>
     )
@@ -54,7 +63,15 @@ export const BlogPageQuery = graphql`
         }
       }
 
-    bg3: file(relativePath: { eq: "Blogbg.png" }) {
+    bg1: file(relativePath: { eq: "Blogbg.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    bg2: file(relativePath: { eq: "MobBlogbg.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
@@ -71,6 +88,14 @@ export const BlogPageQuery = graphql`
     }
 
     pic2: file(relativePath: { eq: "BlogIllustration2.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    person: file(relativePath: { eq: "person.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

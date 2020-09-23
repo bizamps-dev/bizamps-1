@@ -1,7 +1,13 @@
-.navbar{
+.container1{
     width:100%;
     height:110vh;
 }
+.container2{
+    display:none;
+    width:100%;
+    height:110vh;
+}
+
 //----------------------------
 //BLOG
 //----------------------------
@@ -27,6 +33,20 @@ p{
     font-feature-settings: 'sinf' on;
     color: #000000;
 }
+//--------------------------
+//image in blog-------------
+//--------------------------
+.image1{
+    height: 350px;
+    width:350px;
+    margin:1rem 8rem;
+    border-radius: 50%;
+}
+.imageText{
+    font-size: 0.9rem;
+    font-family: Roboto;
+    margin: 1rem 1.2rem;
+}
 
 
 //----------------------------
@@ -40,17 +60,22 @@ p{
     align-items: center;
 }
 .box{
-    // opacity: 0.5;
     display: flex;
-    border: 1px solid #808080;
+    border: 1px solid #808080 0.5;
     box-sizing: border-box;
     box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.15), 2px 2px 4px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     width:80%;
     margin:3rem 0rem;
 }
+.imageContainer{
+    width:50%;
+    padding:4rem 2rem 4rem 8rem ;
+}
 .personAlign{
-    padding:4rem 4rem;
+    width:251px;
+    height:249px;
+    border-radius: 50%;
 }
 .boxalign{
     display: flex;
@@ -60,21 +85,21 @@ p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 600;
-    font-size: 2rem;
-    line-height: 2rem;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
     display: flex;
     align-items: center;
-    padding:8rem 4rem 1rem 2rem;
+    padding:8rem 4rem 1rem 0rem;
 }
 .personSubtitle{
     font-family: Roboto;
     font-style: normal; 
     font-weight: normal;
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
     display: flex;
     align-items: center;
-    padding:0 6rem 0 2rem;
+    padding:0 7rem 0 0rem;
     
 }
 
@@ -185,15 +210,82 @@ p{
 .location1{
     box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
-.image1{
-    height: 350px;
-    width:350px;
-    margin:1rem 8rem;
-    border-radius: 50%;
-}
-.imageText{
-    font-size: 0.9rem;
-    font-family: Roboto;
-    margin: 1rem 1.2rem;
+
+@media(max-width:530px){
+    //---------------------
+    //BACKGROUND-----------
+    //---------------------
+    .container1{
+        display:none;
+    }
+    .container2{
+        display:block;
+    }
+    //----------------------
+    //FORM------------------
+    //----------------------
+    .input{
+        width:90%;
+    }
+    .message{
+        width:90%;
+    }
+    .SubmitButtom{
+        width:30%;
+    }
+    //----------------------
+    //PERSON----------------
+    //----------------------
+    .box{
+        flex-direction: column;
+        width:90%;
+    }
+    .imageContainer{
+        padding:2rem 9rem 1rem 9rem;
+    }
+    .personAlign{
+        height:93.8px;
+        width:94.27px;
+    }
+    .personTitle{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        font-weight: 900;
+        padding:0rem 7.5rem;
+    }
+    .personSubtitle{
+        font-size: 1rem;
+        line-height: 1.3rem;
+        padding: 1rem;
+        text-align: center;
+    }
+//----------------------------
+//BLOG
+//----------------------------
+    .blogContainer{
+        padding:0rem;
+    }
+    .blogContainer2{
+        padding: 1rem;
+    }
+    p{
+        margin: 0.8rem 0;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+//--------------------------
+//image in blog-------------
+//--------------------------
+    .image1{
+        height: 250px;
+        width:250px;
+        margin:0rem 4rem;
+        border-radius: 50%;
+    }
+    .imageText{
+        font-size: 0.8rem;
+        font-family: Roboto;
+        margin: 0rem 0rem;
+    }
 }
 

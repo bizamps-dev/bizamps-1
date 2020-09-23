@@ -19,6 +19,7 @@ const Person=()=>{
 </defs>
 </svg>
 
+
         </>
     )
 }
