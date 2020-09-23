@@ -22,7 +22,9 @@ const Templet = (props) => {
             </div>
             </BackgroundImage >
             <div className={styles.blogContainer}>
-                <BlogContent />
+                <BlogContent 
+                illus1={props.data.pic1.childImageSharp.fluid}
+                illus2={props.data.pic2.childImageSharp.fluid}/>
             </div>
             <div className={styles.personContainer}>
                 <BlogPerson />
@@ -43,6 +45,7 @@ export default Templet;
 
 export const BlogPageQuery = graphql`
   query {
+    
     bizampsLogo: file(relativePath: { eq: "bizampsLogo.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
@@ -52,6 +55,22 @@ export const BlogPageQuery = graphql`
       }
 
     bg3: file(relativePath: { eq: "Blogbg.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    pic1: file(relativePath: { eq: "BlogIllustration1.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    pic2: file(relativePath: { eq: "BlogIllustration2.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

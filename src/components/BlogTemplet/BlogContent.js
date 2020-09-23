@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from '../../stylesheets/templet.module.scss'
-import { Link,graphql } from "gatsby"
-import Illustration2 from '../../assets/Blog/illustration2'
+
 import Img from 'gatsby-image'
 
 const Content=(props) => {
     return(
         <>
+        
             <div className={styles.blogContainer2}>
                 <p>God, I don’t know how many times during a sales trainer’s presentation I have heard ‘Add Value’. 
                 </p>
@@ -19,7 +19,9 @@ const Content=(props) => {
                 <p>
                 According to my experience, <b>'Value' is Δ delta</b>
                 </p>
-                {/* <Img fluid={props.data.illus.childImageSharp.fluid} className={styles.akshat} /> */}
+               <div className={styles.image1}><Img fluid={props.illus1} />
+               <span className={styles.imageText}> After situation – Before situation = Value </span> 
+               </div>
                 <p>
                 For example:  
                 </p>
@@ -71,21 +73,12 @@ const Content=(props) => {
                 <p>
                 And it’s worth it because life’s too short, reputation too valuable and winners take all.
                 </p>
+                <div className={styles.image1}><Img fluid={props.illus2} /></div>
                 
             </div>
+            
         </>
     )
 }
 
 export default Content;
-export const BlogImagePageQuery = graphql`
-  query {
-    illus: file(relativePath: { eq: "blog1illus1.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `;
