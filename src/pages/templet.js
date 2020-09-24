@@ -2,6 +2,7 @@ import React from 'react';
 import { Link,graphql } from "gatsby"
 import styles from "../stylesheets/templet.module.scss"
 import BackgroundImage from 'gatsby-background-image'
+import Img from 'gatsby-image'
 
 import Layout from '../components/layout'
 import Navbar from '../components/navbar/Navbar'
@@ -22,14 +23,15 @@ const Templet = (props) => {
 
                 <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                    <Img fluid={props.data.drone.childImageSharp.fluid} className={styles.drone}/>
                 </BackgroundImage >
 
-        
+         
             <div className={styles.blogContainer}>
-                <BlogContent 
-                illus1={props.data.pic1.childImageSharp.fluid}
-                illus2={props.data.pic2.childImageSharp.fluid}/>
-            </div> 
+                 <BlogContent 
+                 illus1={props.data.pic1.childImageSharp.fluid}
+                 illus2={props.data.pic2.childImageSharp.fluid}/>
+             </div> 
 
             <div className={styles.personContainer}>
                 <BlogPerson person={props.data.person.childImageSharp.fluid}/>
@@ -71,7 +73,15 @@ export const BlogPageQuery = graphql`
       }
     }
 
-    bg2: file(relativePath: { eq: "MobBlogbg.png" }) {
+    bg2: file(relativePath: { eq: "MobBlogbg3.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    drone: file(relativePath: { eq: "Drone.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

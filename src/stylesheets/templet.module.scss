@@ -5,29 +5,43 @@
 .container2{
     display:none;
     width:100%;
-    height:110vh;
+    height:100vh;
+    position:relative;
+    flex-direction: column;
 }
-
+.drone{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 200;
+    margin-top: 6rem;
+    padding-top:2rem;
+}
 //----------------------------
 //BLOG
 //----------------------------
 .blogContainer{
-    padding:2rem 8rem;
     background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 5rem;
 }
 .blogContainer2{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 8rem;
+    padding: 1rem 5rem;
 }
 p{
     margin: 0.8rem;
     font-family: 'Libre Baskerville', serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
     display: flex;
     align-items: center;
     font-feature-settings: 'sinf' on;
@@ -36,16 +50,20 @@ p{
 //--------------------------
 //image in blog-------------
 //--------------------------
-.image1{
+.BlogimageContainer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
     height: 350px;
-    width:350px;
-    margin:1rem 8rem;
-    border-radius: 50%;
+    width:400px;
 }
 .imageText{
     font-size: 0.9rem;
     font-family: Roboto;
-    margin: 1rem 1.2rem;
 }
 
 
@@ -210,16 +228,73 @@ p{
 .location1{
     box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
-
-@media(max-width:530px){
-    //---------------------
-    //BACKGROUND-----------
-    //---------------------
+@media(max-width:1025px){
+    .imageContainer{
+        width:50%;
+        padding:4rem 2rem 4rem 2rem ;
+    }
+    .input{
+        width:60%;
+    }
+    .message{
+        width:60%;
+    }
+    .blogContainer{
+        padding: 0 3rem;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .image{
+        height: 300px;
+        width:350px;
+    }
+}
+@media(max-width:815px){
     .container1{
         display:none;
     }
     .container2{
         display:block;
+    }
+    .personAlign{
+        width:151px;
+        height:149px;
+    }
+    .personTitle{
+        font-size: 1.2rem;
+        padding:4rem 3rem 0rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    .personSubtitle{
+        font-size:0.9rem;
+        padding:1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input{
+        width:70%;
+    }
+    .message{
+        width:70%;
+    }
+    .SubmitButtom{
+        width:20%;
+        font-size: 1rem;
+    }
+    .image{
+        height:250px;
+        width:300px;
+    }
+}
+@media(max-width:530px){
+    .container2{
+        height:80vh;
     }
     //----------------------
     //FORM------------------
@@ -241,7 +316,10 @@ p{
         width:90%;
     }
     .imageContainer{
-        padding:2rem 9rem 1rem 9rem;
+        width:100%;
+        padding:1rem;
+        display: flex;
+        justify-content: center;
     }
     .personAlign{
         height:93.8px;
@@ -251,7 +329,10 @@ p{
         font-size: 1rem;
         line-height: 1.2rem;
         font-weight: 900;
-        padding:0rem 7.5rem;
+        padding:0rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center
     }
     .personSubtitle{
         font-size: 1rem;
@@ -272,20 +353,6 @@ p{
         margin: 0.8rem 0;
         font-size: 1.2rem;
         line-height: 1.8rem;
-    }
-//--------------------------
-//image in blog-------------
-//--------------------------
-    .image1{
-        height: 250px;
-        width:250px;
-        margin:0rem 4rem;
-        border-radius: 50%;
-    }
-    .imageText{
-        font-size: 0.8rem;
-        font-family: Roboto;
-        margin: 0rem 0rem;
     }
 }
 

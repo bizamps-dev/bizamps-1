@@ -17,9 +17,9 @@ const Content=(props) => {
                 After that, anytime anyone mentions ‘add value’ too many times without the specifics, I run away, knowing that this person doesn’t have anything to add of value.
                 </p>
                 <p>
-                According to my experience, <b>'Value' is Δ delta</b>
-                </p>
-               <div className={styles.image1}><Img fluid={props.illus1} />
+                According to my experience,'Value' is Δ delta</p>
+                
+               <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.illus1} />
                <span className={styles.imageText}> After situation – Before situation = Value </span> 
                </div>
                 <p>
@@ -73,7 +73,7 @@ const Content=(props) => {
                 <p>
                 And it’s worth it because life’s too short, reputation too valuable and winners take all.
                 </p>
-                <div className={styles.image1}><Img fluid={props.illus2} /></div>
+                <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.illus2} /></div>
                 
             </div>
             
