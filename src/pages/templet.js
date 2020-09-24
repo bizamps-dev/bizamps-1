@@ -21,10 +21,10 @@ const Templet = (props) => {
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                 </BackgroundImage >
 
-                <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>
+                {/* <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                     <Img fluid={props.data.drone.childImageSharp.fluid} className={styles.drone}/>
-                </BackgroundImage >
+                </BackgroundImage > */}
 
          
             <div className={styles.blogContainer}>
@@ -73,7 +73,7 @@ export const BlogPageQuery = graphql`
       }
     }
 
-    bg2: file(relativePath: { eq: "MobBlogbg3.png" }) {
+    bg2: file(relativePath: { eq: "MobBlogbg.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
