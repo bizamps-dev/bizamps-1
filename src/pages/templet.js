@@ -21,10 +21,10 @@ const Templet = (props) => {
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                 </BackgroundImage >
 
-                <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>
+                {/* <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
-                    {/* <Img fluid={props.data.drone.childImageSharp.fluid} className={styles.drone}/> */}
-                </BackgroundImage >
+                    <Img fluid={props.data.drone.childImageSharp.fluid} className={styles.drone}/>
+                </BackgroundImage > */}
 
          
             <div className={styles.blogContainer}>
