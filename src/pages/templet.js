@@ -23,7 +23,7 @@ const Templet = (props) => {
 
                 <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
-                    <Img fluid={props.data.drone.childImageSharp.fluid} className={styles.drone}/>
+                    {/* <Img fluid={props.data.drone.childImageSharp.fluid} className={styles.drone}/> */}
                 </BackgroundImage >
 
          
