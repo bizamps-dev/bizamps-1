@@ -49,7 +49,7 @@ const Content=(props) => {
                 "Hi [prospect] Last time we discussed you were working on A. I had few articles in my bookmarks that I think you should read. This article is wrong – Don’t do A instead do B, I have seen companies doing B are very satisfied.<br>
                 </br> Because when you ‘A’, we have ‘X’ though process but we forget about ‘Y’ factor….. Blah blah… If you do A, you might lose 6 months to trial and error, Plus it is not sustainable."
                 </p>
-                <p style={{fontSize:"2rem",lineHeight:"2.3rem",fontWeight:"600",margin:"1.5rem 0.5rem",fontFamily:"Roboto"}}>Perceived Value & Why discovery meetings are important:</p>
+                <p style={{fontSize:"2rem",lineHeight:"2.3rem",fontWeight:"600",margin:"1.5rem 0.5rem"}}>Perceived Value & Why discovery meetings are important:</p>
                 <p>Let’s be honest, there is no guarantee that the last email we sent will get a +ve reply because we don’t know the information we added was something new or relevant to that prospect at that time. This brings us to the concept of perceived value.</p>
                 <p>
                 Transparency has a lot of value, only if the client has been burned before by a vendor who was not transparent because he has now seen the horror show of non-transparent vendors
@@ -60,7 +60,7 @@ const Content=(props) => {
                 <p>
                 Some clients don’t give a rat’s ass about your transparency pitch and they would just say ” I just want more leads and sales now!”
                 </p>
-                <p style={{fontSize:"2rem",lineHeight:"2.3rem",fontWeight:"600",margin:"1.5rem 0.5rem",fontFamily:"Roboto"}}>Relative Perceived Value & Content Marketing</p>
+                <p style={{fontSize:"2rem",lineHeight:"2.3rem",fontWeight:"600",margin:"1.5rem 0.5rem"}}>Relative Perceived Value & Content Marketing</p>
                 <p>
                 Now, let’s bring in your competition and take this one step further.
                 </p>
