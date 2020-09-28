@@ -98,8 +98,9 @@ const CustomDigitalSalesMarketingPlan = (props) => {
         </div>
 
         <div className={styles.clarityContainer}>
-            <Img fluid={props.data.clarity.childImageSharp.fluid} className={styles.clarityImg} />
-           <a target="_blank" href="https://www.youtube.com/watch?v=7PbhTv0-0BU&feature=youtu.be"> <span className={styles.clarityPlay}><Play /></span></a>
+            {/* <Img fluid={props.data.clarity.childImageSharp.fluid} className={styles.clarityImg} /> */}
+           {/* <a target="_blank" href="https://www.youtube.com/watch?v=7PbhTv0-0BU&feature=youtu.be"> <span className={styles.clarityPlay}><Play /></span></a> */}
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/7PbhTv0-0BU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div className={styles.graphContainer}>
