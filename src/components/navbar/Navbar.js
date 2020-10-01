@@ -30,15 +30,27 @@ const Navbar=(props)=>{
         },
         {
           name : '[Blog] Value In Sales?',
-          link : "/templet"
+          link : "/BlogValueInSales"
         },
         {
           name : '[Blog] When to Outsource LeadGen?',
-          link : ""
+          link : "/BlogWhenToOutsource"
         },
         {
           name : '[Blog] Expectations for Outsourcing LeadGen?',
-          link : ""
+          link : "/BlogExpectionsOfOutsourcing"
+        },
+        {
+          name : '[Blog] 100 Direct Mails vs 100 Cold Emails',
+          link : "/Blog100Mails"
+        },
+        {
+          name : '[Blog] After Starting a Sales Agencyt',
+          link : "/BlogSalesAgency"
+        },
+        {
+          name : '[Blog] Bofu Content',
+          link : "/BlogBofu"
         },
       ]
     },
