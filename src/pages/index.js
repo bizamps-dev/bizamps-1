@@ -121,7 +121,7 @@ const IndexPage = (props) => {
       <Team akshat={props.data.akshat.childImageSharp.fluid} 
       mehvish={props.data.mehvish.childImageSharp.fluid} 
       anvishka={props.data.anvishka.childImageSharp.fluid} 
-      shweta={props.data.shweta.childImageSharp.fluid}
+      
       />
 
 <Footer />
