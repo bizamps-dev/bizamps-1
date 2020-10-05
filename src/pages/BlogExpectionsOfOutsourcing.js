@@ -73,11 +73,6 @@ const Home = (props) => {
                         <p>• Them to understand your market and target audience, audiences react differently      to different products. Plus they don’t need to.<br></br>
                            • Teach them about your business and market, help them paint a  picture of your marke</p>
 
-
-
-
-
-
                   </div>
                 </div>
              </BlogLayout> 
