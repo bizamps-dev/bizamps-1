@@ -17,6 +17,11 @@ const Home = (props) => {
                 blogMobText={props.data.text.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
                 current={'[BLOG] Bofu Content'}
+                blog1={props.data.blog1.childImageSharp.fluid}
+                blog2={props.data.blog2.childImageSharp.fluid}
+                blog3={props.data.blog3.childImageSharp.fluid}
+                blog4={props.data.blog4.childImageSharp.fluid}
+                blog5={props.data.blog5.childImageSharp.fluid}
              >
               <div className={styles.blogContainer}>             
                <div className={styles.blogContainer2}>
@@ -156,7 +161,45 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      
+      blog1: file(relativePath: { eq: "Blog1.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      blog2: file(relativePath: { eq: "Blog2.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      blog3: file(relativePath: { eq: "Blog3.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      blog4: file(relativePath: { eq: "Blog4.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      blog5: file(relativePath: { eq: "Blog5.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
 
 
 }

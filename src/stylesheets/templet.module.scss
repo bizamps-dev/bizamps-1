@@ -70,6 +70,10 @@ p{
     font-size: 0.9rem;
     font-family: Roboto;
 }
+//----------------------
+//Video in Blog---------
+//----------------------
+
 .videoContainer{
     width:100%;
     padding:3rem;
@@ -77,6 +81,41 @@ p{
     align-items: center;
     justify-content: center;
 }
+
+//----------------------------
+//CHECKOUT--------------------
+//----------------------------
+.checkoutContainer{
+    width:100%;
+    display: flex;
+    padding:2rem 0;
+    justify-content: center;
+}
+.checkoutContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.checkoutGroup{
+    width:100%;
+    display: flex;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 42px;
+    
+}
+.checkoutImage{
+    width: 15%;
+    height:auto;
+    margin:1rem;    
+}
+
 
 
 //----------------------------
@@ -238,6 +277,9 @@ p{
     border:none;
     margin: 2rem 0;
 }
+
+
+
 //----------------------------
 //LOCATION
 //----------------------------

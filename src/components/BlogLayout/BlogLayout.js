@@ -9,6 +9,7 @@ import Layout from '../layout'
 import Navbar from '../navbar/Navbar'
 import BlogPerson from '../BlogTemplet/BlogPerson'
 import Form from '../BlogTemplet/BlogForm'
+import Checkout from '../BlogTemplet/BlogCheckout'
 import Location from '../../components/Location/Location'
 import Img from 'gatsby-image'
 import Footer from '../Footer/footer'
@@ -28,6 +29,16 @@ const BlogLayout = (props) => {
                 </BackgroundImage >
 
                 <main>{ props.children }</main> 
+
+                <div className={styles.checkoutContainer}>
+                <Checkout
+                blog1={props.blog1}
+                blog2={props.blog2}
+                blog3={props.blog3}
+                blog4={props.blog4}
+                blog5={props.blog5}
+                />
+                </div>
 
                 <div className={styles.personContainer}>
                     <BlogPerson person={props.founder}/>
