@@ -13,6 +13,7 @@ const Home = (props) => {
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
+                blogMobText={props.data.text.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
              >
               <div className={styles.blogContainer}>             
@@ -119,8 +120,11 @@ const Home = (props) => {
                   <p>Hate calling? You can easily find people who love calling and might be willing to do it for you at a low cost.</p>
                   <p>Want to know more? Watch my 43 min video on</p>
                   <p>‘Automate B2B lead generation workshop’</p>
-
                 </div>
+              </div>
+
+              <div className={styles.videoContainer}>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/P1dLJCqluOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>              
              </BlogLayout> 
               
@@ -164,6 +168,19 @@ export const BlogLedgenQuery = graphql`
           }
         }
       }
+
+      text: file(relativePath: { eq: "BlogSalesText.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+
+  
+
+     
 
 
 }

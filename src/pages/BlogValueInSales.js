@@ -14,6 +14,7 @@ const Home = (props) => {
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
+                blogMobText={props.data.text.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
              >
              {/* <BlogContent 
@@ -150,6 +151,15 @@ export const BlogLedgenQuery = graphql`
           }
         }
       }
+
+      text: file(relativePath: { eq: "BlogValueText.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
 
 
 }

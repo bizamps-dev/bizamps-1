@@ -10,6 +10,7 @@ import Navbar from '../navbar/Navbar'
 import BlogPerson from '../BlogTemplet/BlogPerson'
 import Form from '../BlogTemplet/BlogForm'
 // import Location from '../components/Location/Location'
+import Img from 'gatsby-image'
 import Footer from '../Footer/footer'
 
 
@@ -23,6 +24,7 @@ const BlogLayout = (props) => {
 
                 <BackgroundImage fluid={props.mobbg} className={styles.container2}>
                     <Navbar logo={props.logo} />
+                    <Img fluid={props.blogMobText} className={styles.blogMobText}/>
                 </BackgroundImage >
 
                 <main>{ props.children }</main> 

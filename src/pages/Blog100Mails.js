@@ -13,6 +13,7 @@ const Home = (props) => {
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
+                blogMobText={props.data.text.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
              >
                  <div className={styles.blogContainer}>             
@@ -60,14 +61,12 @@ const Home = (props) => {
                     <p>We customize the first liners and also curate content that would please the reader and also generate a need for your service.</p>
                     <p>Check out our B2B Marketing pricing and packages</p>
                     <p>So, when life gives you BizAmps, take the leads!</p>
-
-
-
-
-
-
                   </div>
                </div>
+
+               <div className={styles.videoContainer}>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/56GQPH9KJjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
               
              </BlogLayout> 
               
@@ -121,6 +120,14 @@ export const BlogLedgenQuery = graphql`
     }
 
     table1: file(relativePath: { eq: "Blog100mailsTable.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    text: file(relativePath: { eq: "Blog100MailText.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

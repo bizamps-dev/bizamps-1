@@ -12,6 +12,7 @@ const Home = (props) => {
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}
+                blogMobText={props.data.text.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
              >
@@ -111,7 +112,17 @@ export const BlogLedgenQuery = graphql`
       }
     }
 
-    mobbg: file(relativePath: { eq: "mobofblog2.jpg" }) {
+    mobbg: file(relativePath: { eq: "BlogOutsourceMobbg.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    
+
+    founder: file(relativePath: { eq: "person.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -119,7 +130,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-    founder: file(relativePath: { eq: "person.png" }) {
+      text: file(relativePath: { eq: "BlogSalesText.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
