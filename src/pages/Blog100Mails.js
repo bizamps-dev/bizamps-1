@@ -15,6 +15,7 @@ const Home = (props) => {
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
+                current={'[BLOG] Direct Mails vs Cold emails'}
              >
                  <div className={styles.blogContainer}>             
                   <div className={styles.blogContainer2}>

@@ -16,6 +16,7 @@ const Home = (props) => {
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
+                current={'[BLOG] ‘Value’ in Sales'}
              >
              {/* <BlogContent 
               illus1={props.data.pic1.childImageSharp.fluid}

@@ -15,6 +15,7 @@ const Home = (props) => {
                 blogMobText={props.data.text.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
+                current={'[BLOG] When To Outsource Lead Generation?'}
              >
                <div className={styles.blogContainer}>             
                <div className={styles.blogContainer2}>
@@ -130,7 +131,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      text: file(relativePath: { eq: "BlogSalesText.png" }) {
+      text: file(relativePath: { eq: "BlogOutsourceText.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

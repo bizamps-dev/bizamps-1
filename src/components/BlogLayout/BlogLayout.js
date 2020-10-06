@@ -9,7 +9,7 @@ import Layout from '../layout'
 import Navbar from '../navbar/Navbar'
 import BlogPerson from '../BlogTemplet/BlogPerson'
 import Form from '../BlogTemplet/BlogForm'
-// import Location from '../components/Location/Location'
+import Location from '../../components/Location/Location'
 import Img from 'gatsby-image'
 import Footer from '../Footer/footer'
 
@@ -37,9 +37,9 @@ const BlogLayout = (props) => {
                     <Form/>
                 </div>
 
-                {/* <div className={styles.location1}>
-                <Location  first="Home" second="Expertise" third="[Blog] Value In Sales? "/>
-                </div> */}
+                <div className={styles.location1}>
+                <Location  first="Home" second="Expertise" third={props.current}/>
+                </div>
 
                 <Footer />
 
