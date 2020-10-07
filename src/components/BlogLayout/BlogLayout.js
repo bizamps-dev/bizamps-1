@@ -31,13 +31,14 @@ const BlogLayout = (props) => {
                 <main>{ props.children }</main> 
 
                 <div className={styles.checkoutContainer}>
-                <Checkout
-                blog1={props.blog1}
-                blog2={props.blog2}
-                blog3={props.blog3}
-                blog4={props.blog4}
-                blog5={props.blog5}
-                />
+                    <div className={styles.checkoutTitle}>Checkout Our Other Blogs</div>
+                    <Checkout
+                    blog1={props.blog1}
+                    blog2={props.blog2}
+                    blog3={props.blog3}
+                    blog4={props.blog4}
+                    blog5={props.blog5}
+                    />
                 </div>
 
                 <div className={styles.personContainer}>
