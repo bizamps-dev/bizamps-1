@@ -9,17 +9,17 @@ const Checkout = (props) => {
         {
             image:props.blog1,
             title:"[BLOG] ‘Value’ in Sales?",
-            link:"./BlogValueInSales"
+            link:"/BlogValueInSales"
         },
         {
             image:props.blog2,
             title:"[BLOG] When To Outsource Lead Generation?",
-            link:"./BlogWhenToOutsource"
+            link:"/BlogWhenToOutsource"
         },
         {
             image:props.blog3,
             title:"[BLOG] 100 Direct Mails vs 100 Cold Emails?",
-            link:"./Blog100Mails"
+            link:"/Blog100Mails"
         }
     ]
 
@@ -27,17 +27,17 @@ const Checkout = (props) => {
          {
             image:props.blog4,
             title:"[BLOG] After Starting a Sales Agency",
-            link:"./BlogSalesAgency"
+            link:"/BlogSalesAgency"
         },
         {
             image:props.blog5,
             title:"[BLOG] Bofu Content",
-            link:"./BlogBofu"
+            link:"/BlogBofu"
         },
         {
             image:props.blog1,
             title:"[BLOG] ‘Value’ in Sales?",
-            link:"./BlogValueInSales"
+            link:"/BlogValueInSales"
         },
 
     ]
