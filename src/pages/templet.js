@@ -18,7 +18,8 @@ const Templet = (props) => {
         <>
             <Layout>
                 <BackgroundImage fluid={props.data.bg1.childImageSharp.fluid} className={styles.container1}>
-                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid}
+                            color={"blue"}/>
                 </BackgroundImage >
 
                 <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container2}>

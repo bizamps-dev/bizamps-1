@@ -4,10 +4,12 @@ import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
+import Checkout from '../components/BlogTemplet/BlogCheckout';
 
 
 
 const Home = (props) => {
+     
     return(
     <>
              <BlogLayout 
@@ -22,10 +24,9 @@ const Home = (props) => {
                 blog3={props.data.blog3.childImageSharp.fluid}
                 blog4={props.data.blog4.childImageSharp.fluid}
                 blog5={props.data.blog5.childImageSharp.fluid}
+                checkoutBlog={true}
              >
-             {/* <BlogContent 
-              illus1={props.data.pic1.childImageSharp.fluid}
-              illus2={props.data.pic2.childImageSharp.fluid}/> */}
+             
             <div className={styles.blogContainer}>
             <div className={styles.blogContainer2}>
                 <p>God, I don’t know how many times during a sales trainer’s presentation I have heard ‘Add Value’. 

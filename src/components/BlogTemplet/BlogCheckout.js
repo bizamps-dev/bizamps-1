@@ -41,6 +41,9 @@ const Checkout = (props) => {
         },
 
     ]
+
+   
+
     return(
        <>
              <div className={styles.checkoutContent}>
@@ -74,4 +77,45 @@ const Checkout = (props) => {
      </> 
     )
 }
+
+
+export const CheckoutCS = (props) => {
+
+    const contentLeftCS =[
+        {
+            image:props.blog1,
+            title:"B2B Case Study Targeting International Schools",
+        },
+        {
+            image:props.blog2,
+            title:"Targeting Investors for Crowd Funding Campaigns in UK",
+        },
+        {
+            image:props.blog3,
+            title:"How a U.S. based blockchain tech company enhanced sales through BizAmps. ",
+        }
+    ]
+
+   
+
+    return(
+       <>
+             <div className={styles.checkoutContent}>
+            {
+             contentLeftCS.map((item,index)=>{
+                return (
+                   
+                    <div key={index} className={styles.checkoutGroup}>
+                        <Img className={styles.checkoutImage} fluid= {item.image}/>
+                        <div className={styles.checkoutText}><a href={item.link}>{item.title}</a> </div>
+                    </div>
+                    
+                    )
+                 })
+            }
+        </div>
+     </> 
+    )
+}
+
 export default Checkout;

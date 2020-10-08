@@ -10,6 +10,7 @@ exports.components = {
   "component---src-pages-blog-sales-agency-js": () => import("../src/pages/BlogSalesAgency.js" /* webpackChunkName: "component---src-pages-blog-sales-agency-js" */),
   "component---src-pages-blog-value-in-sales-js": () => import("../src/pages/BlogValueInSales.js" /* webpackChunkName: "component---src-pages-blog-value-in-sales-js" */),
   "component---src-pages-blog-when-to-outsource-js": () => import("../src/pages/BlogWhenToOutsource.js" /* webpackChunkName: "component---src-pages-blog-when-to-outsource-js" */),
+  "component---src-pages-indian-enterprise-js": () => import("../src/pages/IndianEnterprise.js" /* webpackChunkName: "component---src-pages-indian-enterprise-js" */),
   "component---src-pages-b-2-b-marketing-package-js": () => import("../src/pages/b2b-marketing-package.js" /* webpackChunkName: "component---src-pages-b-2-b-marketing-package-js" */),
   "component---src-pages-cold-js": () => import("../src/pages/cold.js" /* webpackChunkName: "component---src-pages-cold-js" */),
   "component---src-pages-custom-digital-sales-marketing-plan-js": () => import("../src/pages/custom-digital-sales-marketing-plan.js" /* webpackChunkName: "component---src-pages-custom-digital-sales-marketing-plan-js" */),

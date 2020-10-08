@@ -72,7 +72,7 @@ const Navbar=(props)=>{
       subOptions : [
         {
           name : 'Indian Enterprises',
-          link : ""
+          link : "/IndianEnterprise"
         },
         {
           name : 'International Institutes',
@@ -92,7 +92,9 @@ const Navbar=(props)=>{
 
   const renderOptions = options.map((item,index)=>{
     return (
-         <Dropdowns option={item} />
+         <Dropdowns 
+         color={props.color}
+         option={item} />
     )
   })
 

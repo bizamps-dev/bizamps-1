@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from 'react'
 import PropTypes from "prop-types";
 import { Link,graphql } from "gatsby"
 import styles from "../../stylesheets/templet.module.scss"
@@ -9,18 +9,22 @@ import Layout from '../layout'
 import Navbar from '../navbar/Navbar'
 import BlogPerson from '../BlogTemplet/BlogPerson'
 import Form from '../BlogTemplet/BlogForm'
-import Checkout from '../BlogTemplet/BlogCheckout'
+import Checkout,{CheckoutCS}from '../BlogTemplet/BlogCheckout'
 import Location from '../../components/Location/Location'
 import Img from 'gatsby-image'
 import Footer from '../Footer/footer'
 
 
 const BlogLayout = (props) => {
+
+    const [showCheckout,setshowCheckout]=useState(props.checkoutBlog)
+        
     return(
+        
         <>
-            
                 <BackgroundImage fluid={props.bg} className={styles.container1}>
-                    <Navbar logo={props.logo} />
+                    <Navbar logo={props.logo} 
+                    color={props.color}/>
                 </BackgroundImage >
 
                 <BackgroundImage fluid={props.mobbg} className={styles.container2}>
@@ -30,7 +34,7 @@ const BlogLayout = (props) => {
 
                 <main>{ props.children }</main> 
 
-                <div className={styles.checkoutContainer}>
+                { showCheckout===true ? <div className={styles.checkoutContainer}>
                     <div className={styles.checkoutTitle}>Checkout Our Other Blogs</div>
                     <Checkout
                     blog1={props.blog1}
@@ -39,7 +43,16 @@ const BlogLayout = (props) => {
                     blog4={props.blog4}
                     blog5={props.blog5}
                     />
+                </div> : 
+                 <div className={styles.checkoutContainer}>
+                 <div className={styles.checkoutTitle}>Checkout Our Other Case Stories</div>
+                 <CheckoutCS
+                 blog1={props.blog1}
+                 blog2={props.blog2}
+                 blog3={props.blog3}
+                 />
                 </div>
+            }
 
                 <div className={styles.personContainer}>
                     <BlogPerson person={props.founder}/>

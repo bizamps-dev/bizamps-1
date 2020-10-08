@@ -11,7 +11,7 @@ const Dropdowns = (props) => {
         <li className={styles.options}>
 
             <div style={{display:"flex",flexDirection:"row",alignItems:"center"}}>
-                <text className={styles.text} >{props.option.name}</text>
+                <text style={{color:props.color}} className={styles.text} >{props.option.name}</text>
                 <div className={styles.arrow} ><NavBottomArrow /></div>  
             </div> 
 

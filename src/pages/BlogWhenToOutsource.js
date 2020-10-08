@@ -21,6 +21,7 @@ const Home = (props) => {
                 blog3={props.data.blog3.childImageSharp.fluid}
                 blog4={props.data.blog4.childImageSharp.fluid}
                 blog5={props.data.blog5.childImageSharp.fluid}
+                checkoutBlog={true}
              >
                <div className={styles.blogContainer}>             
                <div className={styles.blogContainer2}>
