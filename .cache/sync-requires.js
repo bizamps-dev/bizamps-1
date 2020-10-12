@@ -19,6 +19,7 @@ exports.components = {
   "component---src-pages-custom-digital-sales-marketing-plan-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/custom-digital-sales-marketing-plan.js"))),
   "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/index.js"))),
-  "component---src-pages-templet-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/templet.js")))
+  "component---src-pages-templet-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/templet.js"))),
+  "component---src-pages-international-institutes-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/InternationalInstitutes.js")))
 }
 

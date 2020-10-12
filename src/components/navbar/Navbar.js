@@ -76,7 +76,7 @@ const Navbar=(props)=>{
         },
         {
           name : 'International Institutes',
-          link : ""
+          link : "/InternationalInstitutes"
         },
         {
           name : 'Targeting U.S.',

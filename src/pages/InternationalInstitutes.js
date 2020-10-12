@@ -17,51 +17,42 @@ const Home = (props) => {
                 blog2={props.data.blog2.childImageSharp.fluid}
                 blog3={props.data.blog3.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
-                current={'Indian Enterprise'}
-                color={'#2F80ED'}
+                current={'International Institutes'}
              >
 
-             <div className={styles.headingContainer}>
-                <h1 className={styles.heading}>B2B Enterprise Case Study</h1>
-                <h2 className={styles.Mobheading}><b>B2B Enterprise Case Study</b></h2>
+             <div className={styles.headingContainer} style={{backgroundColor:"#2566BA"}}>
+                <h1 className={styles.heading}>B2B Lead Generation through ABM Strategy</h1>
+                <h2 className={styles.Mobheading}><b>B2B Lead Generation through ABM Strategy</b></h2>
              </div>
 
              <div className={styles.blogContainer}>             
                 <div className={styles.blogContainer2}>
-
-                  
                   <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>About The Client:</h2>
-                  <p>The client wanted to pivot away from cold calling to a more efficient method. Previously, six agencies had helped them achieve their goal to some extent. However, these companies lacked considerably in generating consistent outputs.</p>
+                  <p>The client provides a learning platform that intends to redesign the current  teacher education systems by building a network of millions of teachers. They are on a mission to empower teachers by curating tools and techniques that are easily usable in the classroom. They help teachers in skilling themselves on latest teaching methodologies and monitoring their learning to analyse if  they have improved by leaps and bounds.</p>
 
                   <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Problem:</h2>
-                  <p>The client wanted to pivot away from cold calling to a more efficient method. Previously, six agencies had helped them achieve their goal to some extent. However, these companies lacked considerably in generating consistent outputs.</p>
-
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Target:</h2>
-                  <p>Chief Human Resources Officer of companies with over 1000 employees in  Delhi -NCR & Mumbai region.</p>
+                  <p>The client was unable to outsource any leads even after hiring a highly networked sales partner.</p>
 
                   <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Channel:</h2>
-                  <p>Cold Emails + LinkedIn<br></br>
-                  Here is the complete process overview of our B2B Enterprise Case Study.</p>
+                  <p>Primarily focused on Cold Emails.</p>
 
                   <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Process Overview:</h2>
-                  <p>1. We collected the data from different sources like LinkedIn and various data  enrichment tools.<br></br>
-                  2. Our content strategists carefully understood the client’s services and curated  content after understanding how their services can solve the target’s  problems. This was able to grab their attention, generating responses. <br></br>
-                  3. Established connections with the targets on LinkedIn using the automated tool  from the Client’s profile.<br></br>
-                  4.The B2B researcher wrote customized Emails for each of the leads and prospects.<br></br>
-                  5. We uploaded 30 leads per day to our Email Outreach software which reached  out and followed up with the prospects for 3 months.<br></br>
-                  6. Alongside, showed the prospects Ads on Facebook, Google, and other Apps.</p>
+                  <p>1. In the given scenario, the client provided us with the email ids. We used LinkedIn Connection Request Automation to get more contact information of the targets. <br></br>
+                    2. The content strategists wrote customized Emails for each of the prospects.<br></br>
+                    3. We uploaded 10 leads/day to our Email Outreach software.<br></br>
+                    4. We followed up with the prospects for 3 months.<br></br>
+                    5. Alongside, showed the prospects Ads on Facebook, Google, and other Apps.</p>
 
                   <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Accomplishments:</h2>
-                  <p>• The process mentioned above helped the client to generate 25+ responses  within 2.5 months of starting outreach. <br></br>
-                  • The client was able to reach out to 1000 prospects resulting into 75 responses, out of which 25+ responded positively inviting conversations.</p>
+                  <p>The client was able to engage with 10% of the entire target market immediately.</p>
 
                   <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Key Bottlenecks:</h2>
-                  <p>• Since the client’s website was not optimized for generating leads when the Ads were run, we had to discontinue that form of lead generation.<br></br>
-                   • We realized starting LinkedIn earlier would have helped us generate more leads.</p>
+                  <p>•Inability to efficiently manage the ‘No, thank you’ responses with cross-sell &  down-sell offers.</p>
+                  <p>•Did not resort to Account-based marketing from the very beginning.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Client outreach replies</h2>
+                  
 
-                  <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.Img1.childImageSharp.fluid}/></div>
+                 
 
                 </div>
               </div>
@@ -78,7 +69,7 @@ export default Home;
 export const BlogLedgenQuery = graphql`
   query {
 
-    logo: file(relativePath: { eq: "LogoPurple.png" }) {
+    logo: file(relativePath: { eq: "bizampsLogo.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -86,8 +77,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-
-    bg1: file(relativePath: { eq: "IndianEnterpriseBG.jpg" }) {
+      bg1: file(relativePath: { eq: "InternationalInstituteBG.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -95,7 +85,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-    mobbg: file(relativePath: { eq: "IndianEnterpriseMobBG.jpg" }) {
+    mobbg: file(relativePath: { eq: "InternationaslSchoolsMobBG.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -103,7 +93,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-    text: file(relativePath: { eq: "IndianEnterpriseText.png" }) {
+    text: file(relativePath: { eq: "InternationalInstitutesText.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
