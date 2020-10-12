@@ -80,7 +80,7 @@ const Navbar=(props)=>{
         },
         {
           name : 'Targeting U.S.',
-          link : ""
+          link : "/TargetingUS"
         },
         {
           name : 'Crowd Funding',
