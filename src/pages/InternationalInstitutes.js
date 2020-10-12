@@ -50,9 +50,8 @@ const Home = (props) => {
                   <p>•Inability to efficiently manage the ‘No, thank you’ responses with cross-sell &  down-sell offers.</p>
                   <p>•Did not resort to Account-based marketing from the very beginning.</p>
 
-                  
-
-                 
+                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Client outreach replies</h2>  
+                  <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.Img1.childImageSharp.fluid}/></div>
 
                 </div>
               </div>
@@ -109,7 +108,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      Img1: file(relativePath: { eq: "IndianEnterpriseImg.png" }) {
+      Img1: file(relativePath: { eq: "InternationalInstitutesImg.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
