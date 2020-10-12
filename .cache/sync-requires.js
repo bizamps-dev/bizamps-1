@@ -21,6 +21,7 @@ exports.components = {
   "component---src-pages-index-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/index.js"))),
   "component---src-pages-templet-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/templet.js"))),
   "component---src-pages-international-institutes-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/InternationalInstitutes.js"))),
-  "component---src-pages-targeting-us-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/TargetingUS.js")))
+  "component---src-pages-targeting-us-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/TargetingUS.js"))),
+  "component---src-pages-crowd-funding-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/CrowdFunding.js")))
 }
 

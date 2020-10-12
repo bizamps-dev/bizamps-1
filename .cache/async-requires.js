@@ -18,6 +18,7 @@ exports.components = {
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-templet-js": () => import("../src/pages/templet.js" /* webpackChunkName: "component---src-pages-templet-js" */),
   "component---src-pages-international-institutes-js": () => import("../src/pages/InternationalInstitutes.js" /* webpackChunkName: "component---src-pages-international-institutes-js" */),
-  "component---src-pages-targeting-us-js": () => import("../src/pages/TargetingUS.js" /* webpackChunkName: "component---src-pages-targeting-us-js" */)
+  "component---src-pages-targeting-us-js": () => import("../src/pages/TargetingUS.js" /* webpackChunkName: "component---src-pages-targeting-us-js" */),
+  "component---src-pages-crowd-funding-js": () => import("../src/pages/CrowdFunding.js" /* webpackChunkName: "component---src-pages-crowd-funding-js" */)
 }
 
