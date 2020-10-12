@@ -30,20 +30,20 @@ const Home = (props) => {
                 <div className={styles.blogContainer2}>
 
                   
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>About The Client:</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>About The Client:</h2>
                   <p>The client wanted to pivot away from cold calling to a more efficient method. Previously, six agencies had helped them achieve their goal to some extent. However, these companies lacked considerably in generating consistent outputs.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Problem:</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>Problem:</h2>
                   <p>The client wanted to pivot away from cold calling to a more efficient method. Previously, six agencies had helped them achieve their goal to some extent. However, these companies lacked considerably in generating consistent outputs.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Target:</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>Target:</h2>
                   <p>Chief Human Resources Officer of companies with over 1000 employees in  Delhi -NCR & Mumbai region.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Channel:</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>Channel:</h2>
                   <p>Cold Emails + LinkedIn<br></br>
                   Here is the complete process overview of our B2B Enterprise Case Study.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Process Overview:</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>Process Overview:</h2>
                   <p>1. We collected the data from different sources like LinkedIn and various data  enrichment tools.<br></br>
                   2. Our content strategists carefully understood the client’s services and curated  content after understanding how their services can solve the target’s  problems. This was able to grab their attention, generating responses. <br></br>
                   3. Established connections with the targets on LinkedIn using the automated tool  from the Client’s profile.<br></br>
@@ -51,22 +51,20 @@ const Home = (props) => {
                   5. We uploaded 30 leads per day to our Email Outreach software which reached  out and followed up with the prospects for 3 months.<br></br>
                   6. Alongside, showed the prospects Ads on Facebook, Google, and other Apps.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Accomplishments:</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>Accomplishments:</h2>
                   <p>• The process mentioned above helped the client to generate 25+ responses  within 2.5 months of starting outreach. <br></br>
                   • The client was able to reach out to 1000 prospects resulting into 75 responses, out of which 25+ responded positively inviting conversations.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Key Bottlenecks:</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>Key Bottlenecks:</h2>
                   <p>• Since the client’s website was not optimized for generating leads when the Ads were run, we had to discontinue that form of lead generation.<br></br>
                    • We realized starting LinkedIn earlier would have helped us generate more leads.</p>
 
-                  <h2 style={{fontFamily:"Roboto",margin:"0.8rem" }}>Client outreach replies</h2>
+                  <h2 style={{fontFamily:"Roboto",margin:"0.4rem" }}>Client outreach replies</h2>
 
                   <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.Img1.childImageSharp.fluid}/></div>
 
                 </div>
               </div>
-                   
-    
              </BlogLayout> 
               
     </>
