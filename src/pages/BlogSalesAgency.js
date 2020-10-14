@@ -3,12 +3,16 @@ import { graphql } from 'gatsby';
 import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
+import SEO from "../components/seo"
 
 
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="What To Know After Starting a Sales Agency | Complete Guide"
+                  description="These principles will ultimately help you make better choices while channeling to scaling your sales agency"/>
+             
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

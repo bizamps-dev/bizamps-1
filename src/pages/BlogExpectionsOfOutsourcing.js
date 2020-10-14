@@ -3,12 +3,16 @@ import { graphql } from 'gatsby';
 import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
+import SEO from "../components/seo"
 
 
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="What To Expect from Lead Generation Outsourcing?Is it worth it cost?"
+                  description="When it comes to Outsourcing lead generation, How do you get when you are promised. This is how you mitigate some risk - Read this complete post to know about it in detail"/>
+             
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

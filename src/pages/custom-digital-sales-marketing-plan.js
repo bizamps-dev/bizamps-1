@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import { Link,graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 import Location from "../components/Location/Location"
 import Team from "../components/Team/Team"
@@ -68,7 +69,10 @@ const CustomDigitalSalesMarketingPlan = (props) => {
 
     return (
         <Layout>
-
+          <SEO title="B2B Marketing Plan & Strategy Consulting | BizAmps"
+               description="To obtain business leads , you need a B2B marketing plan-from executing campaigns to delivering marketing initiative we build a plan to help you dominate your business.
+               "/>
+               
           <div className={styles.headerContainer} style={{backgroundColor:"#294f8c"}}>
               <div className={styles.headerMap}><HeaderBg /></div>
               <div className={styles.headerBox}>

@@ -5,6 +5,7 @@ import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
 import Checkout from '../components/BlogTemplet/BlogCheckout';
+import SEO from "../components/seo"
 
 
 
@@ -12,6 +13,10 @@ const Home = (props) => {
      
     return(
     <>
+             <SEO title="What does 'Add value' mean in sales? & How to deliver it"
+             description="Learn how to deliver value that drives b2b sales growth with examples of message that deliver real insights and shows your expertise.
+             "/>
+
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

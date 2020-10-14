@@ -26,6 +26,7 @@ import RevenueIconMob from "../assets/B2BMarketingPackages/RevenueIconMob"
 import NamedAccountWorkflow from "../assets/B2BMarketingPackages/NamedAccountWorkflow"
 import LeadsPredictWorkflow from "../assets/B2BMarketingPackages/LeadsPredictWorkflow"
 import PaidConsultMob from "../assets/B2BMarketingPackages/PaidConsultMob"
+import SEO from "../components/seo"
 
 import styles from "../stylesheets/b2bMarketingPackage.module.scss"
 
@@ -80,6 +81,9 @@ const B2BMarketingPackagePage = (props) => {
   workflow:LeadsPredictWorkflow}]
     return (
         <Layout>
+          <SEO title="B2B Marketing Packages & Pricing Strategy| 90 Days Plan"
+               description="We set up B2B outbound marketing systems that generate sales leads within 90 days or we work for free - see our automatic client acquisition setup."/>
+          
           <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container} >
                <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                     <div className={styles.headerContent}>

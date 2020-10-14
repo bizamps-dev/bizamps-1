@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import { Link,graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 import Navbar from "../components/navbar/Navbar"
 import Footer from '../components/Footer/footer'
@@ -969,6 +970,9 @@ const BestOfABM = (props) => {
 
     return (
         <Layout>
+          <SEO title="Account-based Marketing Guide targeting Dream Clients"
+               description="Techniques and tactics for ABM strategy through fundamentals and benchmarks of B2B marketing after running through almost 50+ webinars, talk & ebooks.." />
+
             <div className={styles.navBox}>
                 <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
             </div>

@@ -3,12 +3,15 @@ import { graphql } from 'gatsby';
 import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
+import SEO from "../components/seo"
 
 
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="When to Outsource Lead Generation to grow sales leads?"
+                  description="Go In-house or Agency, if the cost of both are same? The rights time to outsorces depends on a bunch of factors in your company and industry"/> 
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

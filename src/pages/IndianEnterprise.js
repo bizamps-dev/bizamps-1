@@ -4,10 +4,14 @@ import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="B2B Outreach Clients: Enterprise Case Study | BizAmps"
+                  description="Here is the complete B2B Enterprise Case Study for you. 75+ Responses within 2.5 months of Clients Outreach with 25+ positively invited conversations with top corporations of India"/>
+                  
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import { Link,graphql } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 import Testimonial from "../components/Testimonial/Testimonial"
 
@@ -11,6 +12,8 @@ import styles from "../stylesheets/cold.module.scss"
 const Cold = (props) => {
     return (
         <Layout>
+          <SEO title="Cold Email Outreach Guide for Lead Generation | BizAmps"
+               description="Here is the best Lead generation guide.Cold emails that get responses that you can use for your own business. We have shown our all secrets in this guide."/>
 
           <div className={styles.headerContainer} >
 

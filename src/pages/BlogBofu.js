@@ -4,12 +4,16 @@ import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="How to create BOFU Content | B2B Sales Funnel Strategy"
+                  description="41% of B2B marketers say they always craft content based on specific points of the buyer’s journey.That means more than half of the B2B sales agencies do not curate BOFU content"/>
+             
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

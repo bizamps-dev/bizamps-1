@@ -4,10 +4,15 @@ import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="B2B Marketing for Blockchain Tech Enterpise | Case study"
+                  description="See How we enhanced business leads for a U.S. based blockchain tech services startup using our lead generation techniques and LinkedIn outreach-b2b enterprise case study.
+                  "/>
+                  
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

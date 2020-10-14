@@ -4,10 +4,14 @@ import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="CrowdFunding Campaign Case study | Targeting investors"
+                  description="See how we raised an extra 100K pounds when doing a equity crowdfunding campaign targeting investors in UK - Case study"/>
+            
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

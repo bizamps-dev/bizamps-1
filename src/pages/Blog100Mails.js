@@ -4,11 +4,15 @@ import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="100 letters VS 100 emails, what is better?"
+                  description="Is old really gold? The best way to reach executives is via Direct Mail, but is it? See results of our experiment"/>
+            
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}

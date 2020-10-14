@@ -4,10 +4,14 @@ import BlogLayout from '../components/BlogLayout/BlogLayout'
 import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
+import SEO from "../components/seo"
 
 const Home = (props) => {
     return(
     <>
+             <SEO title="B2B International School Lead Generation Case Study | BizAmps"
+                  description="How does account-based marketing work with email strategy?- we captured 10% of the whole target market immediately increasing sales leads through the our targeted outreach"/>
+             
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}
