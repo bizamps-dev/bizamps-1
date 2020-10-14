@@ -85,14 +85,17 @@ export const CheckoutCS = (props) => {
         {
             image:props.blog1,
             title:"B2B Case Study Targeting International Schools",
+            link:"/InternationalInstitutes"
         },
         {
             image:props.blog2,
             title:"Targeting Investors for Crowd Funding Campaigns in UK",
+            link:"/CrowdFunding"
         },
         {
             image:props.blog3,
             title:"How a U.S. based blockchain tech company enhanced sales through BizAmps. ",
+            link:"/TargetingUS"
         }
     ]
 

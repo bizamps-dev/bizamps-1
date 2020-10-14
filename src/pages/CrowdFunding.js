@@ -85,7 +85,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-    mobbg: file(relativePath: { eq: "InternationaslSchoolsMobBG.png" }) {
+      mobbg: file(relativePath: { eq: "CrowdingFundingMobBG.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

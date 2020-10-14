@@ -79,7 +79,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      bg1: file(relativePath: { eq: "TargetingBG.png" }) {
+    bg1: file(relativePath: { eq: "TargetingBG.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -87,7 +87,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-    mobbg: file(relativePath: { eq: "InternationaslSchoolsMobBG.png" }) {
+    mobbg: file(relativePath: { eq: "TargetingUSMobBG.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -111,7 +111,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      Img1: file(relativePath: { eq: "TargetingImg.png" }) {
+    Img1: file(relativePath: { eq: "TargetingImg.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -119,7 +119,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      blog1: file(relativePath: { eq: "CS1.png" }) {
+    blog1: file(relativePath: { eq: "CS1.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -127,7 +127,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      blog2: file(relativePath: { eq: "CS2.png" }) {
+    blog2: file(relativePath: { eq: "CS2.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -135,7 +135,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      blog3: file(relativePath: { eq: "CS3.png" }) {
+    blog3: file(relativePath: { eq: "CS3.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
