@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from 'gatsby-image'
 import BackgroundImage from 'gatsby-background-image'
+import Helmet from 'gatsby-plugin-react-helmet'
 
 import IndexHeaderCard from '../components/IndexPage/IndexHeaderCard'
 import IndexProcessCard from '../components/IndexPage/IndexProcessCard'
@@ -50,7 +51,8 @@ const IndexPage = (props) => {
 
   return (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="B2B Account-based Marketing Consultancy | BizAmps" 
+         description="BizAmps is Business to business marketing agency based out of India.We set up B2B outbound leadgen systems that generate sales leads within 90 days or we work for free"/>
    
       <BackgroundImage fluid={props.data.bgOverlay.childImageSharp.fluid} className={styles.container} backgroundColor={"#2F80ED"}>
         <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
