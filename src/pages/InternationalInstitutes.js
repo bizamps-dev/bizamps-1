@@ -14,6 +14,7 @@ const Home = (props) => {
              
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
+                alt={"Email Outreach email"}
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
