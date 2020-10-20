@@ -14,6 +14,7 @@ exports.components = {
   "component---src-pages-indian-enterprise-js": () => import("../src/pages/IndianEnterprise.js" /* webpackChunkName: "component---src-pages-indian-enterprise-js" */),
   "component---src-pages-international-institutes-js": () => import("../src/pages/InternationalInstitutes.js" /* webpackChunkName: "component---src-pages-international-institutes-js" */),
   "component---src-pages-targeting-us-js": () => import("../src/pages/TargetingUS.js" /* webpackChunkName: "component---src-pages-targeting-us-js" */),
+  "component---src-pages-thank-you-js": () => import("../src/pages/ThankYou.js" /* webpackChunkName: "component---src-pages-thank-you-js" */),
   "component---src-pages-b-2-b-marketing-package-js": () => import("../src/pages/b2b-marketing-package.js" /* webpackChunkName: "component---src-pages-b-2-b-marketing-package-js" */),
   "component---src-pages-cold-js": () => import("../src/pages/cold.js" /* webpackChunkName: "component---src-pages-cold-js" */),
   "component---src-pages-custom-digital-sales-marketing-plan-js": () => import("../src/pages/custom-digital-sales-marketing-plan.js" /* webpackChunkName: "component---src-pages-custom-digital-sales-marketing-plan-js" */),

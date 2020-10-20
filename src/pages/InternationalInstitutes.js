@@ -14,7 +14,7 @@ const Home = (props) => {
              
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
-                alt={"Email Outreach email"}
+                altForBG={"Email Outreach email"}
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
@@ -56,7 +56,7 @@ const Home = (props) => {
                   <p>•Did not resort to Account-based marketing from the very beginning.</p>
 
                   <h2 style={{fontFamily:"Roboto" }}>Client outreach replies</h2>  
-                  <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.Img1.childImageSharp.fluid}/></div>
+                  <div className={styles.BlogimageContainer}><Img className={styles.image} alt={"Clients Outreach for leadgen"} fluid={props.data.Img1.childImageSharp.fluid}/></div>
 
                 </div>
               </div>

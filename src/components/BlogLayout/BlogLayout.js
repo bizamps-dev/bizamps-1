@@ -22,7 +22,7 @@ const BlogLayout = (props) => {
     return(
         
         <>
-                <BackgroundImage alt={props.alt} fluid={props.bg} className={styles.container1}>
+                <BackgroundImage alt={props.altForBG} fluid={props.bg} className={styles.container1}>
                     <Navbar logo={props.logo} 
                     color={props.color}/>
                 </BackgroundImage >

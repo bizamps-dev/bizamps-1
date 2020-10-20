@@ -1,0 +1,79 @@
+.container{
+    width: 100%;
+    margin-top: 0px;
+    height: 100vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+}
+.bgText{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content:right;
+    color: #FFFFFF;
+}
+.videoContainer{
+    width:100%;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.callContainer{
+    width:100%;
+    display: flex;
+    padding:3rem 3rem;
+    font-family: Roboto;
+    color: black;
+    flex-direction: column;
+}
+.button{
+    width: 200px;
+    height: 40px;
+    background: #2F80ED;
+    border-radius: 6px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-family: Roboto;
+    font-weight: 600;
+}
+.button:hover{
+    background: rgb(1, 28, 63);  
+    cursor: pointer;
+}
+.personContainer{
+    width: 100%;
+    padding:3rem;
+    background: rgb(237, 245, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person{
+    width:80%;
+    padding:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: -2px -2px 6px rgba(0, 0, 0, 0.1), 6px 6px 8px rgba(0, 0, 0, 0.06), 2px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px; 
+}
+p{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+.image{
+    width: 184px;
+    height: 184px; 
+}

@@ -17,6 +17,7 @@ exports.components = {
   "component---src-pages-indian-enterprise-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/IndianEnterprise.js"))),
   "component---src-pages-international-institutes-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/InternationalInstitutes.js"))),
   "component---src-pages-targeting-us-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/TargetingUS.js"))),
+  "component---src-pages-thank-you-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/ThankYou.js"))),
   "component---src-pages-b-2-b-marketing-package-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/b2b-marketing-package.js"))),
   "component---src-pages-cold-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/cold.js"))),
   "component---src-pages-custom-digital-sales-marketing-plan-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/custom-digital-sales-marketing-plan.js"))),

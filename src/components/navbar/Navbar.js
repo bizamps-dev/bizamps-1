@@ -52,6 +52,10 @@ const Navbar=(props)=>{
           name : '[Blog] Bofu Content',
           link : "/BlogBofu"
         },
+        {
+          name : 'Privacy Policy',
+          link : "/ThankYou"
+        },
       ]
     },
     {
@@ -103,7 +107,7 @@ const Navbar=(props)=>{
     <div className={styles.navContainer}>
 
       <div className={styles.navbar}>
-        <Link to="/"><Img fluid={props.logo} className={styles.logo} /> </Link>
+        <Link to="/"><Img fluid={props.logo} className={styles.logo} alt={"B2B Marketing agency"}/> </Link>
 
          <div className={styles.menu} onClick={handleClick}>
           <div className={styles.hamburger}>

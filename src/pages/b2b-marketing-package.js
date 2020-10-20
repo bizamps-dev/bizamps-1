@@ -84,7 +84,7 @@ const B2BMarketingPackagePage = (props) => {
           <SEO title="B2B Marketing Packages & Pricing Strategy| 90 Days Plan"
                description="We set up B2B outbound marketing systems that generate sales leads within 90 days or we work for free - see our automatic client acquisition setup."/>
           
-          <BackgroundImage fluid={props.data.bg2.childImageSharp.fluid} className={styles.container} >
+          <BackgroundImage alt={"Lead generation system"} fluid={props.data.bg2.childImageSharp.fluid} className={styles.container} >
                <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                     <div className={styles.headerContent}>
                         <h1 className={styles.headerTitle}>Transform your Marketing & LeadGen</h1>
@@ -93,7 +93,7 @@ const B2BMarketingPackagePage = (props) => {
                     </div>
           </BackgroundImage >
 
-          <BackgroundImage fluid={props.data.bg4.childImageSharp.fluid} className={styles.container2} >
+          <BackgroundImage alt={"Lead generation system"} fluid={props.data.bg4.childImageSharp.fluid} className={styles.container2} >
                <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                     <div className={styles.headerContent2}>
                         <h1 className={styles.headerTitle2}>Transform your Marketing & LeadGen</h1>
