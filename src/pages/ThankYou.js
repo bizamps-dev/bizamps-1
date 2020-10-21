@@ -21,8 +21,14 @@ const Thankyou = (props) =>{
                          <h1 style={{fontSize:"3rem"}}>Thank you - Your stuff is on its way!</h1>
                          <button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button>
                     </div>
+            </BackgroundImage >
 
-
+            <BackgroundImage fluid={props.data.MobBG.childImageSharp.fluid}  className={styles.mobContainer} >
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                    <div className={styles.bgTextMob}>
+                    <h1 style={{padding:"3rem 0rem 0rem 0rem"}}>Thank you - Your stuff is on its way!</h1>
+                    <button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button>
+                    </div>
             </BackgroundImage >
 
             <div className={styles.videoContainer}>
@@ -31,7 +37,6 @@ const Thankyou = (props) =>{
 
             <div className={styles.callContainer}>
                 <h2>Book a call with Akshat</h2>
-                {/* <button className={styles.button}>SEE TIME SLOTS</button> */}
                 <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.button}>SEE TIME SLOTS</button></a>
             </div>
 
@@ -68,6 +73,14 @@ export const IndexPageQuery = graphql`
       }
 
     BG: file(relativePath: { eq: "ThankyouBG.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+    }
+
+    MobBG: file(relativePath: { eq: "ThankyouMobBG.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

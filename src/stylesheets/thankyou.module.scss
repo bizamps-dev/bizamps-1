@@ -8,6 +8,24 @@
     justify-content: right;
     align-items: flex-end;
 }
+.mobContainer{
+    width: 100%;
+    margin-top: 0px;
+    height: 110vh;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    display: none; 
+}
+.bgTextMob{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
 .bgText{
     width:50%;
     display:flex;
@@ -17,7 +35,7 @@
 }
 .videoContainer{
     width:100%;
-    height:90vh;
+    padding:2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,4 +94,40 @@ p{
 .image{
     width: 184px;
     height: 184px; 
+}
+@media(max-width:1024px){
+    .container{
+        display: none;
+    }
+    .mobContainer{
+        display: block; 
+    }
+    .videoContainer{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        padding:1rem;
+    }
+    .callContainer{
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 0rem;
+    }
+    .personContainer{
+        padding:2rem 1rem;
+    }
+    .person{
+        width:90%;
+        padding:1rem;
+    }
+    p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .image{
+        width: 100px;
+        height: 100px; 
+    }
 }
