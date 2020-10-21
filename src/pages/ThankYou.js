@@ -42,12 +42,12 @@ const Thankyou = (props) =>{
 
             <div className={styles.personContainer}>
                 <div className={styles.person}>
-                    <p>"Akshat knows digital marketing, in and out. <br></br>It’s every worth your while to use BizAmps for your digital marketing initiatives. <br></br>Akshat holds an edge over others in delivering on performance marketing and SEO targets."</p>
+                    <p className={styles.pClass}>"Akshat knows digital marketing, in and out. <br></br>It’s every worth your while to use BizAmps for your digital marketing initiatives. <br></br>Akshat holds an edge over others in delivering on performance marketing and SEO targets."</p>
                     <div className={styles.image}>
                         <Img fluid={props.data.image.childImageSharp.fluid} />
                     </div>
-                    <p><b>Aishwarya Vardhan Chaturvedi</b></p>
-                    <p>Head of Business Development HR SaaS Company</p>
+                    <p className={styles.pClass}><b>Aishwarya Vardhan Chaturvedi</b></p>
+                    <p className={styles.pClass}>Head of Business Development HR SaaS Company</p>
                 </div>
             </div>
 
