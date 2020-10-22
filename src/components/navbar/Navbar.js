@@ -56,6 +56,10 @@ const Navbar=(props)=>{
           name : 'Privacy Policy',
           link : "/ThankYou"
         },
+        {
+          name : '“Don’t know what comes here”',
+          link : "/MarketingSystem"
+        },
       ]
     },
     {

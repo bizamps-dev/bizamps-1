@@ -17,6 +17,7 @@ const Home = (props) => {
                 logo={props.data.logo.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
+                DesktopText={props.data.text1.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
                 blog1={props.data.blog1.childImageSharp.fluid}
                 blog2={props.data.blog2.childImageSharp.fluid}
@@ -101,6 +102,14 @@ export const BlogLedgenQuery = graphql`
       }
 
     text: file(relativePath: { eq: "TargetingText.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    
+    text1: file(relativePath: { eq: "TargetingUsDesktopText.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

@@ -17,6 +17,7 @@ const Home = (props) => {
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
+                DesktopText={props.data.text1.childImageSharp.fluid}
                 blog1={props.data.blog1.childImageSharp.fluid}
                 blog2={props.data.blog2.childImageSharp.fluid}
                 blog3={props.data.blog3.childImageSharp.fluid}
@@ -104,6 +105,15 @@ export const BlogLedgenQuery = graphql`
           }
         }
       }
+
+    text1: file(relativePath: { eq: "crowdfundingDesktopText.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      
 
     founder: file(relativePath: { eq: "person.png" }) {
         childImageSharp {

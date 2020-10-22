@@ -25,6 +25,7 @@ const BlogLayout = (props) => {
                 <BackgroundImage alt={props.altForBG} fluid={props.bg} className={styles.container1}>
                     <Navbar logo={props.logo} 
                     color={props.color}/>
+                    {/* <Img fluid={props.DesktopText} className={styles.desktopText}/> */}
                 </BackgroundImage >
 
                 <BackgroundImage fluid={props.mobbg} className={styles.container2}>

@@ -20,6 +20,7 @@ exports.components = {
   "component---src-pages-custom-digital-sales-marketing-plan-js": () => import("../src/pages/custom-digital-sales-marketing-plan.js" /* webpackChunkName: "component---src-pages-custom-digital-sales-marketing-plan-js" */),
   "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js": () => import("../src/pages/i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them.js" /* webpackChunkName: "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js" */),
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-templet-js": () => import("../src/pages/templet.js" /* webpackChunkName: "component---src-pages-templet-js" */)
+  "component---src-pages-templet-js": () => import("../src/pages/templet.js" /* webpackChunkName: "component---src-pages-templet-js" */),
+  "component---src-pages-marketing-system-js": () => import("../src/pages/MarketingSystem.js" /* webpackChunkName: "component---src-pages-marketing-system-js" */)
 }
 
