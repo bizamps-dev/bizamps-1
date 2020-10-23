@@ -43,6 +43,7 @@ const BlogLayout = (props) => {
                     blog3={props.blog3}
                     blog4={props.blog4}
                     blog5={props.blog5}
+                    blog6={props.blog6}
                     />
                 </div> : 
                  <div className={styles.checkoutContainer}>
@@ -51,6 +52,7 @@ const BlogLayout = (props) => {
                  blog1={props.blog1}
                  blog2={props.blog2}
                  blog3={props.blog3}
+                 blog4={props.blog4}
                  />
                 </div>
             }

@@ -25,6 +25,7 @@ const Home = (props) => {
                 blog3={props.data.blog3.childImageSharp.fluid}
                 blog4={props.data.blog4.childImageSharp.fluid}
                 blog5={props.data.blog5.childImageSharp.fluid}
+                blog6={props.data.blog6.childImageSharp.fluid}
                 checkoutBlog={true}
              >
                  <div className={styles.blogContainer}>             
@@ -98,7 +99,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-    bg1: file(relativePath: { eq: "Blog100mailsbg.jpg" }) {
+    bg1: file(relativePath: { eq: "Blog100mailsbg.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
@@ -179,6 +180,14 @@ export const BlogLedgenQuery = graphql`
     }
 
     blog5: file(relativePath: { eq: "Blog5.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    blog6: file(relativePath: { eq: "Blog6.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

@@ -45,7 +45,7 @@ const Navbar=(props)=>{
           link : "/Blog100Mails"
         },
         {
-          name : '[Blog] After Starting a Sales Agencyt',
+          name : '[Blog] After Starting a Sales Agency',
           link : "/BlogSalesAgency"
         },
         {

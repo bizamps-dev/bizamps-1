@@ -35,9 +35,9 @@ const Checkout = (props) => {
             link:"/BlogBofu"
         },
         {
-            image:props.blog1,
-            title:"[BLOG] ‘Value’ in Sales?",
-            link:"/BlogValueInSales"
+            image:props.blog6,
+            title:"[BLOG] Expectations for Outsourcing Leadgen?",
+            link:"/BlogExpectionsOfOutsourcing"
         },
 
     ]
@@ -98,6 +98,24 @@ export const CheckoutCS = (props) => {
             link:"/TargetingUS"
         }
     ]
+    const contentRightCS =[
+        {
+            image:props.blog4,
+            title:"Targeting Senior HRs of Top Indian companies",
+            link:"/IndianEnterprise"
+        },
+        {
+            image:{},
+            title:"",
+            link:""
+        },
+        {
+            image:{},
+            title:"",
+            link:""
+        },
+        
+    ]
 
    
 
@@ -106,6 +124,20 @@ export const CheckoutCS = (props) => {
              <div className={styles.checkoutContent}>
             {
              contentLeftCS.map((item,index)=>{
+                return (
+                   
+                    <div key={index} className={styles.checkoutGroup}>
+                        <Img className={styles.checkoutImage} fluid= {item.image}/>
+                        <div className={styles.checkoutText}><a href={item.link}>{item.title}</a> </div>
+                    </div>
+                    
+                    )
+                 })
+            }
+        </div>
+        <div className={styles.checkoutContent}>
+            {
+             contentRightCS.map((item,index)=>{
                 return (
                    
                     <div key={index} className={styles.checkoutGroup}>

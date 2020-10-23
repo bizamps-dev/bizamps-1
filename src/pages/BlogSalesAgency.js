@@ -25,6 +25,7 @@ const Home = (props) => {
                 blog3={props.data.blog3.childImageSharp.fluid}
                 blog4={props.data.blog4.childImageSharp.fluid}
                 blog5={props.data.blog5.childImageSharp.fluid}
+                blog6={props.data.blog6.childImageSharp.fluid}
                 color={"black"}
                 checkoutBlog={true}
              >
@@ -79,7 +80,7 @@ const Home = (props) => {
                   <p>One word subject lines like ‘ leads’, ‘BizAmps’, and so on, using “Hey XYZ” instead of “Hi XYZ” are some of the latest tricks that increase response rate by 10-12% provided your initial response rate is over 0%.</p> 
                   <p>One important thing to note here is to not be misleading in any way. Misleading reduces the credibility of your future emails. </p>
 
-                  <p style={{fontFamily:"Roboto",fontSize:"2rem" }}>FUN FACTS ABOUT COLD EMAILS: </p>
+                  <p style={{fontFamily:"Roboto",fontSize:"2rem",fontWeight:"600" }}>FUN FACTS ABOUT COLD EMAILS: </p>
                   <p>· 35% of recipients open emails based on the subject line alone.</p> 
                   <p>· Email personalization can increase your reply rate by 100%.</p>
 
@@ -91,7 +92,7 @@ const Home = (props) => {
                   <p>Lastly, know your limits. Don’t sound too sales-y. Refrain from spamming people with irrelevant information.</p>
                   <p>The biggest mistake a marketer can make is underestimate the potential of LinkedIn.</p>
 
-                  <p style={{fontFamily:"Roboto",fontSize:"2rem" }}>FUN FACT ABOUT LINKED:</p>
+                  <p style={{fontFamily:"Roboto",fontSize:"2rem",fontWeight:"600" }}>FUN FACT ABOUT LINKED:</p>
                   <p> · 57% of LinkedIn users are men, and 43% are women.</p> 
                   <p>· 61% of LinkedIn’s users are between 25 and 34 years old</p>
 
@@ -101,7 +102,7 @@ const Home = (props) => {
                   <p>You can also write down new hooks and use it as a script.</p>
                   <p>However, calling has its own limitations.</p>
 
-                  <p style={{fontFamily:"Roboto",fontSize:"2rem" }}>FUN FACTS ABOUT COLD CALLING:</p>
+                  <p style={{fontFamily:"Roboto",fontSize:"2rem",fontWeight:"600"}}>FUN FACTS ABOUT COLD CALLING:</p>
                   <p>· The best time to make a cold call is in the afternoon between 4:00-5:00pm. The second best time is 8:00-10:00am.</p>
                   <p>· The first 10 seconds determine the response to your cold call. Make those 10 seconds count.</p> 
                   <br></br>
@@ -149,15 +150,15 @@ export default Home;
 export const BlogLedgenQuery = graphql`
   query {
 
-    logo: file(relativePath: { eq: "bizampsLogo.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
-          }
+    logo: file(relativePath: { eq: "LogoPurple.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
         }
       }
+    }
 
-    bg1: file(relativePath: { eq: "BlogsalesAgency.jpg" }) {
+    bg1: file(relativePath: { eq: "BlogsalesAgency.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
@@ -222,6 +223,14 @@ export const BlogLedgenQuery = graphql`
       }
 
       blog5: file(relativePath: { eq: "Blog5.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      blog6: file(relativePath: { eq: "Blog6.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

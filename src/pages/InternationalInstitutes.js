@@ -18,10 +18,10 @@ const Home = (props) => {
                 bg={props.data.bg1.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
-                DesktopText={props.data.text1.childImageSharp.fluid}
                 blog1={props.data.blog1.childImageSharp.fluid}
                 blog2={props.data.blog2.childImageSharp.fluid}
                 blog3={props.data.blog3.childImageSharp.fluid}
+                blog4={props.data.blog4.childImageSharp.fluid}
                 founder={props.data.founder.childImageSharp.fluid}
                 current={'International Institutes'}
              >
@@ -82,7 +82,7 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
-      bg1: file(relativePath: { eq: "InternationalInstituteBG.jpg" }) {
+    bg1: file(relativePath: { eq: "InternationalInstituteBG.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -99,14 +99,6 @@ export const BlogLedgenQuery = graphql`
       }
 
     text: file(relativePath: { eq: "InternationalInstitutesText.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1000) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-
-    text1: file(relativePath: { eq: "InternationalDesktopText.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -147,6 +139,14 @@ export const BlogLedgenQuery = graphql`
       }
 
       blog3: file(relativePath: { eq: "CS3.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      blog4: file(relativePath: { eq: "CS4.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
