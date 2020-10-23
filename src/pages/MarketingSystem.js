@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 
 
 import Navbar from "../components/navbar/Navbar";
-import styles from '../stylesheets/thankyou.module.scss';
+import styles from '../stylesheets/marketingSales.module.scss';
 import Location from "../components/Location/Location";
 import Footer from '../components/Footer/footer'
 
@@ -24,6 +24,12 @@ const Marketing= (props) =>{
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                     <Img fluid={props.data.MobBGText.childImageSharp.fluid} className={styles.blogMobText}/>
             </BackgroundImage >
+
+            <div className={styles.leadPredictionContainer}>
+                    <h1>What you actually build:</h1>
+                    <h2>Automated Email System until your prospects respond</h2>
+
+            </div>
 
            
 
