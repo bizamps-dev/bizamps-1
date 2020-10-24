@@ -169,7 +169,15 @@ const Marketing= (props) =>{
                   </div>  
               </div>
               <button className={styles.button} style={{background: '#001735'}}>MARKETING PLAN BUT WHY?</button>
-          </div>
+            </div>
+
+            <div className={styles.four0Container}>
+                <h1 style={{marginBottom:"0rem"}}>We are not for you, if...</h1>
+                <p className={styles.pClass}><b>No Goal: You don’t have a goal in mind before engaging us
+                No Sales Process: You don’t have sales process!</b></p>
+                <Img className={styles.four0Img} fluid={props.data.four0four.childImageSharp.fluid} />
+            </div>
+          
 
             <div className={styles.weAreContent}>
               <div className={styles.weAreHeading}>At BizAmps, We are..</div>
@@ -378,6 +386,13 @@ export const IndexPageQuery = graphql`
     }
   }
   project1: file(relativePath: { eq: "project1.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  four0four: file(relativePath: { eq: "four0four.png" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid

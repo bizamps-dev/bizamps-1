@@ -377,8 +377,22 @@
     cursor: pointer;
     color:white;
 }
-
-
+//--------------------------
+//404-----------------------
+//--------------------------
+.four0Container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(208, 223, 243);
+    padding:2rem;
+}
+.four0Img{
+    width:40%;
+    margin:3rem 0rem;
+}
 
 
 .videoContainer{
