@@ -306,6 +306,9 @@
 //-------------------------
 //TEAM---------------------
 //-------------------------
+.teamMobContainer{
+    display:none;
+}
 .teamContainer{
     width:100%;
     display:flex;
@@ -394,7 +397,9 @@
     margin:3rem 0rem;
 }
 
-
+//----------------------
+//VIDEO-----------------
+//----------------------
 .videoContainer{
     width:100%;
     padding:2rem;
@@ -403,6 +408,9 @@
     align-items: center;
     background-color: black;
 }
+//----------------------------
+//CALL CONTAINER--------------
+//----------------------------
 .callContainer{
     width:100%;
     display: flex;
@@ -429,6 +437,9 @@
     background: rgb(1, 28, 63);  
     cursor: pointer;
 }
+//-----------------------------
+//PERSON CONTAINER-------------
+//-----------------------------
 .personContainer{
     width: 100%;
     padding:3rem;
@@ -465,7 +476,93 @@
     }
     .mobContainer{
         display: block; 
+        height:230vh;
     }
+//-----------------------------
+    .leadPredictionContainer{
+        text-align: center;
+    }
+//-----------------------------
+    .Container1{
+        padding:2rem 1rem; 
+    }
+    .pricingAlign{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+//-----------------------------    
+    .insiderContainer{
+       text-align: left;
+    }
+    .peekAlign{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .peekContent{
+        width:100%;
+    }
+    .step{
+        width:25%;
+    }
+//-----------------------------
+    .problemContainer{
+        margin: 2rem 0rem;
+        padding:1rem;
+    }
+    .problemContainer1{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .problemContent{
+        width:80%;
+        margin: 1rem;
+    }
+//-----------------------------
+    .weAreHeading{
+        margin-bottom: 2rem;
+    }
+    .weAreCards{
+        align-items: center;
+        flex-direction: column;
+    }
+//-----------------------------
+.teamContainer{
+    display: none;
+}
+.teamMobContainer{
+    display:block;
+    width:100%;
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder{
+    background: #FFFFFF;
+    padding: 3rem 1rem;
+    flex:none;
+    width: 80%;
+    border-radius: 5.37662px;
+    box-shadow: -2px -2px 6px rgba(0, 0, 0, 0.2), 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+.founderImg{
+    width:250px;
+    height:250px;
+    margin: 2rem 0rem;
+}
+.teamButton{
+    margin-top: 1rem;
+    background: #2F80ED;
+    color: #ffffff;
+}
+.teamButton:hover{
+    background: rgb(13, 79, 165);  
+}
+
+//------------------------------
     .blogDesktopText{
         width:30%;
         margin-right:1rem;
@@ -491,8 +588,8 @@
         padding:1rem;
     }
     .pClass{
-        font-size: 0.8rem;
-        line-height: 1rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
     }
     .image{
         width: 100px;

@@ -41,7 +41,7 @@ const Marketing= (props) =>{
                     <div className={styles.end}></div>
             </div>
 
-            <div className={styles.Container1}>
+             <div className={styles.Container1}>
                     <h1>Pricing</h1>
                     <div className={styles.pricingAlign}>
                         <div className={styles.pricingchild1}>
@@ -96,7 +96,7 @@ const Marketing= (props) =>{
                     <div className={styles.peekAlign}>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 1:</div>
-                            <div style={{width:"100%",height:"10vh",margin:"1rem 0rem"}}>
+                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
                               <h2 className={styles.peekText}>Automate qualified prospect generation</h2>
                             </div>  
                             <div className={styles.peekImg}>
@@ -105,7 +105,7 @@ const Marketing= (props) =>{
                         </div>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 3:</div>
-                            <div style={{width:"100%",height:"10vh",margin:"1rem 0rem"}}>
+                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
                               <h2 className={styles.peekText}>We build Offer/Product & Trust Pages for you</h2>
                             </div>
                             <div className={styles.peekImg}>
@@ -116,19 +116,19 @@ const Marketing= (props) =>{
                     <div className={styles.peekAlign}>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 7:</div>
-                            <div style={{width:"80%",height:"10vh",margin:"1rem 0rem"}}>
+                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
                               <h2 className={styles.peekText}>Set & Forget Sales Email Automation for Nurturing Cold Leads</h2>
                             </div>  
-                            <div style={{width:"90%"}}>
+                            <div >
                                 <Img fluid={props.data.peek3.childImageSharp.fluid} />
                             </div>
                         </div>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 8:</div>
-                            <div style={{width:"80%",height:"10vh",margin:"1rem 0rem"}}>
+                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
                               <h2 className={styles.peekText}>Imagine automated follow-up across the internet</h2>
                             </div>
-                            <div style={{width:"90%"}}>
+                            <div>
                                 <Img fluid={props.data.peek4.childImageSharp.fluid} />
                             </div>
                         </div>
@@ -161,11 +161,11 @@ const Marketing= (props) =>{
               <div className={styles.problemContainer1}>
                   <div className={styles.problemContent}>
                       <Img className={styles.pricingImg} fluid={props.data.project.childImageSharp.fluid} />
-                      <p className={styles.pClass}>Project Title</p>
+                      <p className={styles.pClass}><b>Project Title</b></p>
                   </div>
                   <div className={styles.problemContent}>
                       <Img className={styles.pricingImg} fluid={props.data.project1.childImageSharp.fluid} />
-                      <p className={styles.pClass}> User Flow- Cold to Client</p>
+                      <p className={styles.pClass}> <b>User Flow- Cold to Client</b></p>
                   </div>  
               </div>
               <button className={styles.button} style={{background: '#001735'}}>MARKETING PLAN BUT WHY?</button>
@@ -173,13 +173,13 @@ const Marketing= (props) =>{
 
             <div className={styles.four0Container}>
                 <h1 style={{marginBottom:"0rem"}}>We are not for you, if...</h1>
-                <p className={styles.pClass}><b>No Goal: You don’t have a goal in mind before engaging us
+                <p className={styles.pClass}><b>No Goal: You don’t have a goal in mind before engaging us<br></br>
                 No Sales Process: You don’t have sales process!</b></p>
                 <Img className={styles.four0Img} fluid={props.data.four0four.childImageSharp.fluid} />
             </div>
           
 
-            <div className={styles.weAreContent}>
+           <div className={styles.weAreContent}>
               <div className={styles.weAreHeading}>At BizAmps, We are..</div>
               <div className={styles.weAreCards}>
               <WeAreCard icon={LeadIcon} iconMob={LeadIconMob} title="Lead Generation Experts" subtitle="No generalists here" />
@@ -190,16 +190,16 @@ const Marketing= (props) =>{
              <div className={styles.end}></div>
           </div>
 
-          <div className={styles.problemContainer}>
+           <div className={styles.problemContainer}>
               <h1>What your Sales-Marketing team actually thinks</h1>
               <div className={styles.problemContainer1}>
                   <div className={styles.problemContent}>
                       <Img className={styles.pricingImg} fluid={props.data.problem1.childImageSharp.fluid} />
-                      <p className={styles.pClass}> #ProblemsWeSolve</p>
+                      <p className={styles.pClass}><b>#ProblemsWeSolve</b></p>
                   </div>
                   <div className={styles.problemContent}>
                       <Img className={styles.pricingImg} fluid={props.data.problem2.childImageSharp.fluid} />
-                      <p className={styles.pClass}> #ProblemsWeSolve</p>
+                      <p className={styles.pClass}> <b>#ProblemsWeSolve</b></p>
                   </div>
               </div>
           </div>
@@ -219,7 +219,19 @@ const Marketing= (props) =>{
                     Doubled inbound prospects within 15 days of already successfully running marketing campaigns.
                 </h3>
                 <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.teamButton}>SCHEDULE A CALL</button></a>
+            </div>
+          </div>
 
+          <div className={styles.teamMobContainer}>
+            <div className={styles.founder}>
+               <Img className={styles.founderImg} fluid={props.data.akshat.childImageSharp.fluid}  />
+               <h2>Hi, I’m Akshat</h2>
+                <p className={styles.pClass} style={{fontSize:"1.3rem",lineHeight:"1.6rem"}}>I have helped multiple businesses get clients in a systemic fashion.
+                    Build them lead generations machines.
+                    Managed more than $1 million of adspend.
+                    Doubled inbound prospects within 15 days of already successfully running marketing campaigns.
+                </p>
+                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.teamButton}>SCHEDULE A CALL</button></a>
             </div>
           </div>
 
@@ -240,7 +252,7 @@ const Marketing= (props) =>{
 
           <Location first="Home" second="Expertise" third="Privacy Policy" />
 
-          <Footer />   
+          <Footer />    
 
         </>
     )
