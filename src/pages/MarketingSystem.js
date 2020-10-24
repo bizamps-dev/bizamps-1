@@ -6,6 +6,12 @@ import Img from 'gatsby-image'
 
 import Navbar from "../components/navbar/Navbar";
 import styles from '../stylesheets/marketingSales.module.scss';
+import WeAreCard from "../components/B2BMarketingPage/WeAreCard";
+import LeadIcon from "../assets/B2BMarketingPackages/LeadIcon";
+import LeadIconMob from "../assets/B2BMarketingPackages/LeadIconMob";
+import RevenueIcon from "../assets/B2BMarketingPackages/RevenueIcon";
+import RevenueIconMob from "../assets/B2BMarketingPackages/RevenueIconMob"
+import Testimonial from "../components/Testimonial/Testimonial"
 import Location from "../components/Location/Location";
 import Footer from '../components/Footer/footer'
 
@@ -136,17 +142,9 @@ const Marketing= (props) =>{
                                 <Img fluid={props.data.peek5.childImageSharp.fluid} />
                             </div>
                         </div>
-                   
                 </div>
             </div>
-
            
-
-            <div className={styles.callContainer}>
-                <h2>Book a call with Akshat</h2>
-                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.button}>SEE TIME SLOTS</button></a>
-            </div>
-
             <div className={styles.personContainer}>
                 <div className={styles.person}>
                     <p className={styles.pClass}>"Akshat knows digital marketing, in and out. <br></br>It’s every worth your while to use BizAmps for your digital marketing initiatives. <br></br>Akshat holds an edge over others in delivering on performance marketing and SEO targets."</p>
@@ -158,13 +156,84 @@ const Marketing= (props) =>{
                 </div>
             </div>
 
-            <div className={styles.videoContainer}>
-                   <iframe width="800" height="450" src="https://www.youtube.com/embed/0qMZFoqsBC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className={styles.problemContainer}>
+              <h1>Custom 10-Step Marketing Plan</h1>
+              <div className={styles.problemContainer1}>
+                  <div className={styles.problemContent}>
+                      <Img className={styles.pricingImg} fluid={props.data.project.childImageSharp.fluid} />
+                      <p className={styles.pClass}>Project Title</p>
+                  </div>
+                  <div className={styles.problemContent}>
+                      <Img className={styles.pricingImg} fluid={props.data.project1.childImageSharp.fluid} />
+                      <p className={styles.pClass}> User Flow- Cold to Client</p>
+                  </div>  
+              </div>
+              <button className={styles.button} style={{background: '#001735'}}>MARKETING PLAN BUT WHY?</button>
+          </div>
+
+            <div className={styles.weAreContent}>
+              <div className={styles.weAreHeading}>At BizAmps, We are..</div>
+              <div className={styles.weAreCards}>
+              <WeAreCard icon={LeadIcon} iconMob={LeadIconMob} title="Lead Generation Experts" subtitle="No generalists here" />
+              <WeAreCard icon={RevenueIcon} iconMob={RevenueIconMob} title="Revenue Focused" subtitle="Growing your top-line" caption="Setting systems for life" />
+              </div>
+             <p className={styles.pClass}><b>Remember the fear, stress, panic</b></p>
+             <p className={styles.pClass}>because of no NEW revenue and old revenue stream may stop one day?</p>
+             <div className={styles.end}></div>
+          </div>
+
+          <div className={styles.problemContainer}>
+              <h1>What your Sales-Marketing team actually thinks</h1>
+              <div className={styles.problemContainer1}>
+                  <div className={styles.problemContent}>
+                      <Img className={styles.pricingImg} fluid={props.data.problem1.childImageSharp.fluid} />
+                      <p className={styles.pClass}> #ProblemsWeSolve</p>
+                  </div>
+                  <div className={styles.problemContent}>
+                      <Img className={styles.pricingImg} fluid={props.data.problem2.childImageSharp.fluid} />
+                      <p className={styles.pClass}> #ProblemsWeSolve</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div className={styles.teamContainer}>
+            <div className={styles.founder}>
+              <Img className={styles.founderImg} fluid={props.data.akshat.childImageSharp.fluid}  />
+              <div className={styles.name}>Akshat Kharbanda</div>
+              <div className={styles.designation}>Marketing Tactician</div>
+              <div className={styles.designation}>For Phone Call: 9717019667 Location: NCR (Delhi, Gurgaon, Noida)</div>
             </div>
+            <div className={styles.team}>
+                <h2>Hi, I’m Akshat</h2>
+                <h3>I have helped multiple businesses get clients in a systemic fashion.
+                    Build them lead generations machines.
+                    Managed more than $1 million of adspend.
+                    Doubled inbound prospects within 15 days of already successfully running marketing campaigns.
+                </h3>
+                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.teamButton}>SCHEDULE A CALL</button></a>
 
-            <Location first="Home" second="Expertise" third="Privacy Policy" />
+            </div>
+          </div>
 
-            <Footer />
+
+          <div>
+            <Testimonial conor={props.data.conor.childImageSharp.fluid} gautam={props.data.gautam.childImageSharp.fluid} />
+          </div>
+
+          <div className={styles.callContainer}>
+                <h2 style={{marginBottom:"0rem"}}>BUSINESS AMPLIFIER™ - Bundled All Incl. Service</h2>
+                <p className={styles.pClass}>Asia's First & Only 'Highly Automated Sales-Marketing Funnel' Done-For-You Setup</p>
+                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.button}>GET INSTANT PROPOSAL & PRICING</button></a>
+          </div>
+
+          <div className={styles.videoContainer}>
+                 <iframe width="800" height="450" src="https://www.youtube.com/embed/0qMZFoqsBC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
+          <Location first="Home" second="Expertise" third="Privacy Policy" />
+
+          <Footer />   
+
         </>
     )
 
@@ -259,6 +328,56 @@ export const IndexPageQuery = graphql`
     }
   }
   peek5: file(relativePath: { eq: "peek5.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  conor: file(relativePath: { eq: "conor.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+
+  gautam: file(relativePath: { eq: "gautam.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  akshat: file(relativePath: { eq: "akshat.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  problem1: file(relativePath: { eq: "problem1.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  problem2: file(relativePath: { eq: "problem2.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  project: file(relativePath: { eq: "project.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  project1: file(relativePath: { eq: "project1.png" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
