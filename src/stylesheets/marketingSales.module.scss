@@ -88,7 +88,7 @@
     margin-bottom: 2rem;
 }
 .pricingchild1{
-    width:30rem;
+    width:60%;
     display:flex;
     align-items: center;
     flex-direction: column;
@@ -177,6 +177,11 @@
     align-items: left;
     flex-direction: column;
     margin: 0rem;
+}
+.peekItem{
+    width:600px;
+    height:10vh;
+    margin:1rem 0rem;
 }
 .step{
     width:18%;
@@ -476,7 +481,7 @@
     }
     .mobContainer{
         display: block; 
-        height:230vh;
+        height:110vh;
     }
 //-----------------------------
     .leadPredictionContainer{
@@ -489,6 +494,11 @@
     .pricingAlign{
         flex-direction: column;
         margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricingchild1{
+        width:80%;
     }
 //-----------------------------    
     .insiderContainer{
@@ -561,7 +571,6 @@
 .teamButton:hover{
     background: rgb(13, 79, 165);  
 }
-
 //------------------------------
     .blogDesktopText{
         width:30%;
@@ -595,4 +604,58 @@
         width: 100px;
         height: 100px; 
     }
+}
+@media(max-width:530px){
+    .mobContainer{
+        height:110vh;
+    }
+//-----------------------------
+    .end{
+        width:90%;
+    }
+    .pClass{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+//-----------------------------
+    .pricingchild1{
+        width:100%;
+    }
+//-----------------------------
+.insiderContainer{
+    width:100%;
+}
+//-----------------------------
+.peekItem{
+    width:300px;
+}
+//-----------------------------
+.problemContent{
+    margin:1rem 0rem;
+}
+.problemContainer1{
+    padding:0rem
+}
+.button{
+    width: 300px;
+}
+//-----------------------------
+.founderImg{
+    width:150px;
+    height:150px;
+}
+.teamButton{
+    width:200px;
+}
+.founder{
+    width: 100%;
+}
+//------------------------------
+.weAreContent{
+    padding:1rem;
+}
+//------------------------------
+.callContainer{
+   padding: 1rem;
+}
 }

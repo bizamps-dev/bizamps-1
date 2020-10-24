@@ -90,13 +90,13 @@ const Marketing= (props) =>{
             </div>
 
             <div className={styles.insiderContainer}>
-                <h1>How we actually build it:</h1>
-                <h2>#InsidePeak</h2>
+                <h1 style={{margin:"1rem"}}>How we actually build it:</h1>
+                <h2>#InsidePeek</h2>
                 <div className={styles.peekContainer}>
                     <div className={styles.peekAlign}>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 1:</div>
-                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
+                            <div className={styles.peekItem}>
                               <h2 className={styles.peekText}>Automate qualified prospect generation</h2>
                             </div>  
                             <div className={styles.peekImg}>
@@ -105,7 +105,7 @@ const Marketing= (props) =>{
                         </div>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 3:</div>
-                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
+                            <div className={styles.peekItem}>
                               <h2 className={styles.peekText}>We build Offer/Product & Trust Pages for you</h2>
                             </div>
                             <div className={styles.peekImg}>
@@ -116,7 +116,7 @@ const Marketing= (props) =>{
                     <div className={styles.peekAlign}>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 7:</div>
-                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
+                            <div className={styles.peekItem}>
                               <h2 className={styles.peekText}>Set & Forget Sales Email Automation for Nurturing Cold Leads</h2>
                             </div>  
                             <div >
@@ -125,7 +125,7 @@ const Marketing= (props) =>{
                         </div>
                         <div className={styles.peekContent}>
                             <div className={styles.step}>Step 8:</div>
-                            <div style={{width:"600px",height:"10vh",margin:"1rem 0rem"}}>
+                            <div className={styles.peekItem}>
                               <h2 className={styles.peekText}>Imagine automated follow-up across the internet</h2>
                             </div>
                             <div>
@@ -145,7 +145,7 @@ const Marketing= (props) =>{
                 </div>
             </div>
            
-            <div className={styles.personContainer}>
+             <div className={styles.personContainer}>
                 <div className={styles.person}>
                     <p className={styles.pClass}>"Akshat knows digital marketing, in and out. <br></br>It’s every worth your while to use BizAmps for your digital marketing initiatives. <br></br>Akshat holds an edge over others in delivering on performance marketing and SEO targets."</p>
                     <div className={styles.image}>
@@ -252,7 +252,7 @@ const Marketing= (props) =>{
 
           <Location first="Home" second="Expertise" third="Privacy Policy" />
 
-          <Footer />    
+          <Footer />     
 
         </>
     )
