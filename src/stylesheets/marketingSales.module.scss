@@ -74,7 +74,7 @@
 //------------------------------
 //PRICING-----------------------
 //------------------------------
-.pricingContainer{
+.Container1{
     width:100%;
     display: flex;
     justify-content: center;
@@ -85,6 +85,7 @@
 .pricingAlign{
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 .pricingchild1{
     width:30rem;
@@ -96,6 +97,14 @@
     box-shadow: -1px 0px 6px rgba(0, 0, 0, 0.1), 1px 1px 6px rgba(0, 0, 0, 0.08), 2px 2px 3px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     margin:1rem;
+}
+.pricingchild1:hover{
+    background: #232323;
+    color: #FFFFFF;
+    
+    .pricingClass {color: #ffffff};
+    .pricingSubtitle{ color:#ffffff};
+    
 }
 .child1Heading{
     width:80%;
@@ -120,7 +129,6 @@
     font-size: 1.5rem;
     line-height: 1.8rem;
     text-decoration-line: underline;
-    color: #000000;
 }
 .pricingClass{
     text-align: left;
@@ -140,6 +148,64 @@
     color:#ffffff;
     margin: 1rem 0rem;
 }
+//----------------------
+//INSIDE PEAK-----------
+//----------------------
+.insiderContainer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.peekContainer{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #2566BA;
+    flex-direction: column;
+}
+.peekAlign{
+    display: flex
+}
+.peekContent{
+    width:50%;
+    padding:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 0rem;
+}
+.step{
+    width:18%;
+    padding:0.5rem;
+    margin:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    border-radius: 8px;
+}
+.peekText{
+    color:#FFFFFF;
+    font-family: Roboto;
+}
+.peekImg{
+    width:100%;
+}
+
+
+
+
+
+
 .videoContainer{
     width:100%;
     padding:2rem;

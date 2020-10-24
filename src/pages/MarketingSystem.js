@@ -35,7 +35,7 @@ const Marketing= (props) =>{
                     <div className={styles.end}></div>
             </div>
 
-            <div className={styles.pricingContainer}>
+            <div className={styles.Container1}>
                     <h1>Pricing</h1>
                     <div className={styles.pricingAlign}>
                         <div className={styles.pricingchild1}>
@@ -75,11 +75,69 @@ const Marketing= (props) =>{
                             <p className={styles.pricingClass}>PS: It’s less than 7 Lakh for complete (all incl.)</p>
                             <p className={styles.pricingClass}><b>Video has everything you need to know</b></p>
                             <div className={styles.pricingFooter}>
-                            <h4 style={{margin:"1rem"}}><b>VIEW EXACT PRICE WITH INSTANT PROPOSAL</b></h4>
+                              <h4 style={{margin:"1rem"}}><b>VIEW EXACT PRICE WITH INSTANT PROPOSAL</b></h4>
                             </div>
                           </div>
                         </div>
                     </div>
+                    <div className={styles.end}></div>
+            </div>
+
+            <div className={styles.insiderContainer}>
+                <h1>How we actually build it:</h1>
+                <h2>#InsidePeak</h2>
+                <div className={styles.peekContainer}>
+                    <div className={styles.peekAlign}>
+                        <div className={styles.peekContent}>
+                            <div className={styles.step}>Step 1:</div>
+                            <div style={{width:"100%",height:"10vh",margin:"1rem 0rem"}}>
+                              <h2 className={styles.peekText}>Automate qualified prospect generation</h2>
+                            </div>  
+                            <div className={styles.peekImg}>
+                                <Img fluid={props.data.peek1.childImageSharp.fluid} />
+                            </div>
+                        </div>
+                        <div className={styles.peekContent}>
+                            <div className={styles.step}>Step 3:</div>
+                            <div style={{width:"100%",height:"10vh",margin:"1rem 0rem"}}>
+                              <h2 className={styles.peekText}>We build Offer/Product & Trust Pages for you</h2>
+                            </div>
+                            <div className={styles.peekImg}>
+                                <Img fluid={props.data.peek2.childImageSharp.fluid} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.peekAlign}>
+                        <div className={styles.peekContent}>
+                            <div className={styles.step}>Step 7:</div>
+                            <div style={{width:"80%",height:"10vh",margin:"1rem 0rem"}}>
+                              <h2 className={styles.peekText}>Set & Forget Sales Email Automation for Nurturing Cold Leads</h2>
+                            </div>  
+                            <div style={{width:"90%"}}>
+                                <Img fluid={props.data.peek3.childImageSharp.fluid} />
+                            </div>
+                        </div>
+                        <div className={styles.peekContent}>
+                            <div className={styles.step}>Step 8:</div>
+                            <div style={{width:"80%",height:"10vh",margin:"1rem 0rem"}}>
+                              <h2 className={styles.peekText}>Imagine automated follow-up across the internet</h2>
+                            </div>
+                            <div style={{width:"90%"}}>
+                                <Img fluid={props.data.peek4.childImageSharp.fluid} />
+                            </div>
+                        </div>
+                    </div>
+                   
+                        <div className={styles.peekContent}>
+                            <div className={styles.step}>Step 10:</div>
+                            <h2 className={styles.peekText}>Step 10: Lead got Hot! Got Notified?</h2>
+                            <h3 className={styles.peekText}> #InsidePeak #BizAmpsExclusive #FreeForever</h3>
+                            <div className={styles.peekImg}>
+                                <Img fluid={props.data.peek5.childImageSharp.fluid} />
+                            </div>
+                        </div>
+                   
+                </div>
             </div>
 
            
@@ -171,5 +229,40 @@ export const IndexPageQuery = graphql`
           ...GatsbyImageSharpFluid
         }
       }
+  }
+    peek1: file(relativePath: { eq: "peek1.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  peek2: file(relativePath: { eq: "peek2.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  peek3: file(relativePath: { eq: "peek3.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  peek4: file(relativePath: { eq: "peek4.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  peek5: file(relativePath: { eq: "peek5.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid
+      }
+    }
   }
 }`
