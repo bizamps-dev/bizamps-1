@@ -28,7 +28,58 @@ const Marketing= (props) =>{
             <div className={styles.leadPredictionContainer}>
                     <h1>What you actually build:</h1>
                     <h2>Automated Email System until your prospects respond</h2>
+                    <div className={styles.leadImage}>
+                        <Img fluid={props.data.leadPrediction.childImageSharp.fluid} />
+                    </div>
+                    <p className={styles.pricingClass}>Flow's Purpose - Cold Lead to Warm Prospects</p>
+                    <div className={styles.end}></div>
+            </div>
 
+            <div className={styles.pricingContainer}>
+                    <h1>Pricing</h1>
+                    <div className={styles.pricingAlign}>
+                        <div className={styles.pricingchild1}>
+                          <div className={styles.child1Heading}>
+                            <h2 style={{margin:"1rem"}}>Building In-House Team</h2>
+                          </div>
+                          <div className={styles.child1Content}>
+                            <p className={styles.pricingSubtitle}>Calculate Yourself?</p>
+                            <p className={styles.pricingClass}>Marketing Expert – 75K/month</p>
+                            <p className={styles.pricingClass}>Prospector (Junior) – 15K/month</p>
+                            <p className={styles.pricingClass}>Web Developer – 40K/month</p>
+                            <p className={styles.pricingClass}>Content Writer (Freelance) – 25K</p>
+                            <p className={styles.pricingClass}>Tool Cost – Unknown.</p>
+                            <p className={styles.pricingClass}>Timeline – Uncertain</p>
+                            <p className={styles.pricingClass}>Strategy? – Maybe</p>
+                            <p className={styles.pricingClass}>Good Results? – Maybe</p>
+                          </div>
+                        </div>
+
+                        <div className={styles.pricingchild1}>
+                          <div className={styles.child1Heading}>
+                            <h3 style={{margin:"1rem"}}>Business Amplifier™ - Client Acquisition Automation</h3>
+                          </div>
+                          <p className={styles.pricingClass}>BizAmps Agency</p>
+                          <div className={styles.child1Content}>
+                            <p className={styles.pricingSubtitle}>Flat Price</p>
+                            <p className={styles.pricingClass}>Marketing Strategist & Plan</p>
+                            <p className={styles.pricingClass}>B2B Lead Prospector (Junior)</p>
+                            <p className={styles.pricingClass}>WordPress Web Developer</p>
+                            <p className={styles.pricingClass}>Copywriter</p>
+                            <p className={styles.pricingClass}>No Hidden Tools Cost/Fees</p>
+                            <p className={styles.pricingClass}>6 Months & Done</p>
+                            <p className={styles.pricingClass}>Proven Marketing Strategy</p>
+                            <p className={styles.pricingClass}>Automation Setup Done-For-You</p>
+                            <p className={styles.pricingClass}>Analytics – Lead’s activity,Session Recording</p>
+                            <p className={styles.pricingClass}>Instant Notifications Setup–Hot Lead System</p>
+                            <p className={styles.pricingClass}>PS: It’s less than 7 Lakh for complete (all incl.)</p>
+                            <p className={styles.pricingClass}><b>Video has everything you need to know</b></p>
+                            <div className={styles.pricingFooter}>
+                            <h4 style={{margin:"1rem"}}><b>VIEW EXACT PRICE WITH INSTANT PROPOSAL</b></h4>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
             </div>
 
            
@@ -113,4 +164,12 @@ export const IndexPageQuery = graphql`
           }
         }
     }
+
+    leadPrediction: file(relativePath: { eq: "LeadsPrediction.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+  }
 }`
