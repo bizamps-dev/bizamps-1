@@ -123,6 +123,13 @@
 }
 .tableOfContentBox:hover{
     cursor: pointer;
+    background: #FAFAFA;
+    .num{
+        background: #2F80ED;
+    }
+    .nameBox{
+        color: #232323;
+    }
 }
 .num{
     background: #232323;
@@ -342,6 +349,18 @@
     width:100%;
 }
 
+@media(max-width:1334px){
+    .video{
+        height:50vh;
+    }
+}
+
+@media(max-width:1024px){
+    .video{
+        height:30vh;
+    }
+}
+
 @media(max-width:470px){
     //--------------------------------
     //header
@@ -421,6 +440,9 @@
     .subname{
         font-size: 0.8rem;
         line-height: 1rem;
+    }
+    .outerContentBox{
+        padding:1rem;
     }
     .innerContentBox{
         padding:1rem;

@@ -18,11 +18,11 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/company/biz-amps/" target="_blank"><span className="icons"><Linkedin /></span></a>
                 <a href="https://www.instagram.com/bizamps/?hl=en" target="_blank"><span className="icons"><Instagram /></span></a>
                 <a href="https://www.facebook.com/businessamplifiers" target="_blank"><span className="icons"><Facebook /></span></a>
-                <a href="https://www.youtube.com/channel/UCdEdhgYoVI73IR21AmylKRw" target="_blank"><span className="icons"><Twitter /></span></a>
+                <a href="https://twitter.com/akshatkharbanda" target="_blank"><span className="icons"><Twitter /></span></a>
             </div>
             <hr/>
             <div className="title">BizAmps is B2B marketing consultancy based out of India. The team is spread across Delhi NCR, Chandigarh & Mumbai</div>
-            <div className="subtitle"><a style={{textDecoration:"none",color: "#FFFFFF"}} href="/PrivacyPolicy" target="_blank">All Rights Reserved © Copyright 2020 | Privacy policy</a> </div>
+            <div className="subtitle"><a style={{textDecoration:"none",color: "#FFFFFF"}} href="/thank-you-outreach-guide" target="_blank">All Rights Reserved © Copyright 2020 | Privacy policy</a> </div>
         </div>
     )
 }

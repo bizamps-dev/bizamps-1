@@ -21,6 +21,6 @@ exports.components = {
   "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js": () => import("../src/pages/i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them.js" /* webpackChunkName: "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js" */),
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-templet-js": () => import("../src/pages/templet.js" /* webpackChunkName: "component---src-pages-templet-js" */),
-  "component---src-pages-privacy-policy-js": () => import("../src/pages/PrivacyPolicy.js" /* webpackChunkName: "component---src-pages-privacy-policy-js" */)
+  "component---src-pages-thank-you-outreach-guide-js": () => import("../src/pages/thank-you-outreach-guide.js" /* webpackChunkName: "component---src-pages-thank-you-outreach-guide-js" */)
 }
 

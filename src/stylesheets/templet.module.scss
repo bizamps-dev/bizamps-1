@@ -267,6 +267,10 @@ text-decoration-line: underline;
     padding:1rem 2rem;
     opacity: 0.6;
 }
+.input:focus{
+    outline: none;
+    border:none;
+}
 .message{
     width: 45%;
     height:20vh;
