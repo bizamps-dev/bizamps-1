@@ -8,7 +8,7 @@ const Team = (props) => {
     const [member,setMember]=useState([
       {pic:props.mehvish,name:"Mehvish Diwan",designation:"Outreach Manager"},
       {pic:props.anvishka,name:"Anviksha Kharbanda",designation:"Client success"},
-      // {pic:props.shweta,name:"Shweta Chaurasia",designation:"Web Developer"}
+      {pic:props.mahisha,name:"Mahisha Nadar",designation:"Outreach Consultant"}
     ])
     const [currentIndex,setCurrentIndex]=useState(0)
     const [counter,setCounter]=useState(0)

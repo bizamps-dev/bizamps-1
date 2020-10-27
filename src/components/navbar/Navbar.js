@@ -52,14 +52,6 @@ const Navbar=(props)=>{
           name : '[Blog] Bofu Content',
           link : "/BlogBofu"
         },
-        {
-          name : 'Privacy Policy',
-          link : "/ThankYou"
-        },
-        {
-          name : '“Don’t know what comes here”',
-          link : "/MarketingSystem"
-        },
       ]
     },
     {

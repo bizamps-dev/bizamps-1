@@ -80,14 +80,15 @@ const IndexPage = (props) => {
         <div className={styles.packageContainer}>
           <IndexPackage image={<Target />} text="1. Your Target Accounts List" />
           <IndexPackage image={<Landing />} text="2. Landing & Case Study Page" />
-          <IndexPackage image={<Retarding />} text="3. Retarding Ads" />
+          <IndexPackage image={<Retarding />} text="3. Retargeting Ads" />
           <IndexPackage image={<Email />} text="4. Email Auto-Nurture Sequence" />
           <IndexPackage image={<Lead />} text="5. Free Lead Tracking & Alert System" />
           <IndexPackage image={<TeamIcon />} text="6. Team Training for Handoff" />
           </div>
       </div>
       <div className={styles.container5}>
-        <div className={styles.packageList}>
+      <a href="/b2b-marketing-package" target="_blank"><button className={styles.consultButton}>SEE PRICING</button></a>
+        {/* <div className={styles.packageList}>
           <span>Full Package</span>
           <span>Package 2</span>
           <span>Custom Package</span>
@@ -101,7 +102,7 @@ const IndexPage = (props) => {
         <span>abcd</span>
           <span>abcd</span>
           <span>abcd</span>
-        </div>
+        </div> */}
       </div>
 
       <div className={styles.container4}>
@@ -122,7 +123,8 @@ const IndexPage = (props) => {
 
       <Team akshat={props.data.akshat.childImageSharp.fluid} 
       mehvish={props.data.mehvish.childImageSharp.fluid} 
-      anvishka={props.data.anvishka.childImageSharp.fluid} 
+      anvishka={props.data.anvishka.childImageSharp.fluid}
+      mahisha={props.data.mahisha.childImageSharp.fluid} 
       
       />
 
@@ -193,6 +195,14 @@ export const IndexPageQuery = graphql`
     }
 
     mehvish: file(relativePath: { eq: "mehvish.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    mahisha: file(relativePath: { eq: "mahisha.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
