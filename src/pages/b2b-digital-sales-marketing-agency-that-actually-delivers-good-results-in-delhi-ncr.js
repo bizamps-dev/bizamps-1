@@ -5,7 +5,6 @@ import Img from 'gatsby-image'
 
 
 import Navbar from "../components/navbar/Navbar";
-import styles from '../stylesheets/marketingSales.module.scss';
 import WeAreCard from "../components/B2BMarketingPage/WeAreCard";
 import LeadIcon from "../assets/B2BMarketingPackages/LeadIcon";
 import LeadIconMob from "../assets/B2BMarketingPackages/LeadIconMob";
@@ -13,7 +12,9 @@ import RevenueIcon from "../assets/B2BMarketingPackages/RevenueIcon";
 import RevenueIconMob from "../assets/B2BMarketingPackages/RevenueIconMob"
 import Testimonial from "../components/Testimonial/Testimonial"
 import Location from "../components/Location/Location";
-import Footer from '../components/Footer/footer'
+import Footer from '../components/Footer/footer';
+
+import styles from '../stylesheets/marketingSales.module.scss';
 
 
 
@@ -163,11 +164,11 @@ const Marketing= (props) =>{
               <h1>Custom 10-Step Marketing Plan</h1>
               <div className={styles.problemContainer1}>
                   <div className={styles.problemContent}>
-                      <Img className={styles.pricingImg} fluid={props.data.project.childImageSharp.fluid} />
+                      <Img className={styles.pricingImg} style={{marginBottom:"0.5rem"}} fluid={props.data.project.childImageSharp.fluid} />
                       <p className={styles.pClass}><b>Project Title</b></p>
                   </div>
                   <div className={styles.problemContent}>
-                      <Img className={styles.pricingImg} fluid={props.data.project1.childImageSharp.fluid} />
+                      <Img className={styles.pricingImg} style={{marginBottom:"0.5rem"}} fluid={props.data.project1.childImageSharp.fluid} />
                       <p className={styles.pClass}> <b>User Flow- Cold to Client</b></p>
                   </div>  
               </div>
@@ -198,11 +199,11 @@ const Marketing= (props) =>{
               <h1>What your Sales-Marketing team actually thinks</h1>
               <div className={styles.problemContainer1}>
                   <div className={styles.problemContent}>
-                      <Img className={styles.pricingImg} fluid={props.data.problem1.childImageSharp.fluid} />
+                      <Img className={styles.pricingImg} style={{marginBottom:"0.5rem"}} fluid={props.data.problem1.childImageSharp.fluid} />
                       <p className={styles.pClass}><b>#ProblemsWeSolve</b></p>
                   </div>
                   <div className={styles.problemContent}>
-                      <Img className={styles.pricingImg} fluid={props.data.problem2.childImageSharp.fluid} />
+                      <Img className={styles.pricingImg} style={{marginBottom:"0.5rem"}} fluid={props.data.problem2.childImageSharp.fluid} />
                       <p className={styles.pClass}> <b>#ProblemsWeSolve</b></p>
                   </div>
               </div>
@@ -245,7 +246,7 @@ const Marketing= (props) =>{
           </div>
 
           <div className={styles.callContainer}>
-                <h2 style={{marginBottom:"0rem"}}>BUSINESS AMPLIFIER™ - Bundled All Incl. Service</h2>
+                <h2 style={{marginBottom:"1rem"}}>BUSINESS AMPLIFIER™ - Bundled All Incl. Service</h2>
                 <p className={styles.pClass}>Asia's First & Only 'Highly Automated Sales-Marketing Funnel' Done-For-You Setup</p>
                 <a href="/form" target="_blank"><button className={styles.button}>GET INSTANT PROPOSAL & PRICING</button></a>
           </div>
