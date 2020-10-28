@@ -33,36 +33,36 @@ const Home = (props) => {
 
              <div className={styles.blogContainer}>             
                 <div className={styles.blogContainer2}>
-                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0rem" }}>About The Client:</h2>
+                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0.5rem" }}>About The Client:</h2>
                   <p>Our client offers a secure and real-time communication solution. It enables doctors, nurses and the wider team in UK to communicate and collaborate more effectively, accelerating productivity, reducing costs, and improving patient outcomes.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Scenario:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Scenario:</h2>
                   <p>The client wanted to raise capital for their project through crowdfunding  campaigns in UK. The client had already generated 30-40% of their crowdfunding target but faced problems in acquiring rest of the leads. </p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Target:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Target:</h2>
                   <p>Investors in United Kingdom.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0rem" }}>Channel:</h2>
+                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0.5rem" }}>Channel:</h2>
                   <p>Cold Emails + LinkedIn
                   Here is the complete process overview of our successful crowdfunding campaign.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Process Overview:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Process Overview:</h2>
                   <p>1. We collected the data from different sources like LinkedIn and various data  enrichment tools.<br></br> 
                     2. Established connections with the targets on LinkedIn using the automated tool  from the Client’s profile. <br></br>
                     3. Our team reached out to Tech based investors in UK by sending them invites.  A donation link was sent to them along with the description of client’s service. <br></br>
                     4. The campaign was then extended to the other non-tech based investors in UK and rest of the Europe.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0rem" }}>Accomplishments:</h2>
+                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0.5rem" }}>Accomplishments:</h2>
                   <p>• The client was able to get 150 investors on board with them. <br></br>
                     • They were able to raise 150% of their crowdfunding target i.e. 100 thousand pounds more than the set target.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0rem" }}>Client outreach replies</h2>  
+                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0.5rem" }}>Client outreach replies</h2>  
                   <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.Img1.childImageSharp.fluid}/></div>
 
                 </div>

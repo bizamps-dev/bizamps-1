@@ -33,19 +33,19 @@ const Home = (props) => {
 
              <div className={styles.blogContainer}>             
                 <div className={styles.blogContainer2}>
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem" }}>About The Client:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>About The Client:</h2>
                   <p>The client provides a learning platform that intends to redesign the current  teacher education systems by building a network of millions of teachers. They are on a mission to empower teachers by curating tools and techniques that are easily usable in the classroom. They help teachers in skilling themselves on latest teaching methodologies and monitoring their learning to analyse if  they have improved by leaps and bounds.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Problem:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Problem:</h2>
                   <p>The client was unable to outsource any leads even after hiring a highly networked sales partner.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Channel:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Channel:</h2>
                   <p>Primarily focused on Cold Emails.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Process Overview:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Process Overview:</h2>
                   <p>1. In the given scenario, the client provided us with the email ids. We used LinkedIn Connection Request Automation to get more contact information of the targets. <br></br>
                     2. The content strategists wrote customized Emails for each of the prospects.<br></br>
                     3. We uploaded 10 leads/day to our Email Outreach software.<br></br>
@@ -53,16 +53,16 @@ const Home = (props) => {
                     5. Alongside, showed the prospects Ads on Facebook, Google, and other Apps.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Accomplishments:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Accomplishments:</h2>
                   <p>The client was able to engage with 10% of the entire target market immediately.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Key Bottlenecks:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Key Bottlenecks:</h2>
                   <p>•Inability to efficiently manage the ‘No, thank you’ responses with cross-sell &  down-sell offers.</p>
                   <p>•Did not resort to Account-based marketing from the very beginning.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Client outreach replies</h2>  
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Client outreach replies</h2>  
                   <div className={styles.BlogimageContainer}><Img className={styles.image} alt={"Clients Outreach for leadgen"} fluid={props.data.Img1.childImageSharp.fluid}/></div>
                   <br></br>
                   

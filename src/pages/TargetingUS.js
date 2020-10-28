@@ -33,40 +33,40 @@ const Home = (props) => {
 
              <div className={styles.blogContainer}>             
                 <div className={styles.blogContainer2}>
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>About The Client:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>About The Client:</h2>
                   <p>The client is a blockchain and software development services provider looking  for product development and blockchain-related development projects in the US.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0rem" }}>Scenario:</h2>
+                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0.5rem" }}>Scenario:</h2>
                   <p>Before working with Bizamps, the company acquired clients through personal  networks and referrals. Thus, they were looking for a more scalable and predictable way of getting leads, prospects, and clients.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0rem" }}>Target:</h2>
+                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0.5rem" }}>Target:</h2>
                   <p>CEO and technology heads of blockchain companies for 1-100 employees in  the USA</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Channel:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Channel:</h2>
                   <p>Concise, Text-only, Conversational, Non-sales-y cold emails, and LinkedIn message chains.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Thoughts behind channel selection:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Thoughts behind channel selection:</h2>
                   <p>Since we were only targeting crypto and blockchain startups in the U.S, our  target market consisted of only 3000 target accounts. Hence 1-on-1 marketing  mediums like LinkedIn & emails made more sense because we would not be wasting any money mass ad or marketing campaigns as their target market avidly uses these mediums. On top of that, these mediums being free made the deal even sweeter.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Process Overview:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Process Overview:</h2>
                   <p>We collected the data from different sources like LinkedIn and various data  enrichment tools. <br></br>
                     1. Our content strategists carefully understood the client’s services and the  target's problems. BizAmps then crafted content that acknowledged the target's problems, grabbed their attention, and generated responses. <br></br>
                     2. We established LinkedIn connections with the prospects using the automated tool from the client’s profile. Later, we initiated blockchain related conversations with them.<br></br>
                     3. We uploaded 50 leads per day to our email outreach software that reached out and followed up with the prospects for 3 months.</p><br></br>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0rem" }}>Accomplishments:</h2>
+                  <h2 style={{fontFamily:"Roboto" , marginBottom:"0.5rem" }}>Accomplishments:</h2>
                   <p>1. The client was able to reach out to 1000 prospects resulting in 75 responses.  Out of the 75 responses, 40+ responded positively, inviting conversations. <br></br>
                     2. From these 40+ responses, 11-10 were established as strong conversations.  This helped the company gain one client with 2 more clients close to being secured. Apart from this, we established a couple of 1:1 connections and fruitful conversations. <br></br>
                     3. The client's network grew on LinkedIn in a way that should prove beneficial in the long run.</p><br></br>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0rem"  }}>Client outreach replies</h2>  
+                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem"  }}>Client outreach replies</h2>  
                   <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.Img1.childImageSharp.fluid}/></div>
 
                 </div>

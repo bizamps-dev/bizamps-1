@@ -58,7 +58,10 @@ const Home = (props) => {
                 <p>
                 Feeling Superb (after) – Feeling Normal (before) = Superb value add.
                 </p>
-                <p> <b>Adding value while following up</b></p>
+                <br></br>
+                <br></br>
+
+                <h2 style={{color:"black", marginBottom:"0.5rem"  }}>Adding value while following up</h2>
                 <p>
                 You need to follow up and you need a good reason to email that prospect again, Here’s a tip  
                 </p>
@@ -71,11 +74,17 @@ const Home = (props) => {
                 <p>
                 Sales folks, more here:
                 </p>
-                <p><b> Value-adding follow up template:</b></p>
+                <br></br>
+                <br></br>
+
+                <h2 style={{color:"black", marginBottom:"0.5rem"  }}> Value-adding follow up template:</h2>
                 <p style={{opacity:0.8}}>
                 "Hi [prospect] Last time we discussed you were working on A. I had few articles in my bookmarks that I think you should read. This article is wrong – Don’t do A instead do B, I have seen companies doing B are very satisfied.<br>
                 </br> Because when you ‘A’, we have ‘X’ though process but we forget about ‘Y’ factor….. Blah blah… If you do A, you might lose 6 months to trial and error, Plus it is not sustainable."
                 </p>
+                <br></br>
+                <br></br>
+
                 <p style={{fontSize:"2rem",lineHeight:"2.3rem",fontWeight:"600",margin:"1.5rem 0.5rem",fontFamily:"Roboto"}}>Perceived Value & Why discovery meetings are important:</p>
                 <p>Let’s be honest, there is no guarantee that the last email we sent will get a +ve reply because we don’t know the information we added was something new or relevant to that prospect at that time. This brings us to the concept of perceived value.</p>
                 <p>
@@ -87,6 +96,9 @@ const Home = (props) => {
                 <p>
                 Some clients don’t give a rat’s ass about your transparency pitch and they would just say ” I just want more leads and sales now!”
                 </p>
+                <br></br>
+                <br></br>
+
                 <p style={{fontSize:"2rem",lineHeight:"2.3rem",fontWeight:"600",margin:"1.5rem 0.5rem",fontFamily:"Roboto"}}>Relative Perceived Value & Content Marketing</p>
                 <p>
                 Now, let’s bring in your competition and take this one step further.

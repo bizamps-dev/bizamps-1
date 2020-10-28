@@ -18,10 +18,10 @@ exports.components = {
   "component---src-pages-b-2-b-marketing-package-js": () => import("../src/pages/b2b-marketing-package.js" /* webpackChunkName: "component---src-pages-b-2-b-marketing-package-js" */),
   "component---src-pages-cold-js": () => import("../src/pages/cold.js" /* webpackChunkName: "component---src-pages-cold-js" */),
   "component---src-pages-custom-digital-sales-marketing-plan-js": () => import("../src/pages/custom-digital-sales-marketing-plan.js" /* webpackChunkName: "component---src-pages-custom-digital-sales-marketing-plan-js" */),
+  "component---src-pages-form-js": () => import("../src/pages/form.js" /* webpackChunkName: "component---src-pages-form-js" */),
   "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js": () => import("../src/pages/i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them.js" /* webpackChunkName: "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js" */),
   "component---src-pages-index-js": () => import("../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-templet-js": () => import("../src/pages/templet.js" /* webpackChunkName: "component---src-pages-templet-js" */),
-  "component---src-pages-thank-you-outreach-guide-js": () => import("../src/pages/thank-you-outreach-guide.js" /* webpackChunkName: "component---src-pages-thank-you-outreach-guide-js" */),
-  "component---src-pages-form-js": () => import("../src/pages/form.js" /* webpackChunkName: "component---src-pages-form-js" */)
+  "component---src-pages-thank-you-outreach-guide-js": () => import("../src/pages/thank-you-outreach-guide.js" /* webpackChunkName: "component---src-pages-thank-you-outreach-guide-js" */)
 }
 
