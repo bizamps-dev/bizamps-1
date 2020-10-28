@@ -41,8 +41,9 @@ const Home = (props) => {
 
                   <p style={{fontFamily:"Roboto"}}><b>DISCLAIMER:</b></p>
                   <p>· This blog does not tell you ‘how to do it’ but tells you ‘what to do’ <br></br>
-                     · This blog contains enough information you need to start your own sales agency.<br></br>
-                     So, let's begin!  </p>
+                     · This blog contains enough information you need to start your own sales agency.</p>
+                     <br></br>
+                  <p>So, let's begin!  </p>
                   <br></br>
                   <br></br>
 
