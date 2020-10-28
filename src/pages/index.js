@@ -59,9 +59,9 @@ const IndexPage = (props) => {
         <div className={styles.headerContent}>
           <div className={styles.content}>
            <h1 className={styles.contentHeading}>We help our B2B clients to</h1>
+           <IndexHeaderCard title="Setup and Scale Lead Generation" subtitle="Systems" icon={<SystematicIcon />} />
+           <IndexHeaderCard title="Accelerate Sales Pipeline" subtitle="Fast" icon={<QualitativeIcon />} />
            <IndexHeaderCard title="Get into Dream Accounts" subtitle="Easily" icon={<EasilyIcon />} />
-           <IndexHeaderCard title="Accelerate Sales Pipelines" subtitle="Systematically" icon={<QualitativeIcon />} />
-           <IndexHeaderCard title="Create Leads that Sales love" subtitle="Qualitatively" icon={<SystematicIcon />} />
           </div>
           <div className={styles.B2BContainer}><HelpB2BClients  /></div>
         </div>
@@ -69,21 +69,21 @@ const IndexPage = (props) => {
 
       <div className={styles.container2}>
         <div className={styles.scrollContainer}>
+        <IndexProcessCard title="SALES ♡ MARKETING LEADS" subtitle="SQLs not MQLs" content={process3} />
         <IndexProcessCard className={styles.processCardContent} title="THE DEMAND GENERATION PROCESS" subtitle="" content={process1} />
         <IndexProcessCard title="ACCOUNT BASED MARKETING PROCESS" subtitle="For Dream Accounts" content={process2} />
-        <IndexProcessCard title="SALES ♡ MARKETING LEADS" subtitle="SQLs not MQLs" content={process3} />
         </div>
       </div>
 
       <div className={styles.container3}>
         <h2>Package Overview</h2>
         <div className={styles.packageContainer}>
-          <IndexPackage image={<Target />} text="1. Your Target Accounts List" />
-          <IndexPackage image={<Landing />} text="2. Landing & Case Study Page" />
-          <IndexPackage image={<Retarding />} text="3. Retargeting Ads" />
+          <IndexPackage image={<Target />} text="1. Building Contact Database" />
+          <IndexPackage image={<Landing />} text="2. Writing Email, LinkedIn and Calling Scripts " />
+          <IndexPackage image={<Retarding />} text="3. Scalable Emails, Callings and LinkedIn Tech Setup" />
           <IndexPackage image={<Email />} text="4. Email Auto-Nurture Sequence" />
-          <IndexPackage image={<Lead />} text="5. Free Lead Tracking & Alert System" />
-          <IndexPackage image={<TeamIcon />} text="6. Team Training for Handoff" />
+          <IndexPackage image={<Lead />} text="5. Load Management Consultancy" />
+          <IndexPackage image={<TeamIcon />} text="6. Team Training for Handsoff" />
           </div>
       </div>
       <div className={styles.container5}>
@@ -116,7 +116,7 @@ const IndexPage = (props) => {
 
       <div className={styles.container6}>
         {/* <a href="https://www.youtube.com/watch?v=WMUHIPwca4Q&feature=youtu.be&loop=0&autoplay=0" target="_blank"><Img fluid={props.data.video.childImageSharp.fluid} className={styles.video} /></a> */}
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WMUHIPwca4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="760" height="415" src="https://www.youtube.com/embed/WMUHIPwca4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
      <Testimonial conor={props.data.conor.childImageSharp.fluid} gautam={props.data.gautam.childImageSharp.fluid} />
