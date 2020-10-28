@@ -39,7 +39,7 @@ const Cold = (props) => {
                       <span>3. Currently working scripts</span>
                       <span>Our LinkedIn, Email & Ad creatives</span>
                     </div>
-                    <button>SEND ME NOW</button>
+                    <a href="/form" ><button>SEND ME NOW</button></a>
               </div>
               </div>
               

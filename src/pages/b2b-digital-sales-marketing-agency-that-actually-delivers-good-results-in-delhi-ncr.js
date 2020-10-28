@@ -171,7 +171,7 @@ const Marketing= (props) =>{
                       <p className={styles.pClass}> <b>User Flow- Cold to Client</b></p>
                   </div>  
               </div>
-              <button className={styles.button} style={{background: '#001735'}}>MARKETING PLAN BUT WHY?</button>
+              <a href="/b2b-marketing-package"><button className={styles.button} style={{background: '#001735'}}>MARKETING PLAN BUT WHY?</button></a>
             </div>
 
             <div className={styles.four0Container}>
@@ -247,7 +247,7 @@ const Marketing= (props) =>{
           <div className={styles.callContainer}>
                 <h2 style={{marginBottom:"0rem"}}>BUSINESS AMPLIFIER™ - Bundled All Incl. Service</h2>
                 <p className={styles.pClass}>Asia's First & Only 'Highly Automated Sales-Marketing Funnel' Done-For-You Setup</p>
-                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.button}>GET INSTANT PROPOSAL & PRICING</button></a>
+                <a href="/form" target="_blank"><button className={styles.button}>GET INSTANT PROPOSAL & PRICING</button></a>
           </div>
 
           <div className={styles.videoContainer}>

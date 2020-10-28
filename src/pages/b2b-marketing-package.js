@@ -149,7 +149,7 @@ const B2BMarketingPackagePage = (props) => {
            <div className={styles.freeConsult} >
              <div className={styles.freeConsultContent}>
              <div >Book a free consultation today</div>
-             <button><a href="/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr" style={{textDecoration:"none",color:"#ffffff"}} > Get Started </a></button>
+             <button><a href="/form" style={{textDecoration:"none",color:"#ffffff"}} > Get Started </a></button>
              </div>
            </div>
            </div>
