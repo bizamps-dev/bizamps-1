@@ -130,16 +130,14 @@ const B2BMarketingPackagePage = (props) => {
             <div className={styles.paidConsultMobImgDiv}><PaidConsultMob /></div>
             <div className={styles.paidConsultContent}>
               <div className={styles.paidConsultHeading}>
-                <span>Paid Consultation with Akshat</span>
+                <span><b>Paid Consultation with Akshat</b></span>
                 <Img fluid={props.data.akshat.childImageSharp.fluid} className={styles.akshat} />
               </div>
               <div className={styles.paidConsultSub1}>
-                <span>Who is it for:  </span>
-                <span> Consultants/ Agencies/ Founders</span>
+                <span><b>Who is it for: </b> Consultants/ Agencies/ Founders </span>
               </div>
               <div className={styles.paidConsultSub2}>
-                <span>Price: </span>
-                <span> From $1/min</span>
+                <span><b>Price: </b> From $1/min </span>
               </div>
               <button className={styles.paidConsultButton}><a href="https://calendly.com/akshatkharbanda/30min?month=2020-10" target="blank" style={{textDecoration:"none",color:"#ffffff"}} >Select a Date</a></button>
             </div>

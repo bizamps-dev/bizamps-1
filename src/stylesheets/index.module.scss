@@ -847,10 +847,13 @@ color: #000000;
         line-height: 1rem;
     }
     .consultButton{
+        width:140px;
+        height:25px;
         margin-top: 0.7rem;
         padding:0.25rem 0.8rem;
-        font-size: 0.5rem;
-    line-height: 0.7rem;
+        font-size: 0.8rem;
+        line-height: 0.7rem;
+        border-radius:5px;
     }
    .contactImg{
        width:45%;

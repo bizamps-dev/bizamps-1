@@ -359,7 +359,7 @@ margin-bottom: 2rem;
     flex:1;
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     // justify-content: center;
     // background-color: blue;
     padding:2rem 4rem;
@@ -368,9 +368,9 @@ margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: stretch;
-    padding:1rem;
+    justify-content: left;
     margin-right: -3rem;
+    margin-bottom:1rem;
 }
 .paidConsultHeading span{
     flex:1;
@@ -387,8 +387,9 @@ margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 0.5rem;
 }
-.paidConsultSub1 span:nth-child(1),.paidConsultSub2 span:nth-child(1){
+.paidConsultSub1 span,.paidConsultSub2 span{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -398,17 +399,6 @@ margin-bottom: 2rem;
     opacity: 0.8;
     padding-right:0.5rem;
     padding-bottom: 0.5rem;
-}
-.paidConsultSub1 span:nth-child(2),.paidConsultSub2 span:nth-child(2){
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.35rem;
-    line-height: 42px;
-    color: #000000;
-    opacity: 0.7;
-    padding-bottom: 0.5rem;
-
 }
 .akshat{
     width:120px;
@@ -551,24 +541,18 @@ margin-bottom: 2rem;
     }
     .paidConsultContent{
         align-items: flex-start;
-        padding:2rem 2rem;
+        padding:1rem;
     }
     .paidConsultHeading{
         padding-left:0;
     }
     .paidConsultHeading span{
-        font-size: 1.8rem;
-        line-height: 2.5rem;
-        margin-right: 0.7rem;
+        font-size: 1rem;
+        line-height: 1.2rem;
     }
-.paidConsultSub1 span:nth-child(1),.paidConsultSub2 span:nth-child(1){
-    font-size:1.5rem;
-    line-height: 1.8rem;
-    flex:1;
-}
-.paidConsultSub1 span:nth-child(2),.paidConsultSub2 span:nth-child(2){
-    font-size:1.22rem;
-    line-height: 1.8rem;
+.paidConsultSub1 span,.paidConsultSub2 span{
+    font-size:1rem;
+    line-height: 1.2rem;
 }
 .paidConsultButton{
     padding:0.7rem 2.3rem;
@@ -777,14 +761,11 @@ margin-bottom: 2rem;
         line-height: 2rem;
         margin-right:0;
     }
-.paidConsultSub1 span:nth-child(1),.paidConsultSub2 span:nth-child(1){
-    font-size:1.2rem;
-    line-height: 1.5rem;
+.paidConsultSub1 span,.paidConsultSub2 span{
+    font-size:0.8rem;
+    line-height: 1rem;
 }
-.paidConsultSub1 span:nth-child(2),.paidConsultSub2 span:nth-child(2){
-    font-size: 1rem;
-    line-height: 1.5rem;
-}
+
 
 .paidConsultButton{
     padding:0.3rem 1.5rem;
