@@ -41,6 +41,9 @@ const Marketing= (props) =>{
                     <div className={styles.end}></div>
             </div>
 
+            <div className={styles.pdf}>
+              <a href="https://bizamps.agency/ak-book-call-thanks-cold-guide/" target="_blank"><button className={styles.button}>DOWNLOAD PDF</button></a>
+            </div>
              <div className={styles.Container1}>
                     <h1>Pricing</h1>
                     <div className={styles.pricingAlign}>
@@ -177,6 +180,7 @@ const Marketing= (props) =>{
                 No Sales Process: You don’t have sales process!</b></p>
                 <Img className={styles.four0Img} fluid={props.data.four0four.childImageSharp.fluid} />
             </div>
+          
           
 
            <div className={styles.weAreContent}>

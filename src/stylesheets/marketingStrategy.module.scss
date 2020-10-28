@@ -73,8 +73,14 @@
     line-height: 1.6rem;
     color: #FFFFFF;
 }
+.headerButton:focus{
+    outline: none;
+    border:none;
+}
 .headerButton:hover{
     cursor: pointer;
+    outline: none;
+    border:none;
 }
 .headerCaption{
     padding:0.5rem ;

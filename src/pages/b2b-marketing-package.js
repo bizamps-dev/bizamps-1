@@ -89,7 +89,7 @@ const B2BMarketingPackagePage = (props) => {
                     <div className={styles.headerContent}>
                         <h1 className={styles.headerTitle}>Transform your Marketing & LeadGen</h1>
                         <div className={styles.headerSubtitle}>Marketing so good that you will ask us to PAUSE!</div>
-                        <button className={styles.headerButton}>Find How</button>
+                        <button className={styles.headerButton}><a href="/form" style={{textDecoration:"none",color:"#ffffff"}} > Find How</a></button>
                     </div>
           </BackgroundImage >
 
@@ -98,7 +98,7 @@ const B2BMarketingPackagePage = (props) => {
                     <div className={styles.headerContent2}>
                         <h1 className={styles.headerTitle2}>Transform your Marketing & LeadGen</h1>
                         <div className={styles.headerSubtitle2}>Marketing so good that you will ask us to PAUSE!</div>
-                        <button className={styles.headerButton2}>Find How</button>
+                        <button className={styles.headerButton2}><a href="/form" style={{textDecoration:"none",color:"#ffffff"}} > Find How</a></button>
                     </div>
           </BackgroundImage >
 
@@ -141,7 +141,7 @@ const B2BMarketingPackagePage = (props) => {
                 <span>Price: </span>
                 <span> From $1/min</span>
               </div>
-              <button className={styles.paidConsultButton}>Select a Date</button>
+              <button className={styles.paidConsultButton}><a href="https://calendly.com/akshatkharbanda/30min?month=2020-10" target="blank" style={{textDecoration:"none",color:"#ffffff"}} >Select a Date</a></button>
             </div>
           </div>
 
@@ -149,7 +149,7 @@ const B2BMarketingPackagePage = (props) => {
            <div className={styles.freeConsult} >
              <div className={styles.freeConsultContent}>
              <div >Book a free consultation today</div>
-             <button>Get Started</button>
+             <button><a href="/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr" style={{textDecoration:"none",color:"#ffffff"}} > Get Started </a></button>
              </div>
            </div>
            </div>

@@ -16,14 +16,15 @@ exports.components = {
   "component---src-pages-crowd-funding-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/CrowdFunding.js"))),
   "component---src-pages-indian-enterprise-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/IndianEnterprise.js"))),
   "component---src-pages-international-institutes-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/InternationalInstitutes.js"))),
-  "component---src-pages-marketing-system-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/MarketingSystem.js"))),
   "component---src-pages-targeting-us-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/TargetingUS.js"))),
+  "component---src-pages-b-2-b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr.js"))),
   "component---src-pages-b-2-b-marketing-package-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/b2b-marketing-package.js"))),
   "component---src-pages-cold-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/cold.js"))),
   "component---src-pages-custom-digital-sales-marketing-plan-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/custom-digital-sales-marketing-plan.js"))),
   "component---src-pages-i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/i-went-through-every-account-based-marketing-webinar-talk-ebook-and-heres-the-best-of-them.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/index.js"))),
   "component---src-pages-templet-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/templet.js"))),
-  "component---src-pages-thank-you-outreach-guide-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/thank-you-outreach-guide.js")))
+  "component---src-pages-thank-you-outreach-guide-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/thank-you-outreach-guide.js"))),
+  "component---src-pages-form-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/form.js")))
 }
 

@@ -308,6 +308,10 @@ text-decoration-line: underline;
     border:none;
     margin: 2rem 0;
 }
+.SubmitButtom:focus{
+    outline: none;
+    border: none;
+}
 
 //----------------------------
 //LOCATION

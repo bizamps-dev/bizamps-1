@@ -13,7 +13,7 @@ const Form = () => {
                         <input className={styles.input}type="text" id="website" placeholder="Website URL *" required></input>
                         <input className={styles.input}type="text" id="phone" placeholder="Phone *" required></input>
                         <input className={styles.message}type="text" id="message" placeholder="Message" required></input>
-                        <button className={styles.SubmitButtom}><a href="/thank-you-outreach-guide" style={{textDecoration:"none",color:"#ffffff"}} > SUBMIT</a></button>
+                        <button className={styles.SubmitButtom}><a href="/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr" style={{textDecoration:"none",color:"#ffffff"}} > SUBMIT</a></button>
                     
                 </div>
             
