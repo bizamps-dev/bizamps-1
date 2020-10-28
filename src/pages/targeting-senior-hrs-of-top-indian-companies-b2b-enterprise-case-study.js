@@ -35,23 +35,23 @@ const Home = (props) => {
                 <div className={styles.blogContainer2}>
 
                   
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>About The Client:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>About The Client:</h2>
                   <p>The client wanted to pivot away from cold calling to a more efficient method. Previously, six agencies had helped them achieve their goal to some extent. However, these companies lacked considerably in generating consistent outputs.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>Problem:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>Problem:</h2>
                   <p>The client wanted to pivot away from cold calling to a more efficient method. Previously, six agencies had helped them achieve their goal to some extent. However, these companies lacked considerably in generating consistent outputs.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>Target:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>Target:</h2>
                   <p>Chief Human Resources Officer of companies with over 1000 employees in  Delhi -NCR & Mumbai region.</p>
                   <br></br>
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>Channel:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>Channel:</h2>
                   <p>Cold Emails + LinkedIn<br></br>
                   Here is the complete process overview of our B2B Enterprise Case Study.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>Process Overview:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>Process Overview:</h2>
                   <p>1. We collected the data from different sources like LinkedIn and various data  enrichment tools.<br></br>
                   2. Our content strategists carefully understood the client’s services and curated  content after understanding how their services can solve the target’s  problems. This was able to grab their attention, generating responses. <br></br>
                   3. Established connections with the targets on LinkedIn using the automated tool  from the Client’s profile.<br></br>
@@ -60,17 +60,17 @@ const Home = (props) => {
                   6. Alongside, showed the prospects Ads on Facebook, Google, and other Apps.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>Accomplishments:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>Accomplishments:</h2>
                   <p>• The process mentioned above helped the client to generate 25+ responses  within 2.5 months of starting outreach. <br></br>
                   • The client was able to reach out to 1000 prospects resulting into 75 responses, out of which 25+ responded positively inviting conversations.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>Key Bottlenecks:</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>Key Bottlenecks:</h2>
                   <p>• Since the client’s website was not optimized for generating leads when the Ads were run, we had to discontinue that form of lead generation.<br></br>
                    • We realized starting LinkedIn earlier would have helped us generate more leads.</p>
                   <br></br>
 
-                  <h2 style={{fontFamily:"Roboto", marginBottom:"0.5rem" }}>Client outreach replies</h2>
+                  <h2 style={{fontFamily:"Roboto", marginLeft:"0rem",marginBottom:"0.5rem" }}>Client outreach replies</h2>
 
                   <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.Img1.childImageSharp.fluid}/></div>
 

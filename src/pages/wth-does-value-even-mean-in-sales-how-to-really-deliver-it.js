@@ -61,7 +61,7 @@ const Home = (props) => {
                 <br></br>
                 <br></br>
 
-                <h2 style={{color:"black", marginBottom:"0.5rem"  }}>Adding value while following up</h2>
+                <h2 style={{color:"black",marginLeft:"0rem" ,marginBottom:"0.5rem"  }}>Adding value while following up</h2>
                 <p>
                 You need to follow up and you need a good reason to email that prospect again, Here’s a tip  
                 </p>
@@ -77,7 +77,7 @@ const Home = (props) => {
                 <br></br>
                 <br></br>
 
-                <h2 style={{color:"black", marginBottom:"0.5rem"  }}> Value-adding follow up template:</h2>
+                <h2 style={{color:"black",marginLeft:"0rem" ,marginBottom:"0.5rem"  }}> Value-adding follow up template:</h2>
                 <p style={{opacity:0.8}}>
                 "Hi [prospect] Last time we discussed you were working on A. I had few articles in my bookmarks that I think you should read. This article is wrong – Don’t do A instead do B, I have seen companies doing B are very satisfied.<br>
                 </br> Because when you ‘A’, we have ‘X’ though process but we forget about ‘Y’ factor….. Blah blah… If you do A, you might lose 6 months to trial and error, Plus it is not sustainable."

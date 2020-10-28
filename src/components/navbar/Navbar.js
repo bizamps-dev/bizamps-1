@@ -30,27 +30,27 @@ const Navbar=(props)=>{
         },
         {
           name : '[Blog] Value In Sales?',
-          link : "/BlogValueInSales"
+          link : "/wth-does-value-even-mean-in-sales-how-to-really-deliver-it"
         },
         {
           name : '[Blog] When to Outsource LeadGen?',
-          link : "/BlogWhenToOutsource"
+          link : "/when-to-outsource-leadgen-in-house-or-agency-if-the-cost-is-same"
         },
         {
           name : '[Blog] Expectations for Outsourcing LeadGen?',
-          link : "/BlogExpectionsOfOutsourcing"
+          link : "/what-to-expect-when-outsourcing-leadgen-is-it-worth-it-cost"
         },
         {
           name : '[Blog] 100 Direct Mails vs 100 Cold Emails',
-          link : "/Blog100Mails"
+          link : "/100-letter-100-emails"
         },
         {
           name : '[Blog] After Starting a Sales Agency',
-          link : "/BlogSalesAgency"
+          link : "/what-to-do-after-starting-a-sales-agency"
         },
         {
           name : '[Blog] Bofu Content',
-          link : "/BlogBofu"
+          link : "/b2b-sales-funnel-strategy"
         },
       ]
     },
@@ -72,19 +72,19 @@ const Navbar=(props)=>{
       subOptions : [
         {
           name : 'Indian Enterprises',
-          link : "/IndianEnterprise"
+          link : "/targeting-senior-hrs-of-top-indian-companies-b2b-enterprise-case-study"
         },
         {
           name : 'International Institutes',
-          link : "/InternationalInstitutes"
+          link : "/b2b-case-study-schools"
         },
         {
           name : 'Targeting U.S.',
-          link : "/TargetingUS"
+          link : "/blockchain-web-development-case-study"
         },
         {
           name : 'Crowd Funding',
-          link : "/CrowdFunding"
+          link : "/crowd-funding-case-study"
         },
       ]
     }

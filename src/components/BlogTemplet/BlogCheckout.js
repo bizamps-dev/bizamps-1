@@ -9,17 +9,17 @@ const Checkout = (props) => {
         {
             image:props.blog1,
             title:"[BLOG] ‘Value’ in Sales?",
-            link:"/BlogValueInSales"
+            link:"/wth-does-value-even-mean-in-sales-how-to-really-deliver-it"
         },
         {
             image:props.blog2,
             title:"[BLOG] When To Outsource Lead Generation?",
-            link:"/BlogWhenToOutsource"
+            link:"/when-to-outsource-leadgen-in-house-or-agency-if-the-cost-is-same"
         },
         {
             image:props.blog3,
             title:"[BLOG] 100 Direct Mails vs 100 Cold Emails?",
-            link:"/Blog100Mails"
+            link:"/100-letter-100-emails"
         }
     ]
 
@@ -27,17 +27,17 @@ const Checkout = (props) => {
          {
             image:props.blog4,
             title:"[BLOG] After Starting a Sales Agency",
-            link:"/BlogSalesAgency"
+            link:"/what-to-do-after-starting-a-sales-agency"
         },
         {
             image:props.blog5,
             title:"[BLOG] Bofu Content",
-            link:"/BlogBofu"
+            link:"/b2b-sales-funnel-strategy"
         },
         {
             image:props.blog6,
             title:"[BLOG] Expectations for Outsourcing Leadgen?",
-            link:"/BlogExpectionsOfOutsourcing"
+            link:"/what-to-expect-when-outsourcing-leadgen-is-it-worth-it-cost"
         },
 
     ]
@@ -85,24 +85,24 @@ export const CheckoutCS = (props) => {
         {
             image:props.blog1,
             title:"B2B Case Study Targeting International Schools",
-            link:"/InternationalInstitutes"
+            link:"/b2b-case-study-schools"
         },
         {
             image:props.blog2,
             title:"Targeting Investors for Crowd Funding Campaigns in UK",
-            link:"/CrowdFunding"
+            link:"/crowd-funding-case-study"
         },
         {
             image:props.blog3,
             title:"How a U.S. based blockchain tech company enhanced sales through BizAmps. ",
-            link:"/TargetingUS"
+            link:"/blockchain-web-development-case-study"
         }
     ]
     const contentRightCS =[
         {
             image:props.blog4,
             title:"Targeting Senior HRs of Top Indian companies",
-            link:"/IndianEnterprise"
+            link:"/targeting-senior-hrs-of-top-indian-companies-b2b-enterprise-case-study"
         },
         {
             image:{},

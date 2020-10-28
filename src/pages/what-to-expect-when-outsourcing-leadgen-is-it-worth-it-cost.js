@@ -36,13 +36,17 @@ const Home = (props) => {
                       <p>So? What to do?</p>
                       <p>Simple, Ask for some freaking Guarantees!</p>
                       <p>Read this complete post to know about Outsourcing Leadgen in detail.</p>
+                      <br></br>
+                      <br></br>
 
-                      <p className={styles.QuestionBlog2}>The problem with giving Guarantee as a vendor.
-                      [Akshat’s Rant]</p>
+                      <h1 style={{color:"black",marginLeft:"0rem",marginBottom:"0.5rem"  }}>The problem with giving Guarantee as a vendor.
+                      [Akshat’s Rant]</h1>
                       <p>We provide B2B lead generation service.</p>
                       <p>I am using my own lead generation service as the primary and only strategy for a very long time but even my team can’t guarantee if we will generate ANY sales leads the next month, while we have historic data to back it up. majorly because it depends if the prospect resonates with our offering. Period. Then there are shocks that these fast-moving media channels give us. For example: Google cutting primary inbox delivery rates by 75% for each of our clients prospecting emails. LinkedIn attacking accounts that automate drip campaigns, etc but nevertheless, we need to make commitments and not excuses.</p>
+                      <br></br>
+                      <br></br>
 
-                      <p className={styles.QuestionBlog2}>How to formulate a guarantee with a vendor, who can’t offer one?</p>
+                      <h1 style={{color:"black",marginLeft:"0rem",marginBottom:"0.5rem"  }}>How to formulate a guarantee with a vendor, who can’t offer one?</h1>
                       <p>Break down their success formula theory and then ask for guarantees against the variables.</p>
                       <p>For example, Our variables for lead generation via LinkedIn & email outreach looks like:</p>
                       <p>#Leads= (Number emails(or)messages sent * Open rate * Reply Rate)
@@ -54,16 +58,20 @@ const Home = (props) => {
                          -If the open rate is less than 30% then 3 new subject line test within 3 days<br></br>
                          -If the reply rate is less than 7% then a new email body copy/offer within 7 days</p>
                       <p><b>You will be surprised how effectively this, because creating new body copy and testing is taxing and they want to avoid it.</b></p>
+                      <br></br>
+                      <br></br>
 
-                      <p className={styles.QuestionBlog2}>Your vendor: Are you giving up on this project?
-                      You: Hell Yeah!</p>
+                      <h1 style={{color:"black",marginLeft:"0rem",marginBottom:"0.5rem"  }}>Your vendor: Are you giving up on this project?
+                      You: Hell Yeah!</h1>
                       <p>Deadline: After a point, Some projects should be declared dead.<br></br>
                          Less than 20 leads in 90 days.<br></br>
                          The project goes into the comma!<br></br>
                          If you are at this stage with a vendor, ask for a deliverable service instead of performance-based service alone as compensation.</p>
                       <p>We@BizAmps usually offer CRM Sales Automation Workflow setup as deliverable service when project goes into comma.</p>
+                      <br></br>
+                      <br></br>
 
-                      <p className={styles.QuestionBlog2}>Skin in the game.</p>
+                      <h1 style={{color:"black",marginLeft:"0rem",marginBottom:"0.5rem"  }}>Skin in the game.</h1>
                       <p>Voices in my head when I lose a client:<br></br>
                          Go kill yourself Akshat! You lost a good client today. Now, how you replace him?<br></br>
                          Plus, you didn’t even get a case study…Double kill yourself, Akshat!<br></br>
@@ -76,8 +84,10 @@ const Home = (props) => {
                          You basically get an invested partner for cheap.<br></br>
                          You immediately got on their VIP client list.<br></br>
                          >PS: I learned this watching my behavior when a client suggested this. I was doing things that were so out of scope for money that I don’t know when would I see.</p>  
+                         <br></br>
+                         <br></br>
 
-                         <p className={styles.QuestionBlog2}>What to expect when Outsourcing Leadgen? Is it worth its cost?</p>
+                         <h1 style={{color:"black",marginLeft:"0rem",marginBottom:"0.5rem"  }}>What to expect when Outsourcing Leadgen? Is it worth its cost?</h1>
                          <p><b>Expect this:</b></p>
                          <p>• 15 to 45 days of the ramp-up period, you should start to see a few leads at the     start of month two.<br></br>
                             • While in some cases you might get 50 leads in the first 60 days.<br></br>

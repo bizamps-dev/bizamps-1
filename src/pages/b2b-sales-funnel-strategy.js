@@ -36,6 +36,8 @@ const Home = (props) => {
                 <p>But if you plan to do that for your B2B agency, the cost per click for such ads can be as high as $35! That is equivalent to buying 35 lottery tickets! And let’s face it; they both have the same odds.</p>
                 <p>So is there a way to do it for cheap?</p>
                 <p>The answer to this is BOFU content- Bottom of the Funnel content. This refers to the content that only resonates with your target audience. This way the content created is less but a perfect fit for the target. It is basically created for people who want many people to read their content but attract only the qualified leads. </p>
+                <br></br>
+                <br></br>
 
                 <p><b>41% of B2B marketers say they always or frequently craft content based on specific points
                 of the buyer’s journey (source).</b></p>
@@ -47,55 +49,83 @@ const Home = (props) => {
                 <p>That brings me to my next question.<br></br>
                 What do you search for when you go out to buy something?</p>
                 <p>Before making a fairly huge investment, we are overly cautious.</p>
+                <br></br>
+                <br></br>
 
                 <p><b>92% of buyers say that content plays an important role in their buying decision.</b></p>
                 <p>But there is also a bad news. 1 in 2 buyers report that they usually receive content irrelevant to their pain point. So at which stage does content development comes into play?</p>
                 <p>Let’s say you are planning to buy a new phone.
                 These are the steps any normal person would follow</p>
+                <br></br>
+                <br></br>
 
                 <p><b>1. Research</b></p>
                 <p>Before buying a new phone you would first research the features it has. The processor, the
                 camera quality, the battery life, and so on.</p>
+                <br></br>
+                <br></br>
 
                 <p><b>2. Reviews</b></p>
                 <p>After learning about the features you will go on and look at the reviews as the word of mouth affects the buying decision the most.</p>
+                <br></br>
+                <br></br>
 
                 <p><b>3. Pricing</b></p>
                 <p>Next, you’ll research about the pricing, the offers, and discounts available.</p>
+                <br></br>
+                <br></br>
 
                 <p><b>4. Alternatives</b></p>
                 <p>Lastly, you’ll look for alternatives. You will compare the features, reviews, and prices of phone A and phone B and then make the buying decision.</p>
+                <br></br>
+                <br></br>
 
                 <p>So these steps are common for a majority of buyers. Thus curating content based on these points is really effective.</p>
+                <br></br>
+                <br></br>
 
                 <p><b>67% of B2B marketers always or frequently focus on creating content for their audience vs. their brand (source).</b></p>
-
+                
                 <p>Ask yourself, “What will the buyer search before buying my product or service?”</p>
                 <p>For context, let me give you some tips and tricks to improve your content in B2B sales</p>
+                <br></br>
+                <br></br>
 
                 <p><b>The best XYZ in….</b></p>
                 <p>For example – The best marketing agency for B2B sales</p>
+                <br></br>
+                <br></br>
 
                 <p><b>Price comparison.</b></p>
                 <p>Everyone compares prices. Some industries may be more price-sensitive than others.</p>
+                <br></br>
+                <br></br>
 
                 <p><b>Steal search.</b></p>
                 <p>You can actually steal search by just mentioning their name.
                   For instance-‘ An alternative to hubspot attracts not only the people who are searching for
                   alternatives to hubspot but also the ones who are researching about it.</p>
+                  <br></br>
+                  <br></br>
 
                 <p><b>Easy ranking</b></p>
                 <p>For those who have no idea but SEO, don’t worry!
                   XYZ + city is one way of easily ranking in the top 3 top searches. If I market myself as a B2B sales agency –Delhi, even though it appears in limited searches, I might surely connect with someone who is looking for this service in Delhi.</p>
+                  <br></br>
+                  <br></br>
 
                 <p><b>Competitor keyword search</b></p>
                 <p>This is yet another easy way of getting attention from buyers. When you use the market leader’s name as a keyword you not just steal search but also get a chance to show the buyers a comparative study between the two.</p>
                 <p>For eg –“Is XYZ the new substitute for the iPhone?”</p>
                 <p>Apart from this it is important to create an audience base or a target market.</p>
+                <br></br>
+                <br></br>
 
                 <p><b>92% of organizations most successful at B2B content marketing say their organization is focused on building audiences.</b></p>
 
                 <p style={{fontFamily:'Roboto'}}>The following are steps that you can follow to attract qualified people at the end of their buying stage.</p>
+                <br></br>
+                <br></br>
 
                 <div className={styles.BlogimageContainer}><Img className={styles.image} fluid={props.data.image.childImageSharp.fluid}/>
                 </div>
