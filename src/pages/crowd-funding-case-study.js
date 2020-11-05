@@ -67,6 +67,9 @@ const Home = (props) => {
 
                 </div>
               </div>
+              <div style={{width:"100%",display:"flex",justifyContent:"center",backgroundColor:"#2F80ED",padding:"2rem"}}>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EnuL-h5CiuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
                    
     
              </BlogLayout> 

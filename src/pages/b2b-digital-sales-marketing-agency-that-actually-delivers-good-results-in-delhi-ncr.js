@@ -13,6 +13,7 @@ import RevenueIconMob from "../assets/B2BMarketingPackages/RevenueIconMob"
 import Testimonial from "../components/Testimonial/Testimonial"
 import Location from "../components/Location/Location";
 import Footer from '../components/Footer/footer';
+import Pdf from "../assets/pdf/Cold outreach Bizamp Guide_Final_For_Print.pdf";
 
 import styles from '../stylesheets/marketingSales.module.scss';
 
@@ -43,7 +44,7 @@ const Marketing= (props) =>{
             </div>
 
             <div className={styles.pdf}>
-              <a href="https://bizamps.agency/ak-book-call-thanks-cold-guide/" target="_blank"><button className={styles.button}>DOWNLOAD PDF</button></a>
+              <a href={Pdf} download ><button className={styles.button}>DOWNLOAD PDF</button></a> {' '}
             </div>
              <div className={styles.Container1}>
                     <h1>Pricing</h1>

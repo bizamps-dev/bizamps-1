@@ -1,7 +1,7 @@
 const { hot } = require("react-hot-loader/root")
 
 // prefer default export if available
-const preferDefault = m => m && m.default || m
+const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
@@ -22,6 +22,7 @@ exports.components = {
   "component---src-pages-targeting-senior-hrs-of-top-indian-companies-b-2-b-enterprise-case-study-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/targeting-senior-hrs-of-top-indian-companies-b2b-enterprise-case-study.js"))),
   "component---src-pages-templet-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/templet.js"))),
   "component---src-pages-thank-you-outreach-guide-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/thank-you-outreach-guide.js"))),
+  "component---src-pages-using-typescript-tsx": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/using-typescript.tsx"))),
   "component---src-pages-what-to-do-after-starting-a-sales-agency-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/what-to-do-after-starting-a-sales-agency.js"))),
   "component---src-pages-what-to-expect-when-outsourcing-leadgen-is-it-worth-it-cost-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/what-to-expect-when-outsourcing-leadgen-is-it-worth-it-cost.js"))),
   "component---src-pages-when-to-outsource-leadgen-in-house-or-agency-if-the-cost-is-same-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/when-to-outsource-leadgen-in-house-or-agency-if-the-cost-is-same.js"))),

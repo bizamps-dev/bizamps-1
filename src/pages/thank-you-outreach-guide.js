@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 
 
 import Navbar from "../components/navbar/Navbar";
+import Pdf from "../assets/pdf/Cold outreach Bizamp Guide_Final_For_Print.pdf"
 import styles from '../stylesheets/thankyou.module.scss';
 import Location from "../components/Location/Location";
 import Footer from '../components/Footer/footer'
@@ -19,7 +20,7 @@ const Thankyou = (props) =>{
                     <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
                     <div className={styles.bgText}>
                          <h1 style={{fontSize:"3rem"}}>Thank you - Your stuff is on its way!</h1>
-                         <button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button>
+                         <a href={Pdf} download ><button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button></a>{' '}
                     </div>
             </BackgroundImage >
 
