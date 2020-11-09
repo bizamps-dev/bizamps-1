@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import Img from 'gatsby-image'
-import { Link,graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import Dropdowns from "./Dropdowns"
 
