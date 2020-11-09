@@ -1,4 +1,4 @@
-import React,{useState}from 'react'
+import React,{useState ,Component}from 'react'
 
 import styles from '../../stylesheets/templet.module.scss'
 
@@ -36,7 +36,15 @@ const Form = () => {
 
         evt.preventDefault();
         var xhr = new XMLHttpRequest();
-        var url = 'https://api.hsforms.com/submissions/v3/integration/submit/1779155/9392b242-42b4-4e04-bca8-3beb56cd8c8e'
+        var url = 'https://api.hsforms.com/submissions/v3/integration/submit/1779155/9392b242-42b4-4e04-bca8-3beb56cd8c8e';
+        var type = "POST";
+        var contentType = "application/json";
+        var dataType= "json";
+        var getCookie = document.cookie.replace(/(?:(?:^|.;\s)hubspotutk\s*\=\s*([^;]*).$)|^.$/, "$1");
+        // var headers= {
+        //     "accept": "application/json",
+        //     "Access-Control-Allow-Origin":"*"
+        //   };
         var data = {
             "fields": [
                 {
@@ -56,6 +64,11 @@ const Form = () => {
                     "value": message
                 }
             ],
+            "context": {
+                "hutk": getCookie, // include this parameter and set it to the hubspotutk cookie value to enable cookie tracking on your submission
+                "pageUri": "www.bizamps.com",
+                "pageName": "B2B Account-based Marketing Consultancy | BizAmps"
+              },
             "legalConsentOptions":{ // Include this object when GDPR options are enabled
                 "consent":{
                   "consentToProcess":true,
@@ -103,7 +116,7 @@ const Form = () => {
                         <input className={styles.input}type="text" id="website" value={url} onChange={e => setUrl(e.target.value)} placeholder="Website URL *" required></input>
                         <input className={styles.input}type="text" id="phone" value={phoneNumber} onChange={e => setphoneNumber(e.target.value)} placeholder="Phone *" required></input>
                         <input className={styles.message}type="text" id="message" value={message} onChange={e => setMessage(e.target.value)} placeholder="Message" required></input>
-                        <button className={styles.SubmitButtom} type="submit"> SUBMIT</button>
+                        <button className={styles.SubmitButtom}  type="submit"> SUBMIT</button>
                     
                 </div>
             
@@ -114,3 +127,43 @@ const Form = () => {
 }
 
 export default Form;
+
+// export default class Foo extends Component {
+//     componentWillMount(){
+    
+//     const script = document.createElement("script");
+    
+    
+//         script.src = "https://js.hsforms.net/forms/v2.js";
+//         script.async = true;
+    
+//     document.body.appendChild(script);
+    
+    
+//       }
+//       componentDidUpdate(){
+//         //you will need to change the below to match your portal ID and your form ID
+//          hbspt.forms.create({ 
+//          portalId: '1779155',
+//          formId: '9392b242-42b4-4e04-bca8-3beb56cd8c8e'
+//        });
+//       }
+//       render() {
+//         return(
+//                     <>
+//                             <div className={styles.formTitle}>Leave a Reply</div>
+//                             <div className={styles.formSubtitle}> Your email address will not be published. Required fields are marked*</div>
+//                             <div className={styles.formContainer2}>
+                                    
+//                                     <input className={styles.input}type="text" id="name" placeholder="Email*" required></input>
+//                                     <input className={styles.input}type="text" id="website" placeholder="Website URL *" required></input>
+//                                     <input className={styles.input}type="text" id="phone" placeholder="Phone *" required></input>
+//                                     <input className={styles.message}type="text" id="message" placeholder="Message" required></input>
+//                                     <button className={styles.SubmitButtom}><a href="/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr" style={{textDecoration:"none",color:"#ffffff"}} > SUBMIT</a></button>
+                                
+//                             </div>
+                        
+//                     </>
+//                 )
+//         }
+// }
