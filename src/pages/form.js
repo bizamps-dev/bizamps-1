@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from "../stylesheets/templet.module.scss"
 import Form from '../components/BlogTemplet/BlogForm'
 
 const form = () => {

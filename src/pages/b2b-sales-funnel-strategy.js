@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import BlogLayout from '../components/BlogLayout/BlogLayout'
-import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
 import SEO from "../components/seo"
@@ -135,7 +134,7 @@ const Home = (props) => {
               </div>
 
               <div className={styles.videoContainer}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4_US28BNm8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe title="How to create BOFU Content | B2B Sales Funnel Strategy" width="560" height="315" src="https://www.youtube.com/embed/4_US28BNm8A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               
              </BlogLayout> 

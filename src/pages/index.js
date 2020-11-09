@@ -1,10 +1,9 @@
 import React,{useState} from "react"
-import { Link,graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Img from 'gatsby-image'
 import BackgroundImage from 'gatsby-background-image'
-import Helmet from 'gatsby-plugin-react-helmet'
+
 
 import IndexHeaderCard from '../components/IndexPage/IndexHeaderCard'
 import IndexProcessCard from '../components/IndexPage/IndexProcessCard'
@@ -109,14 +108,14 @@ const IndexPage = (props) => {
         <div className={styles.contactBox}>
           <div className={styles.consultTitle} >SCHEDULE A CONSULTATION</div>
           <div className={styles.consultSubtitle}>Get a free 10-step marketing audit with ideas.</div>
-          <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.consultButton}>SEE TIME SLOTS</button></a>
+          <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank" rel="noreferrer"><button className={styles.consultButton}>SEE TIME SLOTS</button></a>
         </div>
         <div className={styles.contactImg}><Consultation /></div>
       </div>
 
       <div className={styles.container6}>
         {/* <a href="https://www.youtube.com/watch?v=WMUHIPwca4Q&feature=youtu.be&loop=0&autoplay=0" target="_blank"><Img fluid={props.data.video.childImageSharp.fluid} className={styles.video} /></a> */}
-        <iframe width="760" height="415" src="https://www.youtube.com/embed/WMUHIPwca4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe title="B2B Account-based Marketing Consultancy | BizAmps" width="760" height="415" src="https://www.youtube.com/embed/WMUHIPwca4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
      <Testimonial conor={props.data.conor.childImageSharp.fluid} gautam={props.data.gautam.childImageSharp.fluid} />

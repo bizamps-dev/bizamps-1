@@ -17,7 +17,7 @@ const IndexModal = (props) => {
   },[])
 
   useEffect(()=>{
-    if(counter%3===0&&counter!=0){
+    if(counter%3===0&&counter!==0){
       setCurrentIndex(prev=>prev===content.length-1?0:prev+1)
     }
   },[counter])

@@ -1,7 +1,6 @@
 import React from 'react'
 
 import styles from '../../stylesheets/templet.module.scss'
-import PersonImage from '../../assets/Blog/Person'
 import Img from 'gatsby-image'
 
 const Person = (props) => {

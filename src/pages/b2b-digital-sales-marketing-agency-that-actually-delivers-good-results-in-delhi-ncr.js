@@ -224,7 +224,7 @@ const Marketing= (props) =>{
                     Managed more than $1 million of adspend.
                     Doubled inbound prospects within 15 days of already successfully running marketing campaigns.
                 </h3>
-                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.teamButton}>SCHEDULE A CALL</button></a>
+                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank" rel="noreferrer" ><button className={styles.teamButton}>SCHEDULE A CALL</button></a>
             </div>
           </div>
 
@@ -237,7 +237,7 @@ const Marketing= (props) =>{
                     Managed more than $1 million of adspend.
                     Doubled inbound prospects within 15 days of already successfully running marketing campaigns.
                 </p>
-                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.teamButton}>SCHEDULE A CALL</button></a>
+                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank" rel="noreferrer"><button className={styles.teamButton}>SCHEDULE A CALL</button></a>
             </div>
           </div>
 
@@ -253,7 +253,7 @@ const Marketing= (props) =>{
           </div>
 
           <div className={styles.videoContainer}>
-                 <iframe width="800" height="450" src="https://www.youtube.com/embed/0qMZFoqsBC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 <iframe title="digital sale marketing" width="800" height="450" src="https://www.youtube.com/embed/0qMZFoqsBC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
           <Location first="Home" second="Expertise" third="Privacy Policy" />

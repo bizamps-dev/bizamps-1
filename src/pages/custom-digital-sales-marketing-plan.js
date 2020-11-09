@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from "../components/layout"
-import { Link,graphql } from "gatsby"
-import BackgroundImage from 'gatsby-background-image'
-import Img from 'gatsby-image'
+import { graphql } from "gatsby"
 import SEO from "../components/seo"
 
 import Location from "../components/Location/Location"
@@ -12,7 +10,6 @@ import Navbar from "../components/navbar/Navbar"
 import Footer from '../components/Footer/footer'
 
 import Workflow from "../assets/MarketingStrategy/Workflow"
-import Play from "../assets/MarketingStrategy/Play"
 import Graph from "../assets/MarketingStrategy/Graph"
 import HeaderImg from "../assets/MarketingStrategy/HeaderImg"
 import HeaderBg from "../assets/MarketingStrategy/HeaderBG"
@@ -84,7 +81,7 @@ const CustomDigitalSalesMarketingPlan = (props) => {
                 <div className={styles.headerMobiImg}>
                 <HeaderImg />
               </div>
-                <a target="_blank" href="https://www.instamojo.com/akshatkharbanda/custom-digital-marketing-plan-by-bizamps/"><button className={styles.headerButton}>BUILD ME A MARKETING PLAN</button></a>
+                <a target="_blank" rel="noreferrer" href="https://www.instamojo.com/akshatkharbanda/custom-digital-marketing-plan-by-bizamps/"><button className={styles.headerButton}>BUILD ME A MARKETING PLAN</button></a>
                 <div className={styles.headerCaption}>Secure Payment via Instamojo</div>
               </div>
               <div className={styles.headerImg}>
@@ -104,7 +101,7 @@ const CustomDigitalSalesMarketingPlan = (props) => {
         <div className={styles.clarityContainer}>
             {/* <Img fluid={props.data.clarity.childImageSharp.fluid} className={styles.clarityImg} /> */}
            {/* <a target="_blank" href="https://www.youtube.com/watch?v=7PbhTv0-0BU&feature=youtu.be"> <span className={styles.clarityPlay}><Play /></span></a> */}
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/7PbhTv0-0BU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe title="B2B Marketing Plan & Strategy Consulting | BizAmps" width="560" height="315" src="https://www.youtube.com/embed/7PbhTv0-0BU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div className={styles.graphContainer}>

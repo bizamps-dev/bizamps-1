@@ -1,17 +1,13 @@
 import React from 'react'
 import Layout from "../components/layout"
-import { Link,graphql } from "gatsby"
-import BackgroundImage from 'gatsby-background-image'
+import { graphql } from "gatsby"
 import Img from 'gatsby-image'
 import SEO from "../components/seo"
 
 import Navbar from "../components/navbar/Navbar"
 import Footer from '../components/Footer/footer'
 import Location from "../components/Location/Location"
-import Video from "../components/BestOfABM/Video"
 import TableOfContent from "../components/BestOfABM/TableOfContent"
-
-import DpBg from "../assets/BestOfABM/DpBg"
 
 import styles from "../stylesheets/bestOfABM.module.scss"
 
@@ -992,7 +988,7 @@ const BestOfABM = (props) => {
 
             {/* <Video num="1" thumbnail={props.data.video1.childImageSharp.fluid} link="https://www.youtube.com/watch?v=DyZQJZ5NSF0&feature=youtu.be&loop=0&autoplay=0" /> */}
             <div className={styles.videoContainer}>
-            <iframe className={styles.video} width="560" height="315" src="https://www.youtube.com/embed/DyZQJZ5NSF0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className={styles.video}title="Account-based Marketing Guide targeting Dream Clients" width="560" height="315" src="https://www.youtube.com/embed/DyZQJZ5NSF0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
             <div className={styles.tocContainer}>
@@ -1015,7 +1011,7 @@ const BestOfABM = (props) => {
 
             {/* <Video num="2" thumbnail={props.data.video2.childImageSharp.fluid} link="https://www.youtube.com/watch?v=RQRHjItSFRc&feature=youtu.be&loop=0&autoplay=0" /> */}
             <div className={styles.videoContainer}>
-              <iframe className={styles.video} width="560" height="315" src="https://www.youtube.com/embed/RQRHjItSFRc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="Account-based Marketing Guide targeting Dream Clients" className={styles.video} width="560" height="315" src="https://www.youtube.com/embed/RQRHjItSFRc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
               <div className={styles.quoteContainer}>
@@ -1025,11 +1021,11 @@ const BestOfABM = (props) => {
 
             {/* <Video num="3" thumbnail={props.data.video3.childImageSharp.fluid} link="https://www.youtube.com/watch?v=t5SgVRKQZR8&feature=youtu.be&loop=0&autoplay=0" /> */}
             <div className={styles.videoContainer}>
-            <iframe className={styles.video} width="560" height="315" src="https://www.youtube.com/embed/t5SgVRKQZR8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Account-based Marketing Guide targeting Dream Clients2" className={styles.video} width="560" height="315" src="https://www.youtube.com/embed/t5SgVRKQZR8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div className={styles.infoOverload}>
-              <div className={styles.infoOverloadTitle}>Don't over complicate it! - <a target="_blank" href="https://calendly.com/akshatkharbanda/30min?month=2020-06" style={{color:"#2F80ED"}}>Schedule a call</a> if you want a custom ABM Pilot Strategy</div>
+              <div className={styles.infoOverloadTitle}>Don't over complicate it! - <a target="_blank" rel="noreferrer" href="https://calendly.com/akshatkharbanda/30min?month=2020-06" style={{color:"#2F80ED"}}>Schedule a call</a> if you want a custom ABM Pilot Strategy</div>
               <Img className={styles.infoOverloadImg} fluid={props.data.infoOverload.childImageSharp.fluid} />
               <div className={styles.infoOverloadBottom}></div>
             </div>

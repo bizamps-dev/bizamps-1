@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from 'gatsby-image'
+
 
 import styles from "../../stylesheets/bestOfABM.module.scss"
 import TOCContent from './TOCContent'

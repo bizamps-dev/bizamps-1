@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout"
 import { Link,graphql } from "gatsby"
-import BackgroundImage from 'gatsby-background-image'
+// import BackgroundImage from 'gatsby-background-image'
 import Img from 'gatsby-image'
 import SEO from "../components/seo"
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import BlogLayout from '../components/BlogLayout/BlogLayout'
-import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
 import SEO from "../components/seo"

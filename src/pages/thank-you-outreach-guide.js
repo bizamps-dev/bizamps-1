@@ -33,12 +33,12 @@ const Thankyou = (props) =>{
             </BackgroundImage >
 
             <div className={styles.videoContainer}>
-                   <iframe width="800" height="450" src="https://www.youtube.com/embed/WMUHIPwca4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe title="ThankYou Outreach Guide" width="800" height="450"  src="https://www.youtube.com/embed/WMUHIPwca4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             <div className={styles.callContainer}>
                 <h2>Book a call with Akshat</h2>
-                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" target="_blank"><button className={styles.button}>SEE TIME SLOTS</button></a>
+                <a href="https://calendly.com/akshatkharbanda/30min?month=2020-06" rel="noreferrer" target="_blank"><button className={styles.button}>SEE TIME SLOTS</button></a>
             </div>
 
             <div className={styles.personContainer}>

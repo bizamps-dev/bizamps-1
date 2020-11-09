@@ -1,11 +1,8 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import PropTypes from "prop-types";
-import { Link,graphql } from "gatsby"
 import styles from "../../stylesheets/templet.module.scss"
 import BackgroundImage from 'gatsby-background-image'
 
-
-import Layout from '../layout'
 import Navbar from '../navbar/Navbar'
 import BlogPerson from '../BlogTemplet/BlogPerson'
 import Form from '../BlogTemplet/BlogForm'

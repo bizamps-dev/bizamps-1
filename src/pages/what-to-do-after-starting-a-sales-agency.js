@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import BlogLayout from '../components/BlogLayout/BlogLayout'
-import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import SEO from "../components/seo"
 
@@ -166,7 +165,7 @@ const Home = (props) => {
               </div>
 
               <div className={styles.videoContainer}>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/P1dLJCqluOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe title="What To Know After Starting a Sales Agency | Complete Guide" width="560" height="315" src="https://www.youtube.com/embed/P1dLJCqluOg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>              
              </BlogLayout> 
               

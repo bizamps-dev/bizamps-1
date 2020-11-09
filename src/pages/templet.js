@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link,graphql } from "gatsby"
+import { graphql } from "gatsby"
 import styles from "../stylesheets/templet.module.scss"
 import BackgroundImage from 'gatsby-background-image'
-import Img from 'gatsby-image'
+
 
 import Layout from '../components/layout'
 import Navbar from '../components/navbar/Navbar'

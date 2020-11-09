@@ -1,4 +1,4 @@
-import React,{useState ,Component}from 'react'
+import React,{useState}from 'react'
 
 import styles from '../../stylesheets/templet.module.scss'
 
@@ -61,10 +61,6 @@ const Form = () => {
         evt.preventDefault();
         var xhr = new XMLHttpRequest();
         var url = 'https://api.hsforms.com/submissions/v3/integration/submit/1779155/9392b242-42b4-4e04-bca8-3beb56cd8c8e';
-        var type = "POST";
-        var contentType = "application/json";
-        var dataType= "json";
-        var getCookie = document.cookie.replace(/(?:(?:^|.;\s)hubspotutk\s*\=\s*([^;]*).$)|^.$/, "$1");
         // var headers= {
         //     "accept": "application/json",
         //     "Access-Control-Allow-Origin":"*"
@@ -89,7 +85,6 @@ const Form = () => {
                 }
             ],
             "context": {
-                "hutk": getCookie, // include this parameter and set it to the hubspotutk cookie value to enable cookie tracking on your submission
                 "pageUri": "https://bizamps-b2b.netlify.app/",
                 "pageName": "B2B Account-based Marketing Consultancy | BizAmps"
               },
@@ -127,10 +122,11 @@ const Form = () => {
         }
         // Sends the request 
         xhr.send(final_data)
+        setTimeout(function() {document.getElementById('myform').submit();}, 3000)
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form id="myform">
 
                 <div className={styles.formTitle}>Leave a Reply</div>
                 <div className={styles.formSubtitle}> Your email address will not be published. Required fields are marked*</div>
@@ -140,7 +136,7 @@ const Form = () => {
                         <input className={styles.input}type="text" id="website" value={url} onChange={e => setUrl(e.target.value)} placeholder="Website URL *" required></input>
                         <input className={styles.input}type="text" id="phone" value={phoneNumber} onChange={e => setphoneNumber(e.target.value)} placeholder="Phone *" required></input>
                         <input className={styles.message}type="text" id="message" value={message} onChange={e => setMessage(e.target.value)} placeholder="Message" required></input>
-                        <button className={styles.SubmitButtom}  type="submit"> SUBMIT</button>
+                        <button className={styles.SubmitButtom}  type="button" onClick={handleSubmit}> SUBMIT</button>
                     
                 </div>
             

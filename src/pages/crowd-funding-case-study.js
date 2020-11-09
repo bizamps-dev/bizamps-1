@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import BlogLayout from '../components/BlogLayout/BlogLayout'
-import BlogContent from '../components/BlogTemplet/BlogContent'
 import styles from '../stylesheets/templet.module.scss'
 import Img from 'gatsby-image'
 import SEO from "../components/seo"
@@ -68,7 +67,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div style={{width:"100%",display:"flex",justifyContent:"center",backgroundColor:"#2F80ED",padding:"2rem"}}>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EnuL-h5CiuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe title="CrowdFunding Campaign Case study | Targeting investors" width="560" height="315" src="https://www.youtube.com/embed/EnuL-h5CiuU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
                    
     
