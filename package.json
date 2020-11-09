@@ -16,11 +16,13 @@
     "gatsby-plugin-sharp": "^2.7.0",
     "gatsby-source-filesystem": "^2.3.14",
     "gatsby-transformer-sharp": "^2.5.7",
+    "hubspot-form-submit": "^1.1.0",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-hubspot": "^1.0.4"
   },
   "devDependencies": {
     "prettier": "2.0.5"

@@ -2,6 +2,30 @@ import React,{useState ,Component}from 'react'
 
 import styles from '../../stylesheets/templet.module.scss'
 
+
+
+
+
+
+
+// import { useForm } from 'react-hubspot'
+ 
+// export default () => {
+//   const { data, isLoading, isError, handleSubmit } = useForm({
+//     portalId: '1779155',
+//     formId: '9392b242-42b4-4e04-bca8-3beb56cd8c8e'
+//   })
+ 
+//   return (
+//     <form onSubmit={handleSubmit}>
+//       <input name="email" type="text" placeholder="email" />
+//       <button type="submit"></button>
+//     </form>
+//   )
+// }
+
+
+
 // const Form = () => {
 //     return(
 //         <>
@@ -66,7 +90,7 @@ const Form = () => {
             ],
             "context": {
                 "hutk": getCookie, // include this parameter and set it to the hubspotutk cookie value to enable cookie tracking on your submission
-                "pageUri": "www.bizamps.com",
+                "pageUri": "https://bizamps-b2b.netlify.app/",
                 "pageName": "B2B Account-based Marketing Consultancy | BizAmps"
               },
             "legalConsentOptions":{ // Include this object when GDPR options are enabled

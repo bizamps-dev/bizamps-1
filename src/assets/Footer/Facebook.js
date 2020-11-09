@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '../../stylesheets/footer.css'
+
 
 const Facebook = () => {
     return (
