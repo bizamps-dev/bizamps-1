@@ -5,7 +5,6 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/.cache/dev-404-page.js"))),
   "component---src-pages-100-letter-100-emails-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/100-letter-100-emails.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/404.js"))),
   "component---src-pages-b-2-b-case-study-schools-js": hot(preferDefault(require("/home/shades/Desktop/projects/internship/bizamps-1/src/pages/b2b-case-study-schools.js"))),
