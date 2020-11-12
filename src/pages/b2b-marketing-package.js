@@ -85,7 +85,8 @@ const B2BMarketingPackagePage = (props) => {
                description="We set up B2B outbound marketing systems that generate sales leads within 90 days or we work for free - see our automatic client acquisition setup."/>
           
           <BackgroundImage alt={"Lead generation system"} fluid={props.data.bg2.childImageSharp.fluid} className={styles.container} >
-               <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+               <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} 
+                       hamburger={props.data.hamburger.childImageSharp.fluid} />
                     <div className={styles.headerContent}>
                         <h1 className={styles.headerTitle}>Transform your Marketing & LeadGen</h1>
                         <div className={styles.headerSubtitle}>Marketing so good that you will ask us to PAUSE!</div>
@@ -94,7 +95,8 @@ const B2BMarketingPackagePage = (props) => {
           </BackgroundImage >
 
           <BackgroundImage alt={"Lead generation system"} fluid={props.data.bg4.childImageSharp.fluid} className={styles.container2} >
-               <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+               <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} 
+                       hamburger={props.data.hamburger.childImageSharp.fluid}/>
                     <div className={styles.headerContent2}>
                         <h1 className={styles.headerTitle2}>Transform your Marketing & LeadGen</h1>
                         <div className={styles.headerSubtitle2}>Marketing so good that you will ask us to PAUSE!</div>
@@ -191,6 +193,14 @@ export const B2BMarketingPackagePageQuery = graphql`
     }
 
     bizampsLogo: file(relativePath: { eq: "bizampsLogo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    hamburger: file(relativePath: { eq: "whiteHamburger.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

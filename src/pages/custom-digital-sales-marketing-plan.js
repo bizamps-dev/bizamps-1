@@ -73,7 +73,8 @@ const CustomDigitalSalesMarketingPlan = (props) => {
           <div className={styles.headerContainer} style={{backgroundColor:"#294f8c"}}>
               <div className={styles.headerMap}><HeaderBg /></div>
               <div className={styles.headerBox}>
-               <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+               <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} 
+                       hamburger={props.data.hamburger.childImageSharp.fluid}/>
                <div className={styles.header}>
               <div className={styles.headerContent}>
                 <div className={styles.headerTitle}>B2B Marketing Plan & Strategy</div>
@@ -192,6 +193,14 @@ export const B2BMarketingPackagePageQuery = graphql`
   
 
     bizampsLogo: file(relativePath: { eq: "bizampsLogo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    hamburger: file(relativePath: { eq: "whiteHamburger.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
