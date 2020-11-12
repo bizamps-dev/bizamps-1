@@ -159,7 +159,7 @@ const B2BMarketingPackagePage = (props) => {
         <Team akshat={props.data.akshat.childImageSharp.fluid} 
         mehvish={props.data.mehvish.childImageSharp.fluid} 
         anvishka={props.data.anvishka.childImageSharp.fluid} 
-        shweta={props.data.shweta.childImageSharp.fluid}
+        mahisha={props.data.mahisha.childImageSharp.fluid}
         />
 
         <Location first="Home" second="Pricing" third="B2B Marketing Packages" />
@@ -239,7 +239,7 @@ export const B2BMarketingPackagePageQuery = graphql`
       }
     }
 
-    shweta: file(relativePath: { eq: "shweta.jpg" }) {
+    mahisha: file(relativePath: { eq: "mahisha.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
