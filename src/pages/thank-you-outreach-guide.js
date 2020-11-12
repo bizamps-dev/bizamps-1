@@ -17,7 +17,8 @@ const Thankyou = (props) =>{
     return(
         <>
             <BackgroundImage fluid={props.data.BG.childImageSharp.fluid}  className={styles.container} >
-                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} 
+                            hamburger={props.data.hamburger.childImageSharp.fluid}/>
                     <div className={styles.bgText}>
                          <h1 style={{fontSize:"3rem"}}>Thank you - Your stuff is on its way!</h1>
                          <a href={Pdf} download ><button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button></a>{' '}
@@ -25,7 +26,8 @@ const Thankyou = (props) =>{
             </BackgroundImage >
 
             <BackgroundImage fluid={props.data.MobBG.childImageSharp.fluid}  className={styles.mobContainer} >
-                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} 
+                            hamburger={props.data.hamburger.childImageSharp.fluid}/>
                     <div className={styles.bgTextMob}>
                     <h1 style={{padding:"3rem 0rem 0rem 0rem"}}>Thank you - Your stuff is on its way!</h1>
                     <button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button>
@@ -66,6 +68,14 @@ export const IndexPageQuery = graphql`
   query {
 
     bizampsLogo: file(relativePath: { eq: "bizampsLogo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      hamburger: file(relativePath: { eq: "whiteHamburger.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

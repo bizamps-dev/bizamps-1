@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from '../../stylesheets/templet.module.scss'
 import { Redirect } from "@reach/router";
+import { Link } from "gatsby"
 //import flower from "../../pages/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr"
 
 const Subscribe = () => {
@@ -47,11 +48,16 @@ const Subscribe = () => {
         // Sets the value of the 'Content-Type' HTTP request headers to 'application/json'
         xhr.setRequestHeader('Content-Type', 'application/json');
         
-        const page =()=> <Redirect to='/../../pages/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr'/> 
+        const page =()=> {
+        
+                window.open("/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr/")
+            
+        }
+       
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
               // Returns a 200 response if the submission is successful.
-                page();
+               page()
             } else if (xhr.readyState === 4 && xhr.status === 403) {
                 alert(xhr.responseText); // Returns a 403 error if the portal isn't allowed to post submissions.     
             } else if (xhr.readyState === 4 && xhr.status === 404) {
@@ -98,8 +104,7 @@ const Subscribe = () => {
                         onChange={e => setMessage(e.target.value)} 
                         placeholder="Message" required></input>
 
-                        <button className={styles.SubmitButtom}  type="submit" value="submit"> SUBMIT</button> 
-                    
+                       <button className={styles.SubmitButtom}  type="submit" value="submit" > SUBMIT</button> 
                 </div>
             
             

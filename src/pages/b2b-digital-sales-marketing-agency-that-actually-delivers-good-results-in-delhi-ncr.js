@@ -24,12 +24,15 @@ const Marketing= (props) =>{
     return(
         <>
             <BackgroundImage fluid={props.data.BG.childImageSharp.fluid}  className={styles.container} >
-                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} 
+                    hamburger={props.data.hamburger.childImageSharp.fluid}
+                    />
                     <Img fluid={props.data.DesktopBGText.childImageSharp.fluid} className={styles.blogDesktopText}/>
             </BackgroundImage > 
 
             <BackgroundImage fluid={props.data.MobBG.childImageSharp.fluid}  className={styles.mobContainer} >
-                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                    <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} 
+                    hamburger={props.data.hamburger.childImageSharp.fluid}/>
                     <Img fluid={props.data.MobBGText.childImageSharp.fluid} className={styles.blogMobText}/>
             </BackgroundImage >
 
@@ -271,6 +274,14 @@ export const IndexPageQuery = graphql`
   query {
 
     bizampsLogo: file(relativePath: { eq: "bizampsLogo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      hamburger: file(relativePath: { eq: "whiteHamburger.png" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
