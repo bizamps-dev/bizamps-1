@@ -21,12 +21,14 @@ const BlogLayout = (props) => {
         <>
                 <BackgroundImage alt={props.altForBG} fluid={props.bg} className={styles.container1}>
                     <Navbar logo={props.logo} 
-                    color={props.color}/>
+                    color={props.color}
+                    hamburger={props.hamburger}/>
                     {/* <Img fluid={props.DesktopText} className={styles.desktopText}/> */}
                 </BackgroundImage >
 
                 <BackgroundImage fluid={props.mobbg} className={styles.container2}>
-                    <Navbar logo={props.logo} />
+                    <Navbar logo={props.logo} 
+                    hamburger={props.hamburger}/>
                     <Img fluid={props.blogMobText} className={styles.blogMobText}/>
                 </BackgroundImage >
 

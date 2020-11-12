@@ -970,7 +970,9 @@ const BestOfABM = (props) => {
                description="Techniques and tactics for ABM strategy through fundamentals and benchmarks of B2B marketing after running through almost 50+ webinars, talk & ebooks.." />
 
             <div className={styles.navBox}>
-                <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+                <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid}
+                 hamburger={props.data.hamburger.childImageSharp.fluid}
+                 />
             </div>
 
             <div className={styles.headerContainer}>
@@ -1447,6 +1449,14 @@ export const B2BMarketingPackagePageQuery = graphql`
     }
   
     bizampsLogo: file(relativePath: { eq: "bizampsLogo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    hamburger: file(relativePath: { eq: "whiteHamburger.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid

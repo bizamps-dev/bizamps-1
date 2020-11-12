@@ -13,6 +13,7 @@ const Home = (props) => {
                   description="Go In-house or Agency, if the cost of both are same? The rights time to outsorces depends on a bunch of factors in your company and industry"/> 
              <BlogLayout 
                 logo={props.data.logo.childImageSharp.fluid}
+                hamburger={props.data.hamburger.childImageSharp.fluid}
                 bg={props.data.bg1.childImageSharp.fluid}
                 blogMobText={props.data.text.childImageSharp.fluid}
                 mobbg={props.data.mobbg.childImageSharp.fluid}
@@ -141,6 +142,14 @@ export const BlogLedgenQuery = graphql`
         }
       }
 
+      hamburger: file(relativePath: { eq: "whiteHamburger.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1000) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      
     bg1: file(relativePath: { eq: "WhenToOutsource.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {

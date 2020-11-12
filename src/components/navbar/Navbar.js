@@ -108,7 +108,7 @@ const Navbar=(props)=>{
          <div className={styles.menu} onClick={handleClick}>
           <div className={styles.hamburger}>
             {
-              click ? <ClickedHamburger />  : <Hamburger />
+              click ? <ClickedHamburger />  : <Img fluid={props.hamburger} className={styles.hamburger} alt={"B2B Marketing agency"}/> 
             }
           </div>
         </div> 
@@ -187,3 +187,51 @@ const Navbar=(props)=>{
 // }
 
 export default Navbar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// return (
+//   <>
+//   <div className={styles.navContainer}>
+
+//     <div className={styles.navbar}>
+//       <Link to="/"><Img fluid={props.logo} className={styles.logo} alt={"B2B Marketing agency"}/> </Link>
+
+//        <div className={styles.menu} onClick={handleClick}>
+//         <div className={styles.hamburger}>
+//           {
+//             click ? <ClickedHamburger />  : <Hamburger />
+//           }
+//         </div>
+//       </div> 
+
+//       </div>
+
+//       <div className={styles.optionContainer} >
+//         {renderOptions}
+//       </div>
+
+//       {
+//         click ?  <div className={styles.optionContainerMobi} >
+//         {renderOptions}
+//       </div> : null
+//       }
+
+     
+//   </div>
+//   </>
+// )
+// }

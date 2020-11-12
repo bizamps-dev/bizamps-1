@@ -54,7 +54,10 @@ const IndexPage = (props) => {
          description="BizAmps is Business to business marketing agency based out of India.We set up B2B outbound leadgen systems that generate sales leads within 90 days or we work for free"/>
    
       <BackgroundImage fluid={props.data.bgOverlay.childImageSharp.fluid} className={styles.container} backgroundColor={"#2F80ED"}>
-        <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid} />
+        <Navbar logo={props.data.bizampsLogo.childImageSharp.fluid}
+                hamburger={props.data.hamburger.childImageSharp.fluid} 
+        
+        />
         <div className={styles.headerContent}>
           <div className={styles.content}>
            <h1 className={styles.contentHeading}>We help our B2B clients to</h1>
@@ -146,6 +149,14 @@ export const IndexPageQuery = graphql`
     }
 
     bizampsLogo: file(relativePath: { eq: "bizampsLogo.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
+    hamburger: file(relativePath: { eq: "whiteHamburger.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
