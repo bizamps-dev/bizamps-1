@@ -7,6 +7,7 @@ import Location from "../components/Location/Location"
 import Team from "../components/Team/Team"
 import Testimonial from "../components/Testimonial/Testimonial"
 import Navbar from "../components/navbar/Navbar"
+import Form from '../components/BlogTemplet/BlogForm'
 import Footer from '../components/Footer/footer'
 
 import Workflow from "../assets/MarketingStrategy/Workflow"
@@ -147,6 +148,10 @@ const CustomDigitalSalesMarketingPlan = (props) => {
 
         <div>
         <Testimonial conor={props.data.conor.childImageSharp.fluid} gautam={props.data.gautam.childImageSharp.fluid} />
+        </div>
+
+        <div style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+            <Form />
         </div>
 
         <Team akshat={props.data.akshat.childImageSharp.fluid} 

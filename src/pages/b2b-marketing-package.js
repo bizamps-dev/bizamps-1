@@ -10,6 +10,7 @@ import Navbar from "../components/navbar/Navbar"
 import B2BMarketingCard from "../components/B2BMarketingPage/B2BMarketingCard"
 import WeAreCard from "../components/B2BMarketingPage/WeAreCard"
 import Location from "../components/Location/Location"
+import Form from '../components/BlogTemplet/BlogForm'
 import Footer from '../components/Footer/footer'
 
 import FreeConsult from "../assets/B2BMarketingPackages/FreeConsult"
@@ -157,6 +158,10 @@ const B2BMarketingPackagePage = (props) => {
             <div>
         <Testimonial conor={props.data.conor.childImageSharp.fluid} gautam={props.data.gautam.childImageSharp.fluid} />
             </div>
+
+        <div style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+            <Form />
+        </div>
 
         <Team akshat={props.data.akshat.childImageSharp.fluid} 
         mehvish={props.data.mehvish.childImageSharp.fluid} 

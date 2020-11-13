@@ -11,6 +11,7 @@ import IndexPackage from "../components/IndexPage/IndexPackage"
 import Testimonial from "../components/Testimonial/Testimonial"
 import Navbar from "../components/navbar/Navbar"
 import Team from "../components/Team/Team"
+import Form from '../components/BlogTemplet/BlogForm'
 import Footer from '../components/Footer/footer'
 
 import HelpB2BClients from "../assets/indexPage/HelpB2Bclients"
@@ -123,6 +124,10 @@ const IndexPage = (props) => {
 
      <Testimonial conor={props.data.conor.childImageSharp.fluid} gautam={props.data.gautam.childImageSharp.fluid} />
 
+     <div style={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
+            <Form />
+     </div>
+
       <Team akshat={props.data.akshat.childImageSharp.fluid} 
       mehvish={props.data.mehvish.childImageSharp.fluid} 
       anvishka={props.data.anvishka.childImageSharp.fluid}
@@ -130,7 +135,7 @@ const IndexPage = (props) => {
       
       />
 
-<Footer />
+      <Footer />
      
   </Layout>
   )
