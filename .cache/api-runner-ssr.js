@@ -1,4 +1,7 @@
 var plugins = [{
+      plugin: require('/home/shades/Desktop/projects/internship/bizamps-1/node_modules/gatsby-plugin-google-tagmanager/gatsby-ssr'),
+      options: {"plugins":[],"id":"GTM-KMH53S3","includeInDevelopment":false,"defaultDataLayer":null,"routeChangeEventName":"gatsby-route-change"},
+    },{
       plugin: require('/home/shades/Desktop/projects/internship/bizamps-1/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{

@@ -30,7 +30,7 @@ const Thankyou = (props) =>{
                             hamburger={props.data.hamburger.childImageSharp.fluid}/>
                     <div className={styles.bgTextMob}>
                     <h1 style={{padding:"3rem 0rem 0rem 0rem"}}>Thank you - Your stuff is on its way!</h1>
-                    <button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button>
+                    <a href={Pdf} download ><button className={styles.button} style={{backgroundColor:"#001735"}}>DOWNLOAD GUIDE</button></a>{' '}
                     </div>
             </BackgroundImage >
 

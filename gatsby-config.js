@@ -5,6 +5,14 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-KMH53S3",
+        includeInDevelopment: false,
+      },
+    } , 
+
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
