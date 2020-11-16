@@ -50,7 +50,7 @@ const Subscribe = () => {
         
         const page =()=> {
         
-                window.open("/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr/")
+                window.open("/b2b-digital-sales-marketing-agency-that-actually-delivers-good-results-in-delhi-ncr/",'_self')
             
         }
        
