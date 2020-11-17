@@ -11,7 +11,6 @@ import LeadIconMob from "../assets/B2BMarketingPackages/LeadIconMob";
 import RevenueIcon from "../assets/B2BMarketingPackages/RevenueIcon";
 import RevenueIconMob from "../assets/B2BMarketingPackages/RevenueIconMob"
 import Testimonial from "../components/Testimonial/Testimonial"
-import Location from "../components/Location/Location";
 import Footer from '../components/Footer/footer';
 import Pdf from "../assets/pdf/Cold outreach Bizamp Guide_Final_For_Print.pdf";
 
@@ -259,7 +258,7 @@ const Marketing= (props) =>{
                  <iframe title="digital sale marketing" width="800" height="450" src="https://www.youtube.com/embed/0qMZFoqsBC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
-          <Location first="Home" second="Expertise" third="Privacy Policy" />
+          
 
           <Footer />     
 

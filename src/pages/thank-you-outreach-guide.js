@@ -7,7 +7,6 @@ import Img from 'gatsby-image'
 import Navbar from "../components/navbar/Navbar";
 import Pdf from "../assets/pdf/Cold outreach Bizamp Guide_Final_For_Print.pdf"
 import styles from '../stylesheets/thankyou.module.scss';
-import Location from "../components/Location/Location";
 import Footer from '../components/Footer/footer'
 
 
@@ -54,7 +53,7 @@ const Thankyou = (props) =>{
                 </div>
             </div>
 
-            <Location first="Home" second="Expertise" third="Privacy Policy" />
+            
 
             <Footer />
         </>
